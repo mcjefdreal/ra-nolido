@@ -1,30 +1,11 @@
 <script>
     import './app.css';
     const { children } = $props();
+    import NavBar from './NavBar.svelte';
 </script>
 
-<nav>
-    <a href="/">home</a>
-    <a href="/about-us">about us</a>
-    <a href="/projects">projects</a>
-    <a href="/contact-us">contact us</a>
-</nav>
+<header class="sticky inset-x-0 top-0 z-50">
+    <NavBar />
+</header>
 
 {@render children()}
-
-<style>
-    nav {
-        background-color: #0a112a;
-        color: #fefcfb;
-        margin: 0;
-        padding: 1em;
-        text-align: right;
-    }
-    nav a {
-        height: 100%;
-        padding: 1em;
-    }
-    nav a:hover {
-        background-color: #606060;
-    }
-</style>
