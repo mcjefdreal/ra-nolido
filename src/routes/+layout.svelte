@@ -1,8 +1,8 @@
 <script>
     import './app.css';
-    const { children } = $props();
-    import NavBar from './NavBar.svelte';
     import Footer from './Footer.svelte';
+    import NavBar from './NavBar.svelte';
+    const { children } = $props();
 </script>
 
 <div class="flex flex-col min-h-screen justift-start">
