@@ -1,5 +1,6 @@
 <script>
     import HighlightText from "./Highlight_Text.svelte";
+    import Three_Columns from "./Three_Columns.svelte";
 </script>
 
 <h1>Home</h1>
@@ -10,3 +11,19 @@ body_1={'The company was established by Engr. Rizal Alberto Nolido on May 1969 i
 body_2={'In 1991, it was re-incorporated and renamed R.A. NOLIDO CONSTRUCTION CORPORATION (RANCC), with Engr. Ramon Alberto Nolido as President. In 1993, RANCC opened its branch in Cebu City to contribute to the construction requirements of Southern Philippines. Through time, the company has increased its Management and Engineering Staff and has been conducting technical support and skills training seminars on a regular basis. With the advent of information technology, came the computerization of various departments and systems. '} 
 body_3={'The company also operates its own workshop and storehouse on a leased property iin Pugadlawin, Quezon City. At present, the company is ready more than ever to face the challenges of a demanding industry.'} 
 button_content={'Learn More About Us'}></HighlightText>
+
+<Three_Columns
+heading={'Why R.A. Nolido?'}
+subheading_1={'Construction'}
+subheading_2={'Project Management'}
+subheading_3='Design'
+body_1={'Lorem ipsum'}
+body_2={'Lorem ipsum'}
+body_3={'Lorem ipsum'}
+img_1={''}
+img_2={''}
+img_3={''}
+alt_1={'Lorem ipsum'}
+alt_2={'Lorem ipsum'}
+alt_3={'Lorem ipsum'}
+></Three_Columns>
