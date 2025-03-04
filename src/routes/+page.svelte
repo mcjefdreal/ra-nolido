@@ -1,4 +1,5 @@
 <script>
+    import Carousel from "./Carousel.svelte";
     import HighlightText from "./Highlight_Text.svelte";
     import Three_Columns from "./Three_Columns.svelte";
 </script>
@@ -27,3 +28,9 @@ alt_1={'Lorem ipsum'}
 alt_2={'Lorem ipsum'}
 alt_3={'Lorem ipsum'}
 ></Three_Columns>
+
+<Carousel
+heading={'Featured Projects'}
+prefix={'src/lib/img/carousel-home/'}
+imgs={['1.png', '2.jpg', '3.JPG', '4.PNG', '5.png']}
+></Carousel>
