@@ -7,7 +7,7 @@ export default {
     theme: {
         fontFamily: {
             inter: ['Inter', ...defaultTheme.fontFamily.sans],
-            jakarta: ['jakarta', ...defaultTheme.fontFamily.sans],
+            jakarta: ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans],
         },
         colors: {
             'dark-gray': '#494949',
