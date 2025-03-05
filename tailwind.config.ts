@@ -17,8 +17,8 @@ export default {
                 'light-blue': '#B5DCFF',
                 'ra-white': '#FEFCFB',
                 'ra-neutral': '#606060',
-                'ra-black': '#0A1128'
+                'ra-black': '#0A1128',
             },
-        }
+        },
     },
 } satisfies Config;
