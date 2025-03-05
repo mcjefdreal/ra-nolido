@@ -6,7 +6,7 @@
     import phone from '$lib/icons/phone.svg';
 </script>
 
-<footer class="mt-auto h-auto w-auto items-center justify-items-center bg-[#0A1128] text-center">
+<footer class="mt-auto h-auto w-auto items-center justify-items-center bg-ra-black text-center">
     <div class="flex w-9/12 flex-row items-center justify-between p-4">
         <a class="flex w-auto" href="/">
             <div class="h-24">
@@ -55,6 +55,6 @@
 
 <style>
     p {
-        color: #fefcfb;
+        color: theme('colors.ra-white');
     }
 </style>

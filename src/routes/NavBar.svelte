@@ -18,9 +18,7 @@
     }}
 />
 <div
-    class="navbar flex h-24 items-stretch justify-center gap-x-64 bg-[#0A1128] align-middle md:space-x-60 {showNav
-        ? 'show'
-        : 'hide'} "
+    class="navbar flex items-center justify-center gap-x-64 bg-ra-black p-4 md:space-x-60 {showNav ? 'show' : 'hide'} "
 >
     <a class="flex items-stretch" href="/">
         <div class="flex">
@@ -48,7 +46,8 @@
 
 <style>
     a {
-        color: #fefcfb;
+        color: theme('colors.ra-white');
+        font-family: theme('fontFamily.jakarta');
         font-size: 19px;
     }
 
