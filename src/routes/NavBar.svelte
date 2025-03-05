@@ -18,7 +18,7 @@
     }}
 />
 <div
-    class="navbar flex items-center justify-center gap-x-64 bg-[#0A1128] p-4 md:space-x-60 {showNav ? 'show' : 'hide'} "
+    class="navbar flex items-center justify-center gap-x-64 bg-ra-black p-4 md:space-x-60 {showNav ? 'show' : 'hide'} "
 >
     <a class="flex items-center px-2" href="/">
         <div class="h-24">
@@ -29,16 +29,16 @@
     <nav class="lg:block">
         <ul class="flex gap-8">
             <li>
-                <a class="p-4 hover:bg-[#606060]" href="/"> Home </a>
+                <a class="p-4 hover:bg-ra-neutral" href="/"> Home </a>
             </li>
             <li>
-                <a class="p-4 hover:bg-[#606060]" href="/projects/"> Projects </a>
+                <a class="p-4 hover:bg-ra-neutral" href="/projects/"> Projects </a>
             </li>
             <li>
-                <a class="p-4 hover:bg-[#606060]" href="/about-us/"> About Us </a>
+                <a class="p-4 hover:bg-ra-neutral" href="/about-us/"> About Us </a>
             </li>
             <li>
-                <a class="p-4 hover:bg-[#606060]" href="/contact-us/"> Contact Us </a>
+                <a class="p-4 hover:bg-ra-neutral" href="/contact-us/"> Contact Us </a>
             </li>
         </ul>
     </nav>
@@ -46,7 +46,8 @@
 
 <style>
     a {
-        color: #fefcfb;
+        color: theme('colors.ra-white');
+        font-family: theme('fontFamily.jakarta');
         font-size: 19px;
     }
 

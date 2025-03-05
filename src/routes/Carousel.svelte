@@ -64,8 +64,8 @@ Notes:
         let selected = document.getElementById(cur_id);
         let previous = document.getElementById(prev_id);
 
-        selected.className = selected?.className.toString().replace('black', 'blue-500');
-        previous.className = previous?.className.toString().replace('blue-500', 'black');
+        selected.className = selected?.className.toString().replace('ra-black', 'royal-blue');
+        previous.className = previous?.className.toString().replace('royal-blue', 'ra-black');
 
         // Updates previous index
         prev_idx = index;
@@ -102,7 +102,7 @@ Notes:
         {#if i == 0}
             <button
                 type="button"
-                class="mx-2 h-4 w-4 rounded-full bg-blue-500"
+                class="mx-2 h-4 w-4 rounded-full bg-royal-blue"
                 id="button {i}"
                 aria-label="indicator {i}"
                 {onclick}
@@ -110,7 +110,7 @@ Notes:
         {:else}
             <button
                 type="button"
-                class="mx-2 h-4 w-4 rounded-full bg-black"
+                class="mx-2 h-4 w-4 rounded-full bg-ra-black"
                 id="button {i}"
                 aria-label="indicator {i}"
                 {onclick}
