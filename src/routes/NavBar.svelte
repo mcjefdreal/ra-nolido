@@ -18,29 +18,31 @@
     }}
 />
 <div
-    class="navbar flex items-center justify-center gap-x-64 bg-[#0A1128] p-4 md:space-x-60 {showNav ? 'show' : 'hide'} "
+    class="navbar flex h-24 items-stretch justify-center gap-x-64 bg-[#0A1128] align-middle md:space-x-60 {showNav
+        ? 'show'
+        : 'hide'} "
 >
-    <a class="flex items-center px-2" href="/">
-        <div class="h-24">
+    <a class="flex items-stretch" href="/">
+        <div class="flex">
             <img src={logo} alt="RA Nolido Logo" class="h-full w-full" />
         </div>
     </a>
 
-    <nav class="lg:block">
-        <ul class="flex gap-8">
-            <li>
-                <a class="p-4 hover:bg-[#606060]" href="/"> Home </a>
-            </li>
-            <li>
-                <a class="p-4 hover:bg-[#606060]" href="/projects/"> Projects </a>
-            </li>
-            <li>
-                <a class="p-4 hover:bg-[#606060]" href="/about-us/"> About Us </a>
-            </li>
-            <li>
-                <a class="p-4 hover:bg-[#606060]" href="/contact-us/"> Contact Us </a>
-            </li>
-        </ul>
+    <nav class="flex items-stretch">
+        <div class="flex items-stretch justify-center justify-items-center gap-5 align-middle">
+            <div class="navtabs flex items-center px-5">
+                <a href="/"> Home </a>
+            </div>
+            <div class="navtabs flex items-center px-5">
+                <a class="navtabs" href="/projects/"> Projects </a>
+            </div>
+            <div class="navtabs flex items-center px-5">
+                <a class="navtabs" href="/about-us/"> About Us </a>
+            </div>
+            <div class="navtabs flex items-center px-5">
+                <a class="navtabs" href="/contact-us/"> Contact Us </a>
+            </div>
+        </div>
     </nav>
 </div>
 
@@ -60,5 +62,9 @@
 
     .hide {
         transform: translateY(-100%);
+    }
+
+    .navtabs:hover {
+        background-color: theme('colors.dark-gray');
     }
 </style>

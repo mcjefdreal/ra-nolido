@@ -102,7 +102,7 @@ Notes:
         {#if i == 0}
             <button
                 type="button"
-                class="mx-2 h-4 w-4 rounded-full bg-blue-500"
+                class="bg-blue-500 mx-2 h-4 w-4 rounded-full"
                 id="button {i}"
                 aria-label="indicator {i}"
                 {onclick}
@@ -110,7 +110,7 @@ Notes:
         {:else}
             <button
                 type="button"
-                class="mx-2 h-4 w-4 rounded-full bg-black"
+                class="bg-black mx-2 h-4 w-4 rounded-full"
                 id="button {i}"
                 aria-label="indicator {i}"
                 {onclick}
