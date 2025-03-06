@@ -22,7 +22,9 @@
     <div class="inline-block w-1/4 flex-initial">
         <div class="relative">
             <img src={img_1} alt={alt_1} class="mb-4" />
-            <button class="absolute bottom-3 right-3 border-2 border-ra-black px-2 py-1">See More</button>
+            <button class="absolute bottom-3 right-3 border-[3px] border-ra-black px-2 py-1 bg-white 
+                           hover:bg-royal-blue hover:text-white hover:border-royal-blue hover:font-semibold duration-[200ms]">
+            See More</button>
         </div>
 
         <h2 class="mb-4 text-3xl font-medium">{subheading_1}</h2>
@@ -34,7 +36,9 @@
     <div class="inline-block w-1/4 flex-initial">
         <div class="relative">
             <img src={img_2} alt={alt_2} class="mb-4" />
-            <button class="absolute bottom-3 right-3 border-2 border-ra-black px-2 py-1">See More</button>
+            <button class="absolute bottom-3 right-3 border-[3px] border-ra-black px-2 py-1 bg-white 
+                           hover:bg-royal-blue hover:text-white hover:border-royal-blue hover:font-semibold duration-[200ms]">
+            See More</button>
         </div>
 
         <h2 class="mb-4 text-3xl font-medium">{subheading_2}</h2>
@@ -46,7 +50,9 @@
     <div class="inline-block w-1/4 flex-initial">
         <div class="relative">
             <img src={img_3} alt={alt_3} class="mb-4" />
-            <button class="absolute bottom-3 right-3 border-2 border-ra-black px-2 py-1">See More</button>
+            <button class="absolute bottom-3 right-3 border-[3px] border-ra-black px-2 py-1 bg-white 
+                           hover:bg-royal-blue hover:text-white hover:border-royal-blue hover:font-semibold duration-[200ms]">
+            See More</button>
         </div>
 
         <h2 class="mb-4 text-3xl font-medium">{subheading_3}</h2>
