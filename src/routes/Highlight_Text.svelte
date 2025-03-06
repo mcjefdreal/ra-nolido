@@ -1,5 +1,5 @@
 <script lang="ts">
-    let { heading, body_1, body_2, body_3, button_content } = $props();
+    const { heading, body_1, body_2, body_3, button_content } = $props();
 </script>
 
 <div class="mx-10 flex h-full">

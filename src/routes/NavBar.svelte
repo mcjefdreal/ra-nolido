@@ -8,7 +8,7 @@
 
 <svelte:window
     on:scroll={() => {
-        var currentScrollposition = window.pageYOffset || document.documentElement.scrollTop; //Get current scroll position
+        const currentScrollposition = window.pageYOffset || document.documentElement.scrollTop; // Get current scroll position
         if (currentScrollposition > lastScrollPosition) {
             showNav = false;
         } else {

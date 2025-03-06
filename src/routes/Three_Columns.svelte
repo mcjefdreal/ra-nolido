@@ -1,5 +1,5 @@
 <script lang="ts">
-    let {
+    const {
         heading,
         subheading_1,
         subheading_2,
