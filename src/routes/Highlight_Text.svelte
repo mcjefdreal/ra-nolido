@@ -1,5 +1,5 @@
 <script lang="ts">
-    const { heading, body_1, body_2, body_3, button_content } = $props();
+    const { heading, body_1, body_2, body_3, button_content='' } = $props();
 </script>
 
 <div class="mx-10 flex h-full">
@@ -16,12 +16,14 @@
             {body_2}
         </p>
 
-        <p class="mb-8">
+        <p class="{button_content != ''? 'mb-8' : ''}">
             {body_3}
         </p>
 
+        {#if button_content != ''}
         <button class="border-2 border-ra-black px-4 py-2">
             {button_content}
         </button>
+        {/if}
     </div>
 </div>
