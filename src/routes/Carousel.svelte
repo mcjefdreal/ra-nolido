@@ -74,7 +74,7 @@ Notes:
 
 <!-- Main Carousel -->
 <div class="auto mb-10 flex h-1/2 justify-center">
-    <div class="w-1/4 flex-initial">
+    <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
             <button onclick={move_left}><img src={left} alt="left" id="left" class="absolute right-1/2 h-96" /></button>
         </div>
@@ -86,7 +86,7 @@ Notes:
         </div>
     </div>
 
-    <div class="w-1/4 flex-initial">
+    <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
             <button onclick={move_right}><img src={right} alt="right" id="right" class="absolute left-1/2 h-96" /></button>
         </div>
