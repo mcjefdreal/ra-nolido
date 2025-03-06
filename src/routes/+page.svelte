@@ -2,10 +2,15 @@
     import Carousel from './Carousel.svelte';
     import HighlightText from './Highlight_Text.svelte';
     import Three_Columns from './Three_Columns.svelte';
+    import Hero from './Hero.svelte';
 </script>
 
-<h1>Home</h1>
-<p>this is the homepage</p>
+<Hero
+    heading={'SA R.A. NOLIDO'}
+    subheading={'SOLIDO'}
+    button_content={'Get in Touch'}>
+</Hero>
+
 <HighlightText
     heading={'Who We Are'}
     body_1={'The company was established by Engr. Rizal Alberto Nolido on May 1969 in Manila as R.A. NOLIDO & COMPANY, INC. primarily to complement the nationwide demand for housing construction and subdivision development. It then ventured into warehouse and superstructure building and ngineering works, reaching its heights during the construction peak of the seventies into the eighties. '}
