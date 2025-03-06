@@ -13,8 +13,8 @@ Notes:
 -->
 
 <script lang="ts">
-    let { heading, prefix, imgs } = $props();
-    let size = imgs.length;
+    const { heading, prefix, imgs } = $props();
+    const size = imgs.length;
 
     let left = $state(prefix + imgs[size-1]);
     let active = $state(prefix + imgs[0]);
@@ -23,33 +23,8 @@ Notes:
     let index = 0;
     let prev_idx = 0;
 
-    // Initializes highlighted indicator
-
     // For switching carousel images
-    function onclick() {
-
-        let clicked = (event?.target as HTMLBodyElement);
-
-        // Identifies if left or right preview was clicked
-        if ((event?.target as HTMLBodyElement).id == 'left') {
-            //window.alert(left);
-            index--;
-            // Resets counter
-            if (index < 0) index = size - 1;
-        }
-
-        else if ((event?.target as HTMLBodyElement).id == 'right') {
-            //window.alert(right);
-            index++;
-            // Resets counter
-            if (index == size) index = 0;
-        }
-        
-        // Identifies which indicator was clicked
-        else {
-            index = parseInt(clicked.id.at(-1));
-        }
-
+    function updateCarousel() {
         // Set main img
         active = prefix + imgs[index]
 
@@ -57,32 +32,51 @@ Notes:
         if (index - 1 < 0) left = prefix + imgs[size-1];
         else left = prefix + imgs[index - 1];
 
-        if (index + 1 == size) right = prefix + imgs[0];
+        if (index + 1 === size) right = prefix + imgs[0];
         else right = prefix + imgs[index + 1];
 
         // Updates indicator
-        let cur_id = 'button ' + index.toString(); 
-        let prev_id = 'button ' + prev_idx.toString();
+        const cur_id = `button ${  index.toString()}`;
+        const prev_id = `button ${  prev_idx.toString()}`;
 
-        let selected = document.getElementById(cur_id);
-        let previous = document.getElementById(prev_id)
+        const selected = document.getElementById(cur_id);
+        const previous = document.getElementById(prev_id);
 
-        selected.className = selected?.className.toString().replace('black', 'blue-500');
-        previous.className = previous?.className.toString().replace('blue-500', 'black');
+        if (selected != null) selected.className = selected.className.toString().replace('ra-black', 'royal-blue');
+        if (previous != null) previous.className = previous.className.toString().replace('royal-blue', 'ra-black');
 
         // Updates previous index
         prev_idx = index;
     }
- 
+
+    // Carousel Controls
+    function move_left() {
+        index--;
+        // Resets counter
+        if (index < 0) index = size - 1;
+        updateCarousel();
+    }
+
+    function move_right() {
+        index++;
+        // Resets counter
+        if (index == size) index = 0;
+        updateCarousel();
+    }
+
+    function move_to(idx: number) {
+        index = idx;
+        updateCarousel();
+    }
 </script>
 
 <h1 class="text-5xl font-semibold mb-8 flex auto justify-center">{heading}</h1> 
 
 <!-- Main Carousel -->
-<div class="flex auto justify-center h-1/2 mb-10">
-    <div class="flex-initial w-1/4">
-        <div class='relative'>
-            <img src="{left}" alt="left" id="left" class='absolute right-1/2 h-96' {onclick}>
+<div class="auto mb-10 flex h-1/2 justify-center">
+    <div class="w-1/4 flex-initial overflow-hidden">
+        <div class="relative">
+            <button onclick={move_left}><img src={left} alt="left" id="left" class="absolute right-1/2 h-96" /></button>
         </div>
     </div>
 
@@ -92,22 +86,22 @@ Notes:
         </div>
     </div>
 
-    <div class="flex-initial w-1/4 overflow-hidden">
-        <div class='relative'>
-            <img src="{right}" alt="right" id='right' class='absolute left-1/2 h-96' {onclick}>
+    <div class="w-1/4 flex-initial overflow-hidden">
+        <div class="relative">
+            <button onclick={move_right}><img src={right} alt="right" id="right" class="absolute left-1/2 h-96" /></button>
         </div>
     </div>
 </div>
 
 <!-- Indicators -->
-<div class='flex auto justify-center'>
-    {#each imgs as img, i}
-            <button
-            type='button'
-            class='w-4 h-4 rounded-full mx-2 bg-{i == 0? "blue-500": "black"}'
-            id='button {i}'
-            aria-label='indicator {i}'
-            {onclick}
-            ></button>
+<div class="auto flex justify-center">
+    {#each imgs, i}
+        <button
+            type="button"
+            class="mx-2 h-4 w-4 rounded-full bg-{i === 0? 'royal-blue' : 'ra-black'}"
+            id="button {i}"
+            aria-label="indicator {i}"
+            onclick={() => move_to(i)}
+        ></button>
     {/each}
 </div>
