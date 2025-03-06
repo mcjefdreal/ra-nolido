@@ -33,7 +33,20 @@
             </a>
             <a href="/projects/" class="flex">
                 <div class="navtabs flex items-center px-6">
-                    <span class={page.url.pathname === '/projects/' ? 'active' : ''}>Projects</span>
+                    <span
+                        class={page.url.pathname === '/projects/' ||
+                        page.url.pathname === '/projects/prj_cats/bldgs/' ||
+                        page.url.pathname === '/projects/prj_cats/inst/' ||
+                        page.url.pathname === '/projects/prj_cats/hotels/' ||
+                        page.url.pathname === '/projects/prj_cats/offices/' ||
+                        page.url.pathname === '/projects/prj_cats/property/' ||
+                        page.url.pathname === '/projects/prj_cats/residential/' ||
+                        page.url.pathname === '/projects/prj_cats/resto/' ||
+                        page.url.pathname === '/projects/prj_cats/infra/' ||
+                        page.url.pathname === '/projects/prj_cats/religious/'
+                            ? 'active'
+                            : ''}>Projects</span
+                    >
                 </div>
             </a>
             <a href="/about-us/" class="flex">

@@ -16,7 +16,7 @@ Notes:
     const { heading, prefix, imgs } = $props();
     const size = imgs.length;
 
-    let left = $state(prefix + imgs[size-1]);
+    let left = $state(prefix + imgs[size - 1]);
     let active = $state(prefix + imgs[0]);
     let right = $state(prefix + imgs[1]);
 
@@ -26,18 +26,18 @@ Notes:
     // For switching carousel images
     function updateCarousel() {
         // Set main img
-        active = prefix + imgs[index]
+        active = prefix + imgs[index];
 
         // Sets left & right img (accounts for loop around)
-        if (index - 1 < 0) left = prefix + imgs[size-1];
+        if (index - 1 < 0) left = prefix + imgs[size - 1];
         else left = prefix + imgs[index - 1];
 
         if (index + 1 === size) right = prefix + imgs[0];
         else right = prefix + imgs[index + 1];
 
         // Updates indicator
-        const cur_id = `button ${  index.toString()}`;
-        const prev_id = `button ${  prev_idx.toString()}`;
+        const cur_id = `button ${index.toString()}`;
+        const prev_id = `button ${prev_idx.toString()}`;
 
         const selected = document.getElementById(cur_id);
         const previous = document.getElementById(prev_id);
@@ -70,7 +70,7 @@ Notes:
     }
 </script>
 
-<h1 class="text-5xl font-semibold mb-8 flex auto justify-center">{heading}</h1> 
+<h1 class="auto mb-8 flex justify-center text-5xl font-semibold">{heading}</h1>
 
 <!-- Main Carousel -->
 <div class="auto mb-10 flex h-1/2 justify-center">
@@ -80,15 +80,17 @@ Notes:
         </div>
     </div>
 
-    <div class="flex-initial w-1/2 mx-48 justify-center">
-        <div class='flex justify-center'>
-            <img src="{active}" alt="active" class="h-96">
+    <div class="mx-48 w-1/2 flex-initial justify-center">
+        <div class="flex justify-center">
+            <img src={active} alt="active" class="h-96" />
         </div>
     </div>
 
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
-            <button onclick={move_right}><img src={right} alt="right" id="right" class="absolute left-1/2 h-96" /></button>
+            <button onclick={move_right}
+                ><img src={right} alt="right" id="right" class="absolute left-1/2 h-96" /></button
+            >
         </div>
     </div>
 </div>
@@ -98,7 +100,7 @@ Notes:
     {#each imgs, i}
         <button
             type="button"
-            class="mx-2 h-4 w-4 rounded-full bg-{i === 0? 'royal-blue' : 'ra-black'}"
+            class="mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-black'}"
             id="button {i}"
             aria-label="indicator {i}"
             onclick={() => move_to(i)}
