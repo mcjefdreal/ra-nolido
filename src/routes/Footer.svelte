@@ -56,5 +56,6 @@
 <style>
     p {
         color: theme('colors.ra-white');
+        font-family: theme('fontFamily.jakarta');
     }
 </style>

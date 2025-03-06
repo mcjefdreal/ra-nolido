@@ -1,5 +1,5 @@
 <script lang="ts">
-    const { heading, body_1, body_2, body_3, button_content='' } = $props();
+    const { heading, body_1, body_2, body_3, button_content = '' } = $props();
 </script>
 
 <div class="mx-10 flex h-full">
@@ -16,28 +16,28 @@
             {body_2}
         </p>
 
-        <p class="{button_content != ''? 'mb-8' : ''}">
+        <p class={button_content != '' ? 'mb-8' : ''}>
             {body_3}
         </p>
 
         {#if button_content != ''}
-        <button class="border-2 border-ra-black px-4 py-2 optional-btn">
-            {button_content}
-        </button>
+            <button class="optional-btn border-2 border-ra-black px-4 py-2">
+                {button_content}
+            </button>
         {/if}
     </div>
 </div>
 
 <style>
     .optional-btn {
-        background: linear-gradient(to left, #FEFCFB 50%, #0102F2 50%) right;
+        background: linear-gradient(to left, #fefcfb 50%, #0102f2 50%) right;
         background-size: 200% 100%;
-        transition:all 0.5s ease;
+        transition: all 0.5s ease;
     }
 
     .optional-btn:hover {
         background-position: left;
-        color: #FEFCFB;
-        border-color: #0102F2;
+        color: #fefcfb;
+        border-color: #0102f2;
     }
 </style>
