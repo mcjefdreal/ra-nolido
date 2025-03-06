@@ -16,7 +16,7 @@ Notes:
     const { heading, prefix, imgs } = $props();
     const size = imgs.length;
 
-    let left = $state(prefix + imgs[size - 1]);
+    let left = $state(prefix + imgs[size-1]);
     let active = $state(prefix + imgs[0]);
     let right = $state(prefix + imgs[1]);
 
@@ -26,10 +26,10 @@ Notes:
     // For switching carousel images
     function updateCarousel() {
         // Set main img
-        active = prefix + imgs[index];
+        active = prefix + imgs[index]
 
         // Sets left & right img (accounts for loop around)
-        if (index - 1 < 0) left = prefix + imgs[size - 1];
+        if (index - 1 < 0) left = prefix + imgs[size-1];
         else left = prefix + imgs[index - 1];
 
         if (index + 1 === size) right = prefix + imgs[0];
@@ -70,7 +70,7 @@ Notes:
     }
 </script>
 
-<h1 class="auto mb-8 flex justify-center text-5xl font-semibold">{heading}</h1>
+<h1 class="text-5xl font-semibold mb-8 flex auto justify-center">{heading}</h1> 
 
 <!-- Main Carousel -->
 <div class="auto mb-10 flex h-1/2 justify-center">
@@ -80,9 +80,9 @@ Notes:
         </div>
     </div>
 
-    <div class="mx-48 w-1/2 flex-initial justify-center">
-        <div class="flex justify-center">
-            <img src={active} alt="active" class="h-96" />
+    <div class="flex-initial w-1/2 mx-48 justify-center">
+        <div class='flex justify-center'>
+            <img src="{active}" alt="active" class="h-96">
         </div>
     </div>
 

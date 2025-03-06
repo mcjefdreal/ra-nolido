@@ -2,7 +2,14 @@
     import Carousel from './Carousel.svelte';
     import HighlightText from './Highlight_Text.svelte';
     import Three_Columns from './Three_Columns.svelte';
+    import Hero from './Hero.svelte';
 </script>
+
+<Hero
+    heading={'SA R.A. NOLIDO'}
+    subheading={'SOLIDO'}
+    button_content={'Get in Touch'}>
+</Hero>
 
 <div class='my-16'>
     <HighlightText

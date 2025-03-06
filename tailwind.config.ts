@@ -15,6 +15,7 @@ export default {
                 'royal-blue': '#0102F2',
                 'pastel-blue': '#4C4DE2',
                 'light-blue': '#B5DCFF',
+                'dark-blue': '#000192',
                 'ra-white': '#FEFCFB',
                 'ra-neutral': '#606060',
                 'ra-black': '#0A1128',
