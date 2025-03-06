@@ -21,9 +21,23 @@
         </p>
 
         {#if button_content != ''}
-        <button class="border-2 border-ra-black px-4 py-2">
+        <button class="border-2 border-ra-black px-4 py-2 optional-btn">
             {button_content}
         </button>
         {/if}
     </div>
 </div>
+
+<style>
+    .optional-btn {
+        background: linear-gradient(to left, #FEFCFB 50%, #0102F2 50%) right;
+        background-size: 200% 100%;
+        transition:all 0.5s ease;
+    }
+
+    .optional-btn:hover {
+        background-position: left;
+        color: #FEFCFB;
+        border-color: #0102F2;
+    }
+</style>
