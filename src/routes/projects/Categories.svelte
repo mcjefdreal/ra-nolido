@@ -1,58 +1,58 @@
-<script lang="ts">
+<script>
     const { cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9 } = $props();
 </script>
 
-<div class="mt-10 flex items-center justify-items-center align-middle">
+<div class="flex justify-items-center items-center mt-10 align-middle">
     <h1 class="mx-auto text-[45px]">Categories</h1>
 </div>
 
-<div class="my-10 flex flex-row items-center justify-center justify-items-center gap-10">
+<div class="flex flex-row gap-10 justify-center justify-items-center items-center my-10">
     <div class="icon">
-        <a href="/projects/prj_cats/bldgs">
+        <a href="/projects/bldgs">
             <img src={cat1} alt="1" />
         </a>
     </div>
     <div class="icon">
-        <a href="/projects/prj_cats/inst">
+        <a href="/projects/inst">
             <img src={cat2} alt="2" />
         </a>
     </div>
     <div class="icon">
-        <a href="/projects/prj_cats/hotels">
+        <a href="/projects/hotels">
             <img src={cat3} alt="3" />
         </a>
     </div>
 </div>
-<div class="my-10 flex flex-row items-center justify-center justify-items-center gap-10">
+<div class="flex flex-row gap-10 justify-center justify-items-center items-center my-10">
     <div class="icon">
-        <a href="/projects/prj_cats/offices">
+        <a href="/projects/offices">
             <img src={cat4} alt="4" />
         </a>
     </div>
     <div class="icon">
-        <a href="/projects/prj_cats/property">
+        <a href="/projects/property">
             <img src={cat5} alt="5" />
         </a>
     </div>
     <div class="icon">
-        <a href="/projects/prj_cats/residential">
+        <a href="/projects/residential">
             <img src={cat6} alt="6" />
         </a>
     </div>
 </div>
-<div class="my-10 flex flex-row items-center justify-center justify-items-center gap-10">
+<div class="flex flex-row gap-10 justify-center justify-items-center items-center my-10">
     <div class="icon">
-        <a href="/projects/prj_cats/resto">
+        <a href="/projects/resto">
             <img src={cat7} alt="7" />
         </a>
     </div>
     <div class="icon">
-        <a href="/projects/prj_cats/infra">
+        <a href="/projects/infra">
             <img src={cat8} alt="8" />
         </a>
     </div>
     <div class="icon">
-        <a href="/projects/prj_cats/religious">
+        <a href="/projects/religious">
             <img src={cat9} alt="9" />
         </a>
     </div>
