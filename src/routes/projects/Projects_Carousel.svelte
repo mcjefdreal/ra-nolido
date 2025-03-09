@@ -1,0 +1,121 @@
+<script lang="ts">
+    const { prefix, imgs, proj } = $props();
+    const size = imgs.length;
+
+    const Proj_Title = proj.title;
+    const Proj_Descrip = proj.descrip;
+    const Proj_Owner = proj.owner;
+    const Proj_Location = proj.loc;
+
+    let left = $state(prefix + imgs[size - 1]);
+    let active = $state(prefix + imgs[0]);
+    let right = $state(prefix + imgs[1]);
+
+    let index = 0;
+    let prev_idx = 0;
+
+    // For switching carousel images
+    function updateCarousel() {
+        // Set main img
+        active = prefix + imgs[index];
+
+        // Sets left & right img (accounts for loop around)
+        if (index - 1 < 0) left = prefix + imgs[size - 1];
+        else left = prefix + imgs[index - 1];
+
+        if (index + 1 === size) right = prefix + imgs[0];
+        else right = prefix + imgs[index + 1];
+
+        // Updates indicator
+        const cur_id = `button ${index.toString()}`;
+        const prev_id = `button ${prev_idx.toString()}`;
+
+        const selected = document.getElementById(cur_id);
+        const previous = document.getElementById(prev_id);
+
+        if (selected != null) selected.className = selected.className.toString().replace('ra-black', 'royal-blue');
+        if (previous != null) previous.className = previous.className.toString().replace('royal-blue', 'ra-black');
+
+        // Updates previous index
+        prev_idx = index;
+    }
+
+    // Carousel Controls
+    function move_left() {
+        index--;
+        // Resets counter
+        if (index < 0) index = size - 1;
+        updateCarousel();
+    }
+
+    function move_right() {
+        index++;
+        // Resets counter
+        if (index == size) index = 0;
+        updateCarousel();
+    }
+
+    function move_to(idx: number) {
+        index = idx;
+        updateCarousel();
+    }
+</script>
+
+<!-- Main Carousel -->
+<div class="auto mb-10 flex h-1/2 justify-center items-center">
+    <div class="w-1/4 flex-initial overflow-hidden">
+        <div class="relative text-right">
+            <button onclick={move_left} class='mr-36 rounded-full bg-ra-black text-lg 
+                                               hover:bg-royal-blue hover:duration-150 hover:mr-40'> 
+                Left 
+            </button>
+        </div>
+    </div>
+
+    <div class="w-3/4 flex-initial justify-center">
+        <div class="flex justify-center">
+            <img src={active} alt="active" class="h-96" />
+        </div>
+    </div>
+
+    <div class="w-1/4 flex-initial overflow-hidden">
+        <div class="relative">
+            <button onclick={move_left} class='ml-36 rounded-full bg-ra-black text-lg 
+                                               hover:bg-royal-blue hover:duration-150 hover:ml-40'> 
+                Left 
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Indicators -->
+<div class="auto flex justify-center mb-12 items-center">
+    {#each imgs, i}
+        <button
+            type="button"
+            class="mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-black'}
+                   hover:opacity-75 hover:h-6 hover:w-6"
+            id="button {i}"
+            aria-label="indicator {i}"
+            onclick={() => move_to(i)}
+        ></button>
+    {/each}
+</div>
+
+<!-- Info Box -->
+<div class='flex auto justify-center'> 
+    <div class='w-3/4 bg-ra-white opacity-[.90] px-12 py-8 rounded-xl'>
+        <h3 class='font-semibold text-5xl mb-8'>{Proj_Title}</h3>
+        <div class='flex mx-10'>
+            <div class='flex-initial w-1/2'>
+                <div class='text-2xl font-bold w-full mb-6'>{Proj_Descrip}</div>
+                <div class='text-2xl w-full'><b>Owner: </b> {Proj_Owner}</div>
+            </div>
+
+            <div class='flex-initial w-1/2'>
+                <div class='text-2xl font-bold w-full mb-6'>Location:</div>
+                <div class='text-2xl w-full'>{Proj_Location}</div>
+            </div>
+        </div>
+    </div>
+</div>
