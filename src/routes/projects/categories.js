@@ -2,7 +2,6 @@ export const cats = [
     {
         page_title: 'bldgs',
         cat: 'Buildings and Condominiums',
-        imgs: '$lib/img/prj-imgs/bldgs/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
     },
     {
         page_title: 'inst',

@@ -35,15 +35,15 @@
                 <div class="navtabs flex items-center px-6">
                     <span
                         class={page.url.pathname === '/projects/' ||
-                        page.url.pathname === '/projects/prj_cats/bldgs/' ||
-                        page.url.pathname === '/projects/prj_cats/inst/' ||
-                        page.url.pathname === '/projects/prj_cats/hotels/' ||
-                        page.url.pathname === '/projects/prj_cats/offices/' ||
-                        page.url.pathname === '/projects/prj_cats/property/' ||
-                        page.url.pathname === '/projects/prj_cats/residential/' ||
-                        page.url.pathname === '/projects/prj_cats/resto/' ||
-                        page.url.pathname === '/projects/prj_cats/infra/' ||
-                        page.url.pathname === '/projects/prj_cats/religious/'
+                        page.url.pathname === '/projects/bldgs/' ||
+                        page.url.pathname === '/projects/inst/' ||
+                        page.url.pathname === '/projects/hotels/' ||
+                        page.url.pathname === '/projects/offices/' ||
+                        page.url.pathname === '/projects/property/' ||
+                        page.url.pathname === '/projects/residential/' ||
+                        page.url.pathname === '/projects/resto/' ||
+                        page.url.pathname === '/projects/infra/' ||
+                        page.url.pathname === '/projects/religious/'
                             ? 'active'
                             : ''}>Projects</span
                     >
