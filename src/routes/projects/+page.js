@@ -5,7 +5,6 @@ export function load() {
         summaries: cats.map(category => ({
             page_title: category.page_title,
             cat: category.cat,
-            imgs: category.imgs,
         })),
     };
 }
