@@ -1,7 +1,8 @@
 <script>
-    import ProjectsCarousel from '../Projects_Carousel.svelte';
+    import ProjectsCarousel from './Projects_Carousel.svelte';
     const { data } = $props();
     const page = data.categ.page_title;
+    const projs = data.categ.projs;
     let images = $state();
     let showModal = $state(false);
 
@@ -51,37 +52,37 @@
                 eager: true,
             });
     }
+
+    let curr_prj_imgs = $state(data.categ.projs[0].prj_pics);
+    let curr_prj_name = $state(data.categ.projs[0].prj_name);
+    function showCarousel(idx) {
+        curr_prj_imgs = data.categ.projs[idx].prj_pics;
+        curr_prj_name = data.categ.projs[idx].prj_name;
+        showModal = true;
+    }
+    $inspect(curr_prj_name);
+
+    let test = 'facebook';
 </script>
 
-{#each Object.entries(images) as [_path, module]}
-    <button
-        onclick={() => {
-            showModal = true;
-        }}
-    >
+{#each Object.entries(images) as [_path, module], i}
+    <button onclick={() => showCarousel(i)}>
         <img src={module.default} alt="thumbnail" class="thumbnail h-[500px] w-[500px]" />
     </button>
 {/each}
 
-<ProjectsCarousel
-    bind:showModal
-    prefix={'$lib/img/prj-imgs/bldgs/mvmc'}
-    imgs={[
-        'IMG_1346.JPG',
-        'IMG_1357.JPG',
-        'IMG_1358.JPG',
-        'IMG_1359.JPG',
-        'IMG_1362.JPG',
-        'IMG_1388.JPG',
-        'IMG_1463.JPG',
-    ]}
-    proj={{
-        title: 'MVMC',
-        descrip: 'Dorm Building?',
-        owner: 'I dunno',
-        loc: 'Somewhere out there :sparkles:',
-    }}
-></ProjectsCarousel>
+{#key showModal}
+    <ProjectsCarousel
+        bind:showModal
+        imgs={curr_prj_imgs}
+        proj={{
+            title: curr_prj_name,
+            descrip: 'Dorm Building?',
+            owner: 'I dunno',
+            loc: 'Somewhere out there :sparkles:',
+        }}
+    ></ProjectsCarousel>
+{/key}
 
 <style>
     .thumbnail {
