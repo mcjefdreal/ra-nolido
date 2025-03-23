@@ -1,5 +1,12 @@
 <script lang="ts">
-    const { prefix, imgs, proj } = $props();
+    // For popup
+    let { showModal = $bindable(), prefix, imgs, proj } = $props();
+    let dialog = $state();
+
+    $effect(() => {
+        if (showModal) dialog.showModal();
+    });
+    
     const size = imgs.length;
 
     const Proj_Title = proj.title;
@@ -61,35 +68,43 @@
     }
 </script>
 
+<dialog
+	bind:this={dialog}
+	onclose={() => (showModal = false)}
+	onclick={(e) => { if (e.target === dialog) dialog.close(); }}
+    class='w-5/6 h-full bg-transparent'
+>
 <!-- Main Carousel -->
-<div class="auto mb-10 flex h-1/2 justify-center items-center">
+<div class="auto mb-8 flex h-[60%] justify-center items-center">
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative text-right">
-            <button onclick={move_left} class='mr-36 rounded-full bg-ra-black text-lg 
-                                               hover:bg-royal-blue hover:duration-150 hover:mr-40'> 
-                Left 
+            <button onclick={move_left} class='mr-36 rounded-full bg-ra-black text-lg h-10 w-10 
+                                               hover:bg-royal-blue hover:duration-150 hover:h-12 hover:w-12'
+                                               aria-label='left'> 
+                 
             </button>
         </div>
     </div>
 
     <div class="w-3/4 flex-initial justify-center">
         <div class="flex justify-center">
-            <img src={active} alt="active" class="h-96" />
+            <img src={active} alt="active" class="h-120" />
         </div>
     </div>
 
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
-            <button onclick={move_left} class='ml-36 rounded-full bg-ra-black text-lg 
-                                               hover:bg-royal-blue hover:duration-150 hover:ml-40'> 
-                Left 
+            <button onclick={move_right} class='ml-36 rounded-full bg-ra-black text-lg h-10 w-10
+                                               hover:bg-royal-blue hover:duration-150 hover:h-12 hover:w-12'
+                                               aria-label='right'> 
+                 
             </button>
         </div>
     </div>
 </div>
 
 <!-- Indicators -->
-<div class="auto flex justify-center mb-12 items-center">
+<div class="auto flex justify-center mb-8 items-center h-[2.5%]">
     {#each imgs, i}
         <button
             type="button"
@@ -104,18 +119,20 @@
 
 <!-- Info Box -->
 <div class='flex auto justify-center'> 
-    <div class='w-3/4 bg-ra-white opacity-[.90] px-12 py-8 rounded-xl'>
+    <div class='w-5/6 bg-ra-white opacity-[.90] px-12 py-8 rounded-xl'>
         <h3 class='font-semibold text-5xl mb-8'>{Proj_Title}</h3>
         <div class='flex mx-10'>
             <div class='flex-initial w-1/2'>
-                <div class='text-2xl font-bold w-full mb-6'>{Proj_Descrip}</div>
-                <div class='text-2xl w-full'><b>Owner: </b> {Proj_Owner}</div>
+                <div class='text-xl font-bold w-full mb-6'>{Proj_Descrip}</div>
+                <div class='text-xl w-full'><b>Owner: </b> {Proj_Owner}</div>
             </div>
 
             <div class='flex-initial w-1/2'>
-                <div class='text-2xl font-bold w-full mb-6'>Location:</div>
-                <div class='text-2xl w-full'>{Proj_Location}</div>
+                <div class='text-xl font-bold w-full mb-6'>Location:</div>
+                <div class='text-xl w-full'>{Proj_Location}</div>
             </div>
         </div>
     </div>
 </div>
+<!-- <button autofocus onclick={() => dialog.close()}>close modal</button> -->
+</dialog>
