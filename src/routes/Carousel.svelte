@@ -76,7 +76,7 @@ Notes:
 <div class="auto mb-10 flex h-1/2 justify-center">
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
-            <button onclick={move_left}><img src={left} alt="left" id="left" class="absolute right-1/2 h-96" /></button>
+            <button onclick={move_left}><img src={left} alt="left" id="left" class="expanding-btn absolute right-1/2 h-96" /></button>
         </div>
     </div>
 
@@ -89,7 +89,7 @@ Notes:
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
             <button onclick={move_right}
-                ><img src={right} alt="right" id="right" class="absolute left-1/2 h-96" /></button
+                ><img src={right} alt="right" id="right" class="expanding-btn absolute left-1/2 h-96" /></button
             >
         </div>
     </div>
@@ -107,3 +107,13 @@ Notes:
         ></button>
     {/each}
 </div>
+
+<style>
+    .expanding-btn {
+        transition: all 0.2s ease;
+    }
+
+    .expanding-btn:hover {
+        transform: scale(1.2);
+    }
+</style>
