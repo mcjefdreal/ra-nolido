@@ -1,7 +1,12 @@
 <script lang="ts">
     import Categories from './Categories.svelte';
-    import icon from '$lib/img/categories/temp.svg';
+    let { data } = $props();
 </script>
 
-<Categories cat1={icon} cat2={icon} cat3={icon} cat4={icon} cat5={icon} cat6={icon} cat7={icon} cat8={icon} cat9={icon}
-></Categories>
+<div class="place-items-center">
+    <div class=" m-[100px] grid grid-cols-3 place-items-center items-stretch gap-11">
+        {#each data.summaries as cat}
+            <Categories cat={cat.cat} icon={cat.icon} link={cat.link}></Categories>
+        {/each}
+    </div>
+</div>

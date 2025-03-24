@@ -2,6 +2,8 @@ export const cats = [
     {
         page_title: 'bldgs',
         cat: 'Buildings and Condominiums',
+        icon: '/src/lib/icons/cats/bldgs.png',
+        link: '/projects/bldgs',
         projs: [
             {
                 prj_name: 'mvmc',
@@ -44,10 +46,15 @@ export const cats = [
     {
         page_title: 'inst',
         cat: 'Institutional',
+        icon: '/src/lib/icons/cats/inst.png',
+        link: '/projects/inst',
+        projs: [{}],
     },
     {
         page_title: 'hotels',
         cat: 'Hotels and Resorts',
+        icon: '/src/lib/icons/cats/hotels.png',
+        link: '/projects/hotels',
         projs: [
             {
                 prj_name: 'Amelie Pics',
@@ -73,25 +80,43 @@ export const cats = [
     {
         page_title: 'offices',
         cat: 'Offices',
+        icon: '/src/lib/icons/cats/offices.png',
+        link: '/projects/offices',
+        projs: [{}],
     },
     {
         page_title: 'property',
         cat: 'Property and Development',
+        icon: '/src/lib/icons/cats/property.png',
+        link: '/projects/property',
+        projs: [{}],
     },
     {
         page_title: 'residential',
         cat: 'Residential',
+        icon: '/src/lib/icons/cats/residential.png',
+        link: '/projects/residential',
+        projs: [{}],
     },
     {
         page_title: 'resto',
         cat: 'Restaurants',
+        icon: '/src/lib/icons/cats/resto.png',
+        link: '/projects/resto',
+        projs: [{}],
     },
     {
         page_title: 'infra',
         cat: 'Infrastructure',
+        icon: '/src/lib/icons/cats/infra.png',
+        link: '/projects/infra',
+        projs: [{}],
     },
     {
         page_title: 'religious',
         cat: 'Religious',
+        icon: '/src/lib/icons/cats/religious.png',
+        link: '/projects/religious',
+        projs: [{}],
     },
 ];

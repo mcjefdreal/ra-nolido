@@ -5,8 +5,9 @@ export function load() {
         summaries: cats.map(category => ({
             page_title: category.page_title,
             cat: category.cat,
+            link: category.link,
+            icon: category.icon,
         })),
     };
 }
-
 export const prerender = true;
