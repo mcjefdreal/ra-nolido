@@ -74,10 +74,10 @@
     onclick={e => {
         if (e.target === dialog) dialog.close();
     }}
-    class="h-full w-5/6 bg-transparent"
+    class="h-full w-5/6 pt-8 rounded-lg"
 >
     <!-- Main Carousel -->
-    <div class="auto mb-8 flex h-[60%] items-center justify-center">
+    <div class="auto mb-10 flex h-[60%] items-center justify-center">
         <div class="w-1/4 flex-initial overflow-hidden h-14">
             <div class="relative text-right arrow_parent">
                 <button
@@ -92,7 +92,7 @@
 
         <div class="w-3/4 flex-initial justify-center">
             <div class="flex justify-center">
-                <img src={active} alt="active" class="h-120" />
+                <img src={active} alt="active" class="max-h-[425px] max-w-[750px]" />
             </div>
         </div>
 
@@ -110,7 +110,7 @@
     </div>
 
     <!-- Indicators -->
-    <div class="auto mb-8 flex h-[2.5%] items-center justify-center">
+    <div class="auto mb-6 flex h-[2.5%] items-center justify-center">
         {#each imgs, i}
             <button
                 type="button"
@@ -124,18 +124,18 @@
     </div>
 
     <!-- Info Box -->
-    <div class="auto flex justify-center">
-        <div class="w-5/6 rounded-xl bg-ra-white px-12 py-8 opacity-[.90]">
-            <h3 class="mb-8 text-5xl font-semibold">{Proj_Title}</h3>
+    <div class="auto flex justify-center h-1/4">
+        <div class="w-5/6 rounded-xl bg-ra-white px-8 py-4 opacity-[.90]">
+            <h3 class="mb-5 text-4xl font-semibold">{Proj_Title}</h3>
             <div class="mx-10 flex">
                 <div class="w-1/2 flex-initial">
-                    <div class="mb-6 w-full text-xl font-bold">{Proj_Descrip}</div>
-                    <div class="w-full text-xl"><b>Owner: </b> {Proj_Owner}</div>
+                    <div class="mb-4 w-full text-l font-bold">{Proj_Descrip}</div>
+                    <div class="w-full text-l"><b>Owner: </b> {Proj_Owner}</div>
                 </div>
 
                 <div class="w-1/2 flex-initial">
-                    <div class="mb-6 w-full text-xl font-bold">Location:</div>
-                    <div class="w-full text-xl">{Proj_Location}</div>
+                    <div class="mb-4 w-full text-l font-bold">Location:</div>
+                    <div class="w-full text-l">{Proj_Location}</div>
                 </div>
             </div>
         </div>
@@ -144,6 +144,14 @@
 </dialog>
 
 <style>
+    dialog {
+        background: rgba(254, 252, 251, 0.1);
+    }
+
+    dialog::backdrop {
+        background: rgba(10, 17, 40, 0.6);
+    }
+
     .arrow_parent:hover > .left_arrow {
         margin-right: 60%;
         background-color: rgb(1, 2, 242); 
