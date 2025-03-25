@@ -20,6 +20,30 @@ export default {
                 'ra-neutral': '#606060',
                 'ra-black': '#0A1128',
             },
+            animation: {
+                slideright: 'slide-in-right 0.1s ease-in-out 0.1s infinite',
+                slideleft: 'slide-in-left 0.1s ease-in-out 0.1s infinite',
+            },
+            keyframes: {
+                "slide-in-right": {
+                    "0%": {
+                        visibility: "visible",
+                        transform: "translate3d(100%, 0, 0)",
+                    },
+                    "100%": {
+                        transform: "translate3d(0, 0, 0)",
+                    },
+                },
+                "slide-in-left": {
+                    "0%": {
+                        visibility: "visible",
+                        transform: "translate3d(-100%, 0, 0)",
+                    },
+                    "100%": {
+                        transform: "translate3d(0, 0, 0)",
+                    },
+                },
+            }
         },
     },
 } satisfies Config;
