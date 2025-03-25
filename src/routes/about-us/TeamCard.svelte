@@ -1,26 +1,17 @@
 <script lang="ts">
-    import type { HTMLImgAttributes } from 'svelte/elements';
-
-    interface Props {
-        src: HTMLImgAttributes['src'];
-        alt: HTMLImgAttributes['alt'];
-    }
-
-    const { src, alt }: Props = $props();
+    const { src, alt, name = "UY SI BRAD", position = "IDOL" } = $props();
 </script>
 
-<!-- TODO: Prefer using `hover:` modifiers in native CSS. -->
-<div
-    class="flex flex-col text-center items-center"
+<div class="flex flex-col w-1/2"
 >
-    <img
-        {src}
-        {alt}
-        height="300px"
-        loading="lazy"
-        class="items-center overflow-hidden aspect-square rounded-full shadow-md h-full mb-3 lg:w-3/4"
-    />
-
-    <h1 class="font-semibold font-jakarta">UY SI BRAD</h1>
-    <h1 class="font-jakarta">Idol Pala 'to</h1>
+    <div class="items-center overflow-hidden aspect-square rounded-full shadow-lg mb-3">
+        <img
+            {src}
+            {alt}
+            loading="lazy"
+            class="w-full"
+        />
+    </div>
+    <h1 class="font-semibold font-jakarta">{name}</h1>
+    <h1 class="font-jakarta">{position}</h1>
 </div>
