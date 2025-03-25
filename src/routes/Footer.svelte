@@ -29,7 +29,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <p>Unit B, Rama building, 165 Roosevelt Avenue,</p>
+                <p>Unit B, Rama Building, 165 Roosevelt Avenue,</p>
                 <p>Quezon City, Philippines</p>
             </a>
         </div>
