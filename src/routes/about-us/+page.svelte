@@ -1,26 +1,24 @@
 <script>
-    import About from './About.svelte';
     import History from './History.svelte';
     import MissionVision from './MissionVision.svelte';
+    import Objectives from './Objectives.svelte';
     import Team from './Team.svelte';
 </script>
 
-<!--about us-->
-<!--
-    Stuff to include in this page
-    <li>history</li>
-    <li>mission/vision/objectives</li>
-    <li>organizational chart</li>
--->
-<article>
-    <About
-        heading={"About R.A. Nolido"}
-        body_1={"Lorem ipsum"}
-        body_2={"Lorem ipsum"}
-        body_3={"Lorem ipsum"}
-    />
-    <MissionVision />
-    <Team />
+<div class="my-16">
     <History />
-</article>
+</div>
+
+<div class="my-16">
+    <MissionVision />
+</div>    
+
+<div class="my-16">
+    <Objectives />
+</div>    
+
+<div class="my-16">
+    <Team />
+</div>
+
 
