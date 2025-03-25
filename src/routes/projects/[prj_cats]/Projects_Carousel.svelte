@@ -40,8 +40,8 @@
         const selected = document.getElementById(cur_id);
         const previous = document.getElementById(prev_id);
 
-        if (selected != null) selected.className = selected.className.toString().replace('ra-black', 'royal-blue');
-        if (previous != null) previous.className = previous.className.toString().replace('royal-blue', 'ra-black');
+        if (previous != null) previous.className = previous.className.toString().replace('royal-blue', 'ra-white');
+        if (selected != null) selected.className = selected.className.toString().replace('ra-white', 'royal-blue');
 
         // Updates previous index
         prev_idx = index;
@@ -78,14 +78,14 @@
 >
     <!-- Main Carousel -->
     <div class="auto mb-8 flex h-[60%] items-center justify-center">
-        <div class="w-1/4 flex-initial overflow-hidden">
-            <div class="relative text-right">
+        <div class="w-1/4 flex-initial overflow-hidden h-14">
+            <div class="relative text-right arrow_parent">
                 <button
                     onclick={move_left}
-                    class="mr-36 h-10 w-10 rounded-full bg-ra-black text-lg
-                                               hover:h-12 hover:w-12 hover:bg-royal-blue hover:duration-150"
+                    class="mr-36 h-14 w-14 rounded-full bg-ra-black text-lg left_arrow"
                     aria-label="left"
                 >
+                <img src='../../../../src/lib/icons/left_arrow.svg' alt='left arrow' class='w-4 ml-[17px]'>
                 </button>
             </div>
         </div>
@@ -96,14 +96,14 @@
             </div>
         </div>
 
-        <div class="w-1/4 flex-initial overflow-hidden">
-            <div class="relative">
+        <div class="w-1/4 flex-initial overflow-hidden h-14">
+            <div class="relative arrow_parent">
                 <button
                     onclick={move_right}
-                    class="ml-36 h-10 w-10 rounded-full bg-ra-black text-lg
-                                               hover:h-12 hover:w-12 hover:bg-royal-blue hover:duration-150"
+                    class="ml-36 h-14 w-14 rounded-full bg-ra-black text-lg flex-initial content-center right_arrow"
                     aria-label="right"
                 >
+                    <img src='../../../../src/lib/icons/right_arrow.svg' alt='right arrow' class='w-6 ml-[18px]'>
                 </button>
             </div>
         </div>
@@ -114,8 +114,8 @@
         {#each imgs, i}
             <button
                 type="button"
-                class="mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-black'}
-                   hover:h-6 hover:w-6 hover:opacity-75"
+                class="mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-white'}
+                   hover:h-6 hover:w-6 hover:bg-blue-400"
                 id="button {i}"
                 aria-label="indicator {i}"
                 onclick={() => move_to(i)}
@@ -142,3 +142,17 @@
     </div>
     <!-- <button autofocus onclick={() => dialog.close()}>close modal</button> -->
 </dialog>
+
+<style>
+    .arrow_parent:hover > .left_arrow {
+        margin-right: 60%;
+        background-color: rgb(1, 2, 242); 
+        transition-duration: 150ms; 
+    }
+
+    .arrow_parent:hover > .right_arrow {
+        margin-left: 60%;
+        background-color: rgb(1, 2, 242); 
+        transition-duration: 150ms; 
+    }
+</style>
