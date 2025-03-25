@@ -29,7 +29,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <p>Unit B, Rama building, 165 Roosevelt Avenue,</p>
+                <p>Unit B, Rama Building, 165 Roosevelt Avenue,</p>
                 <p>Quezon City, Philippines</p>
             </a>
         </div>
@@ -46,9 +46,9 @@
             <a class="w-15 h-15" href="mailto:ranolidoconstruction@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={mail} alt="Location" class="h-full w-full" />
             </a>
-            <div class="w-15 h-15">
+            <a class="w-15 h-15" href="/contact-us/">
                 <img src={phone} alt="Location" class="h-full w-full" />
-            </div>
+            </a>
         </div>
     </div>
 </footer>
