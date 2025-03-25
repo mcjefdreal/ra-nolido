@@ -82,7 +82,7 @@
             <div class="relative text-right arrow_parent">
                 <button
                     onclick={move_left}
-                    class="mr-36 h-14 w-14 rounded-full bg-ra-black text-lg left_arrow"
+                    class="mr-24 h-14 w-14 rounded-full bg-ra-black text-lg left_arrow"
                     aria-label="left"
                 >
                 <img src='../../../../src/lib/icons/left_arrow.svg' alt='left arrow' class='w-4 ml-[17px]'>
@@ -100,7 +100,7 @@
             <div class="relative arrow_parent">
                 <button
                     onclick={move_right}
-                    class="ml-36 h-14 w-14 rounded-full bg-ra-black text-lg flex-initial content-center right_arrow"
+                    class="ml-24 h-14 w-14 rounded-full bg-ra-black text-lg flex-initial content-center right_arrow"
                     aria-label="right"
                 >
                     <img src='../../../../src/lib/icons/right_arrow.svg' alt='right arrow' class='w-6 ml-[18px]'>
@@ -125,8 +125,8 @@
 
     <!-- Info Box -->
     <div class="auto flex justify-center h-1/4">
-        <div class="w-5/6 rounded-xl bg-ra-white px-8 py-4 opacity-[.90]">
-            <h3 class="mb-5 text-4xl font-semibold">{Proj_Title}</h3>
+        <div class="w-5/6 rounded-xl bg-ra-white px-8 py-5 opacity-[.90]">
+            <h3 class="mb-5 text-3xl font-semibold">{Proj_Title}</h3>
             <div class="mx-10 flex">
                 <div class="w-1/2 flex-initial">
                     <div class="mb-4 w-full text-l font-bold">{Proj_Descrip}</div>
@@ -153,13 +153,13 @@
     }
 
     .arrow_parent:hover > .left_arrow {
-        margin-right: 60%;
+        margin-right: 40%;
         background-color: rgb(1, 2, 242); 
         transition-duration: 150ms; 
     }
 
     .arrow_parent:hover > .right_arrow {
-        margin-left: 60%;
+        margin-left: 40%;
         background-color: rgb(1, 2, 242); 
         transition-duration: 150ms; 
     }
