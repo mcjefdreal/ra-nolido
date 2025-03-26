@@ -23,7 +23,7 @@
         <div class="relative">
             <img src={img_1} alt={alt_1} class="mb-4" />
             <button
-                class="absolute bottom-3 right-3 border-[3px] border-ra-black bg-white px-2 py-1
+                class="absolute bottom-3 right-3 border-[2px] border-ra-black bg-white px-2 py-1
                            duration-[200ms] hover:border-royal-blue hover:bg-royal-blue hover:font-semibold hover:text-white"
             >
                 See More</button
@@ -40,7 +40,7 @@
         <div class="relative">
             <img src={img_2} alt={alt_2} class="mb-4" />
             <button
-                class="absolute bottom-3 right-3 border-[3px] border-ra-black bg-white px-2 py-1
+                class="absolute bottom-3 right-3 border-[2px] border-ra-black bg-white px-2 py-1
                            duration-[200ms] hover:border-royal-blue hover:bg-royal-blue hover:font-semibold hover:text-white"
             >
                 See More</button
@@ -57,7 +57,7 @@
         <div class="relative">
             <img src={img_3} alt={alt_3} class="mb-4" />
             <button
-                class="absolute bottom-3 right-3 border-[3px] border-ra-black bg-white px-2 py-1
+                class="absolute bottom-3 right-3 border-[2px] border-ra-black bg-white px-2 py-1
                            duration-[200ms] hover:border-royal-blue hover:bg-royal-blue hover:font-semibold hover:text-white"
             >
                 See More</button

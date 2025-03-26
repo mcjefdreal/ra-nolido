@@ -23,9 +23,9 @@
         subheading_1={'Construction'}
         subheading_2={'Project Management'}
         subheading_3="Design"
-        body_1={'Lorem ipsum'}
-        body_2={'Lorem ipsum'}
-        body_3={'Lorem ipsum'}
+        body_1={'We offer high-end, environmentally-friendly, and sustainable commercial construction management, general contracting, and consulting services.'}
+        body_2={'We provide professional services that use specialized project management techniques to oversee the planning, design, and construction of a project.'}
+        body_3={'We specialize in combining thoughtful design, matchless quality of construction, and a respectful observance of individual family resources.'}
         img_1={'src/lib/img/stock-imgs/construction.svg'}
         img_2={'src/lib/img/stock-imgs/proj_management.svg'}
         img_3={'src/lib/img/stock-imgs/design.svg'}
