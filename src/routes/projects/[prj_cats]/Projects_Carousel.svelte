@@ -66,7 +66,14 @@
         index = idx;
         updateCarousel();
     }
+
+    function move_key(event: KeyboardEvent) {
+        if (event.code == 'ArrowLeft') move_left();
+        else if (event.code == 'ArrowRight') move_right();
+    }
 </script>
+
+<svelte:window onkeydown={(event) => {move_key(event)}} />
 
 <dialog
     bind:this={dialog}
@@ -74,10 +81,10 @@
     onclick={e => {
         if (e.target === dialog) dialog.close();
     }}
-    class="h-full w-5/6 pt-8 rounded-lg"
+    class="h-full w-5/6 pt-8 rounded-lg flex-1 flex-col"
 >
     <!-- Main Carousel -->
-    <div class="auto mb-10 flex h-[60%] items-center justify-center">
+    <div class="auto mb-6 flex h-[70%] items-center justify-center">
         <div class="w-1/4 flex-initial overflow-hidden h-14">
             <div class="relative text-right arrow_parent">
                 <button
@@ -92,7 +99,7 @@
 
         <div class="w-3/4 flex-initial justify-center">
             <div class="flex justify-center">
-                <img src={active} alt="active" class="max-h-[425px] max-w-[750px]" />
+                <img src={active} alt="active" class="h-[475px]" />
             </div>
         </div>
 
@@ -110,11 +117,11 @@
     </div>
 
     <!-- Indicators -->
-    <div class="auto mb-6 flex h-[2.5%] items-center justify-center">
+    <div class="auto mb-4 flex h-[2.5%] items-center justify-center">
         {#each imgs, i}
             <button
                 type="button"
-                class="mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-white'}
+                class="mx-2 h-[12px] w-[12px] rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-white'}
                    hover:h-6 hover:w-6 hover:bg-blue-400"
                 id="button {i}"
                 aria-label="indicator {i}"
@@ -124,17 +131,17 @@
     </div>
 
     <!-- Info Box -->
-    <div class="auto flex justify-center h-1/4">
-        <div class="w-5/6 rounded-xl bg-ra-white px-8 py-5 opacity-[.90]">
-            <h3 class="mb-5 text-3xl font-semibold">{Proj_Title}</h3>
+    <div class="auto flex justify-center h-[19%]">
+        <div class="w-5/6 rounded-xl bg-ra-white px-5 py-3 opacity-[.90]">
+            <h3 class="mb-2 text-2xl font-semibold">{Proj_Title}</h3>
             <div class="mx-10 flex">
                 <div class="w-1/2 flex-initial">
-                    <div class="mb-4 w-full text-l font-bold">{Proj_Descrip}</div>
+                    <div class="mb-2 w-full text-l font-bold">{Proj_Descrip}</div>
                     <div class="w-full text-l"><b>Owner: </b> {Proj_Owner}</div>
                 </div>
 
                 <div class="w-1/2 flex-initial">
-                    <div class="mb-4 w-full text-l font-bold">Location:</div>
+                    <div class="mb-2 w-full text-l font-bold">Location:</div>
                     <div class="w-full text-l">{Proj_Location}</div>
                 </div>
             </div>
