@@ -15,6 +15,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/bldgs/mvmc/5.png',
                     '/src/lib/img/prj-imgs/bldgs/mvmc/6.png',
                 ],
+                prj_deets: {
+                    title: 'Marikina Valley Medical Center (MVMC)',
+                    descrip: "Construction of MVMC Medical Arts Tower 7-Storey Parking Building with Doctor's Offices",
+                    owner: 'Marikina Valley Medical Center',
+                    loc: 'Sumulong Highway, Marikina City'
+                }
             },
         ],
     },
@@ -31,6 +37,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/industrial/big-boss/2.png',
                     '/src/lib/img/prj-imgs/industrial/big-boss/3.png',
                 ],
+                prj_deets: {
+                    title: 'Big Boss Cement Plant',
+                    descrip: 'Master Site Development Plan of 15-Hectare Cement Plant & Design of All Component Structures of Cement Plant',
+                    owner: 'Big Boss Cement, Inc.',
+                    loc: 'Porac, Pampanga'
+                },
             },
         ],
     },
@@ -49,6 +61,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/inst/cdo-college/4.png',
                     '/src/lib/img/prj-imgs/inst/cdo-college/5.png',
                 ],
+                prj_deets: {
+                    title: 'Cagayan de Oro College',
+                    descrip: 'Construction of South, Basic Education, and Puerto Building',
+                    owner: 'Cagayan de Oro College',
+                    loc: 'Max Suniel St., Cagayan de Oro City, Misamis Oriental'
+                },
             },
             {
                 prj_name: 'Southwestern University',
@@ -67,6 +85,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/inst/swu/12.png',
                     '/src/lib/img/prj-imgs/inst/swu/13.png',
                 ],
+                prj_deets: {
+                    title: 'Southwestern University',
+                    descrip: 'Design of Aznar Coliseum & Utility Buildings',
+                    owner: 'Southwestern University',
+                    loc: 'Villa Aznar Urgelio St., Cebu City',
+                },
             },
             {
                 prj_name: 'University of Iloilo HRM Building',
@@ -87,6 +111,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/inst/ui-hrm/15.png',
                     '/src/lib/img/prj-imgs/inst/ui-hrm/16.png',
                 ],
+                prj_deets: {
+                    title: 'University of Iloilo (HRM Building)',
+                    descrip: 'Design & Construction Management of Human Resource Management (HRM) Building',
+                    owner: 'University of Iloilo',
+                    loc: 'Rizal Street, Iloilo City',
+                },
             },
             {
                 prj_name: 'University of Iloilo Uygonco Building',
@@ -96,6 +126,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/inst/ui-uy/3.png',
                     '/src/lib/img/prj-imgs/inst/ui-uy/4.png',
                 ],
+                prj_deets: {
+                    title: 'University of Iloilo (Uygonco Building)',
+                    descrip: 'Design of Uygonco Building',
+                    owner: 'University of Iloilo',
+                    loc: 'Rizal Street, Iloilo City',
+                },
             },
             {
                 prj_name: 'University of Pangasinan',
@@ -105,6 +141,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/inst/up/3.png',
                     '/src/lib/img/prj-imgs/inst/up/4.png',
                 ],
+                prj_deets: {
+                    title: 'University of Pangasinan',
+                    descrip: 'Construction of Facade and College of Nursing',
+                    owner: 'University of Pangasinan',
+                    loc: 'Arellano Street, Dagupan City'
+                },
             },
         ],
     },
@@ -122,6 +164,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/hotels/amelie/3.png',
                     '/src/lib/img/prj-imgs/hotels/amelie/4.png',
                 ],
+                prj_deets: {
+                    title: 'Amelie Hotel',
+                    descrip: 'Construction of Ten (10) Storey Amelie Hotel',
+                    owner: 'Ruygroup Hotel Corporation',
+                    loc: '1667 J. Bocobo St., Malate, Manila'
+                },
             },
             {
                 prj_name: 'Negrense',
@@ -131,6 +179,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/hotels/negrense/4.png',
                     '/src/lib/img/prj-imgs/hotels/negrense/5.png',
                 ],
+                prj_deets: {
+                    title: 'Negrense Suites',
+                    descrip: 'Construction of Negrense Suites (formerly Negrense Inn)',
+                    owner: 'Delia Chua',
+                    loc: 'Rosario Street, Bacolod City'
+                },
             },
         ],
     },
@@ -148,6 +202,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/offices/smithbell/3.png',
                     '/src/lib/img/prj-imgs/offices/smithbell/4.png',
                 ],
+                prj_deets: {
+                    title: 'Smithbell Building',
+                    descrip: 'Construction Management of 19-Storey with three (3) Basement Office Building',
+                    owner: 'Fanal Holdings, Inc.',
+                    loc: 'Lot 7, 20th Drive, Bonifacio Global City, Taguig'
+                },
             },
             {
                 prj_name: 'Commission on Human Rights (CHR) Offices',
@@ -157,6 +217,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/offices/chr/3.png',
                     '/src/lib/img/prj-imgs/offices/chr/4.png',
                 ],
+                prj_deets: {
+                    title: 'Commission on Human Rights (CHR) Regional Offices',
+                    descrip: 'Project Management of CHR Regional Offices',
+                    owner: 'Commission on Human Rights',
+                    loc: 'Region 2, Region 3, Region 5, & Region 12'
+                },
             },
         ],
     },
@@ -171,13 +237,43 @@ export const cats = [
                 prj_pics: [
                     '/src/lib/img/prj-imgs/property/moldex/1.png',
                     '/src/lib/img/prj-imgs/property/moldex/2.png',
+                ],
+                prj_deets: {
+                    title: 'Moldex Dawn House',
+                    descrip: 'Construction of Dawn Model House',
+                    owner: 'Moldex Realty, Inc.',
+                    loc: 'Blk 214, Lot 08, San Jose del Monte Bulacan'
+                },
+            },
+
+            {
+                prj_name: 'Moldex Elise',
+                prj_pics: [
                     '/src/lib/img/prj-imgs/property/moldex/3.png',
                     '/src/lib/img/prj-imgs/property/moldex/4.png',
-                    '/src/lib/img/prj-imgs/property/moldex/5.png',
-                    '/src/lib/img/prj-imgs/property/moldex/6.png',
                     '/src/lib/img/prj-imgs/property/moldex/7.png',
                     '/src/lib/img/prj-imgs/property/moldex/8.png',
                 ],
+                prj_deets: {
+                    title: 'Moldex Elise House',
+                    descrip: 'Construction of Elise House Model',
+                    owner: 'Moldex Realty, Inc.',
+                    loc: 'Blk 215, Lot 22, San Jose del Monte Bulacan'
+                },
+            },
+
+            {
+                prj_name: 'Moldex Marga',
+                prj_pics: [
+                    '/src/lib/img/prj-imgs/property/moldex/5.png',
+                    '/src/lib/img/prj-imgs/property/moldex/6.png',
+                ],
+                prj_deets: {
+                    title: 'Moldex Marga House',
+                    descrip: 'Construction of Marga House Unit',
+                    owner: 'Moldex Realty, Inc.',
+                    loc: 'Blk 305, Lot 25, San Jose del Monte Bulacan'
+                },
             },
         ],
     },
@@ -193,6 +289,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/residential/boncan/1.png',
                     '/src/lib/img/prj-imgs/residential/boncan/2.png',
                 ],
+                prj_deets: {
+                    title: 'Boncan Residence',
+                    descrip: 'General Construction Works on the Three (3) Storey Duplex Type Boncan Redevelopment Residence',
+                    owner: 'University of Pangasinan',
+                    loc: '4 Asteroid Street, Bel-Air Village, Makati City'
+                },
             },
 
             {
@@ -206,6 +308,12 @@ export const cats = [
                     '/src/lib/img/prj-imgs/residential/romulo/6.png',
                     '/src/lib/img/prj-imgs/residential/romulo/7.png',
                 ],
+                prj_deets: {
+                    title: 'Margaret Grand Residences',
+                    descrip: 'Construction of Six (6) Storey Residential/Commercial Building',
+                    owner: 'Margaret Grand Residences, Inc.',
+                    loc: 'Gen. Araneta St., San Antonio Village, Pasig'
+                },
             },
         ],
     },
