@@ -55,9 +55,11 @@
 
     let curr_prj_imgs = $state(data.categ.projs[0].prj_pics);
     let curr_prj_name = $state(data.categ.projs[0].prj_name);
+    let curr_prj_deets = $state(data.categ.projs[0].prj_deets);
     function showCarousel(idx) {
         curr_prj_imgs = data.categ.projs[idx].prj_pics;
         curr_prj_name = data.categ.projs[idx].prj_name;
+        curr_prj_deets = data.categ.projs[idx].prj_deets;
         showModal = true;
     }
     $inspect(curr_prj_name);
@@ -75,12 +77,7 @@
     <ProjectsCarousel
         bind:showModal
         imgs={curr_prj_imgs}
-        proj={{
-            title: curr_prj_name,
-            descrip: 'Dorm Building?',
-            owner: 'I dunno',
-            loc: 'Somewhere out there :sparkles:',
-        }}
+        proj={curr_prj_deets}
     ></ProjectsCarousel>
 {/key}
 
