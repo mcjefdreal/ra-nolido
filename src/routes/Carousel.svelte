@@ -68,6 +68,8 @@ Notes:
         index = idx;
         updateCarousel();
     }
+
+    //setInterval(updateCarousel, 1000);
 </script>
 
 <h1 class="auto mb-8 flex justify-center text-5xl font-semibold">{heading}</h1>
@@ -76,7 +78,7 @@ Notes:
 <div class="auto mb-10 flex h-1/2 justify-center">
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
-            <button onclick={move_left}><img src={left} alt="left" id="left" class="expanding-btn absolute right-1/2 h-96" /></button>
+            <button onclick={move_left}><img src={left} alt="left" id="left" class="expanding-btn active:animate-slideleft absolute right-1/2 h-96"/></button>
         </div>
     </div>
 
@@ -89,7 +91,7 @@ Notes:
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
             <button onclick={move_right}
-                ><img src={right} alt="right" id="right" class="expanding-btn absolute left-1/2 h-96" /></button
+                ><img src={right} alt="right" id="right" class="expanding-btn active:animate-slideright absolute left-1/2 h-96" /></button
             >
         </div>
     </div>
@@ -100,7 +102,7 @@ Notes:
     {#each imgs, i}
         <button
             type="button"
-            class="mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-black'}"
+            class="expanding-btn mx-2 h-4 w-4 rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-black'}"
             id="button {i}"
             aria-label="indicator {i}"
             onclick={() => move_to(i)}
