@@ -25,7 +25,14 @@ export const cats = [
             {
                 prj_name: 'Urban Loft Gueventville Building',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/1.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/2.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/3.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/4.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/5.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/6.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/7.png',
+                    '/src/lib/img/prj-imgs/bldgs/gueventville/8.png',
                 ],
                 prj_deets: {
                     title: 'Urban Loft Gueventville Building',
@@ -37,7 +44,8 @@ export const cats = [
             {
                 prj_name: 'Villa Del Monte Condominium',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/bldgs/vdm/1.png',
+                    '/src/lib/img/prj-imgs/bldgs/vdm/2.png',
                 ],
                 prj_deets: {
                     title: 'Villa Del Monte Condominium',
@@ -49,7 +57,10 @@ export const cats = [
             {
                 prj_name: 'Villa Alicia III Condominium',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/bldgs/va_3/1.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_3/2.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_3/3.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_3/4.png',
                 ],
                 prj_deets: {
                     title: 'Villa Alicia III Condominium',
@@ -61,7 +72,11 @@ export const cats = [
             {
                 prj_name: 'Villa Alicia II Condominium',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/bldgs/va_2/1.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_2/2.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_2/3.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_2/4.png',
+                    '/src/lib/img/prj-imgs/bldgs/va_2/5.png',
                 ],
                 prj_deets: {
                     title: 'Villa Alicia II Condominium',
@@ -73,7 +88,11 @@ export const cats = [
             {
                 prj_name: 'Villa Celedonia Condominium',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/bldgs/vc/1.png',
+                    '/src/lib/img/prj-imgs/bldgs/vc/2.png',
+                    '/src/lib/img/prj-imgs/bldgs/vc/3.png',
+                    '/src/lib/img/prj-imgs/bldgs/vc/4.png',
+                    '/src/lib/img/prj-imgs/bldgs/vc/5.png',
                 ],
                 prj_deets: {
                     title: 'Villa Celedonia Condominium',
@@ -211,7 +230,16 @@ export const cats = [
             {
                 prj_name: 'Araullo University',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/inst/au/1.png',
+                    '/src/lib/img/prj-imgs/inst/au/2.png',
+                    '/src/lib/img/prj-imgs/inst/au/3.png',
+                    '/src/lib/img/prj-imgs/inst/au/4.png',
+                    '/src/lib/img/prj-imgs/inst/au/5.png',
+                    '/src/lib/img/prj-imgs/inst/au/6.png',
+                    '/src/lib/img/prj-imgs/inst/au/7.png',
+                    '/src/lib/img/prj-imgs/inst/au/8.png',
+                    '/src/lib/img/prj-imgs/inst/au/9.png',
+                    '/src/lib/img/prj-imgs/inst/au/10.png',
                 ],
                 prj_deets: {
                     title: 'Renovation and Site Development of Araullo University',
@@ -223,7 +251,12 @@ export const cats = [
             {
                 prj_name: 'Development Academy of the Philippines',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/inst/dap/1.png',
+                    '/src/lib/img/prj-imgs/inst/dap/2.png',
+                    '/src/lib/img/prj-imgs/inst/dap/3.png',
+                    '/src/lib/img/prj-imgs/inst/dap/4.png',
+                    '/src/lib/img/prj-imgs/inst/dap/5.png',
+                    '/src/lib/img/prj-imgs/inst/dap/6.png',
                 ],
                 prj_deets: {
                     title: 'Development Academy of the Philippines',
@@ -309,7 +342,11 @@ export const cats = [
             {
                 prj_name: 'Crowne Plaza',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/hotels/crowne/1.png',
+                    '/src/lib/img/prj-imgs/hotels/crowne/2.png',
+                    '/src/lib/img/prj-imgs/hotels/crowne/3.png',
+                    '/src/lib/img/prj-imgs/hotels/crowne/4.png',
+                    '/src/lib/img/prj-imgs/hotels/crowne/5.png',
                 ],
                 prj_deets: {
                     title: 'Crowne Plaza Galleria',
@@ -321,7 +358,9 @@ export const cats = [
             {
                 prj_name: 'Residencia de Tirol Boracay Beach Resort',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/hotels/rdt_boracay/1.png',
+                    '/src/lib/img/prj-imgs/hotels/rdt_boracay/2.png',
+                    '/src/lib/img/prj-imgs/hotels/rdt_boracay/3.png',
                 ],
                 prj_deets: {
                     title: 'Residencia de Tirol Boracay Beach Resort',
@@ -383,7 +422,10 @@ export const cats = [
             {
                 prj_name: 'OVP',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/offices/ovp/1.png',
+                    '/src/lib/img/prj-imgs/offices/ovp/2.png',
+                    '/src/lib/img/prj-imgs/offices/ovp/3.png',
+                    '/src/lib/img/prj-imgs/offices/ovp/4.png',
                 ],
                 prj_deets: {
                     title: 'Office of the Vice President',
@@ -528,11 +570,12 @@ export const cats = [
                 prj_pics: [
                     '/src/lib/img/prj-imgs/residential/boncan/1.png',
                     '/src/lib/img/prj-imgs/residential/boncan/2.png',
+                    '/src/lib/img/prj-imgs/residential/boncan/3.png',
                 ],
                 prj_deets: {
                     title: 'Boncan Residence',
                     descrip: 'General Construction Works on the Three (3) Storey Duplex Type Boncan Redevelopment Residence',
-                    owner: 'University of Pangasinan',
+                    owner: 'Boncan Redevelopment Residence',
                     loc: 'Makati City'
                 },
             },
@@ -558,7 +601,8 @@ export const cats = [
             {
                 prj_name: 'NBP Resettlement Housing Project',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/residential/nbp/1.png',
+                    '/src/lib/img/prj-imgs/residential/nbp/2.png',
                 ],
                 prj_deets: {
                     title: 'NBP Resettlement Housing Project',
@@ -570,7 +614,9 @@ export const cats = [
             {
                 prj_name: 'Northpoint Townhomes',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/residential/northpoint/1.png',
+                    '/src/lib/img/prj-imgs/residential/northpoint/2.png',
+                    '/src/lib/img/prj-imgs/residential/northpoint/3.png',
                 ],
                 prj_deets: {
                     title: 'Northpoint Townhomes',
@@ -582,7 +628,11 @@ export const cats = [
             {
                 prj_name: '2 Storey Residence Renovation',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/residential/acacia/1.png',
+                    '/src/lib/img/prj-imgs/residential/acacia/2.png',
+                    '/src/lib/img/prj-imgs/residential/acacia/3.png',
+                    '/src/lib/img/prj-imgs/residential/acacia/4.png',
+                    '/src/lib/img/prj-imgs/residential/acacia/5.png',
                 ],
                 prj_deets: {
                     title: '2 Storey Residence in Ayala Alabang Village',
@@ -594,7 +644,12 @@ export const cats = [
             {
                 prj_name: 'Nepomuceno Residence',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/residential/nepomuceno/1.png',
+                    '/src/lib/img/prj-imgs/residential/nepomuceno/2.png',
+                    '/src/lib/img/prj-imgs/residential/nepomuceno/3.png',
+                    '/src/lib/img/prj-imgs/residential/nepomuceno/4.png',
+                    '/src/lib/img/prj-imgs/residential/nepomuceno/5.png',
+                    '/src/lib/img/prj-imgs/residential/nepomuceno/6.png',
                 ],
                 prj_deets: {
                     title: 'Nepomuceno Residence',
@@ -606,7 +661,12 @@ export const cats = [
             {
                 prj_name: 'Dr. Nolido Residence',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/residential/dr_nolido/1.png',
+                    '/src/lib/img/prj-imgs/residential/dr_nolido/2.png',
+                    '/src/lib/img/prj-imgs/residential/dr_nolido/3.png',
+                    '/src/lib/img/prj-imgs/residential/dr_nolido/4.png',
+                    '/src/lib/img/prj-imgs/residential/dr_nolido/5.png',
+                    '/src/lib/img/prj-imgs/residential/dr_nolido/6.png',
                 ],
                 prj_deets: {
                     title: 'Dr. Nolido Residence',
@@ -618,7 +678,11 @@ export const cats = [
             {
                 prj_name: 'Mr. Rhoel Alberto Nolido Condominium Unit',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/residential/rh_nolido/1.png',
+                    '/src/lib/img/prj-imgs/residential/rh_nolido/2.png',
+                    '/src/lib/img/prj-imgs/residential/rh_nolido/3.png',
+                    '/src/lib/img/prj-imgs/residential/rh_nolido/4.png',
+                    '/src/lib/img/prj-imgs/residential/rh_nolido/5.png',
                 ],
                 prj_deets: {
                     title: 'Mr. Rhoel Alberto Nolido Condominium Unit',
@@ -650,7 +714,10 @@ export const cats = [
             {
                 prj_name: 'Sawsaw',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/resto/sawsaw/1.png',
+                    '/src/lib/img/prj-imgs/resto/sawsaw/2.png',
+                    '/src/lib/img/prj-imgs/resto/sawsaw/3.png',
+                    '/src/lib/img/prj-imgs/resto/sawsaw/4.png',
                 ],
                 prj_deets: {
                     title: 'SAWSAW Restaurants',
@@ -674,7 +741,11 @@ export const cats = [
             {
                 prj_name: "Oody's",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/resto/oodys/1.png',
+                    '/src/lib/img/prj-imgs/resto/oodys/2.png',
+                    '/src/lib/img/prj-imgs/resto/oodys/3.png',
+                    '/src/lib/img/prj-imgs/resto/oodys/4.png',
+                    '/src/lib/img/prj-imgs/resto/oodys/5.png',
                 ],
                 prj_deets: {
                     title: "Oody’s Bar & Restaurants",
@@ -706,7 +777,10 @@ export const cats = [
             {
                 prj_name: "Retaining Wall at Dumalay Creek",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/infra/dumalay/1.png',
+                    '/src/lib/img/prj-imgs/infra/dumalay/2.png',
+                    '/src/lib/img/prj-imgs/infra/dumalay/3.png',
+                    '/src/lib/img/prj-imgs/infra/dumalay/4.png',
                 ],
                 prj_deets: {
                     title: "Retaining Wall at Dumalay Creek",
@@ -718,7 +792,12 @@ export const cats = [
             {
                 prj_name: "Improvement of Bakawan Street",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/infra/bakawan/1.png',
+                    '/src/lib/img/prj-imgs/infra/bakawan/2.png',
+                    '/src/lib/img/prj-imgs/infra/bakawan/3.png',
+                    '/src/lib/img/prj-imgs/infra/bakawan/4.png',
+                    '/src/lib/img/prj-imgs/infra/bakawan/5.png',
+                    '/src/lib/img/prj-imgs/infra/bakawan/6.png',
                 ],
                 prj_deets: {
                     title: "Improvement of Bakawan Street",
@@ -730,7 +809,11 @@ export const cats = [
             {
                 prj_name: "Improvement of Juan Street",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/infra/juan/1.png',
+                    '/src/lib/img/prj-imgs/infra/juan/2.png',
+                    '/src/lib/img/prj-imgs/infra/juan/3.png',
+                    '/src/lib/img/prj-imgs/infra/juan/4.png',
+                    '/src/lib/img/prj-imgs/infra/juan/5.png',
                 ],
                 prj_deets: {
                     title: "Improvement of Juan Street",
@@ -750,7 +833,8 @@ export const cats = [
             {
                 prj_name: "Oratory Complex",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/religious/tm_oratory/1.png',
+                    '/src/lib/img/prj-imgs/religious/tm_oratory/2.png',
                 ],
                 prj_deets: {
                     title: "Tahilan Maligaya Oratory Complex",
@@ -760,9 +844,10 @@ export const cats = [
                 },
             },
             {
-                prj_name: "Cancio Mausoleum",
+                prj_name: "tm_oratory Mausoleum",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/religious/cancio/1.png',
+                    '/src/lib/img/prj-imgs/religious/cancio/2.png',
                 ],
                 prj_deets: {
                     title: "Cancio Mausoleum",
@@ -774,7 +859,7 @@ export const cats = [
             {
                 prj_name: "Balmaseda Family Mausoleum",
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/religious/balmaseda/1.png',
                 ],
                 prj_deets: {
                     title: "Balmaseda Family Mausoleum",
