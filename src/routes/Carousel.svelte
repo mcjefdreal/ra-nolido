@@ -23,6 +23,8 @@ Notes:
     let index = 0;
     let prev_idx = 0;
 
+    let anim = $state("none");
+
     // For switching carousel images
     function updateCarousel() {
         // Set main img
@@ -47,21 +49,24 @@ Notes:
 
         // Updates previous index
         prev_idx = index;
+        anim = "none";
     }
 
     // Carousel Controls
     function move_left() {
         index--;
+        anim = "animate-slideleft";
         // Resets counter
-        if (index < 0) index = size - 1;
-        updateCarousel();
+        if (index < 0) index = size - 1;    
+        setTimeout(updateCarousel, 500);
     }
 
     function move_right() {
         index++;
+        anim = "animate-slideright";
         // Resets counter
         if (index == size) index = 0;
-        updateCarousel();
+        setTimeout(updateCarousel, 500);
     }
 
     function move_to(idx: number) {
@@ -78,20 +83,20 @@ Notes:
 <div class="auto mb-10 flex h-1/2 justify-center">
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
-            <button onclick={move_left}><img src={left} alt="left" id="left" class="expanding-btn active:animate-slideleft absolute right-1/2 h-96"/></button>
+            <button onclick={move_left}><img src={left} alt="left" id="left" class="{anim} expanding-btn absolute right-1/2 h-96"/></button>
         </div>
     </div>
 
     <div class="mx-48 w-1/2 flex-initial justify-center">
         <div class="flex justify-center">
-            <img src={active} alt="active" class="h-96" />
+            <img src={active} alt="active" class="{anim} h-96" />
         </div>
     </div>
 
     <div class="w-1/4 flex-initial overflow-hidden">
         <div class="relative">
             <button onclick={move_right}
-                ><img src={right} alt="right" id="right" class="expanding-btn active:animate-slideright absolute left-1/2 h-96" /></button
+                ><img src={right} alt="right" id="right" class="{anim} expanding-btn absolute left-1/2 h-96" /></button
             >
         </div>
     </div>
