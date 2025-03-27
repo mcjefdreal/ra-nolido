@@ -3,7 +3,9 @@
     import { page } from '$app/state';
 
     let lastScrollPosition = 0;
-    let showNav = true;
+    let showNav = $state(true);
+
+    $inspect(page.route.id);
 </script>
 
 <svelte:window
@@ -17,7 +19,11 @@
         lastScrollPosition = currentScrollposition;
     }}
 />
-<div class="navbar flex h-24 items-stretch justify-center bg-ra-black lg:space-x-60 {showNav ? 'show' : 'hide'} ">
+<div
+    class="navbar flex h-24 items-stretch justify-center bg-ra-black lg:space-x-60 {showNav
+        ? 'show'
+        : 'hide'} z-1000 w-full {page.route.id == '/' ? 'absolute' : 'relative'}"
+>
     <a class="flex w-0 sm:w-1/4 md:w-auto" href="/">
         <div class="flex items-stretch">
             <img src={logo} alt="RA Nolido Logo" class="h-full w-full" />

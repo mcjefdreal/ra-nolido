@@ -69,16 +69,12 @@
 
 {#each Object.entries(images) as [_path, module], i}
     <button onclick={() => showCarousel(i)}>
-        <img src={module.default} alt="thumbnail" class="thumbnail h-[500px] w-[500px]" />
+        <img src={module.default} alt="thumbnail" class="thumbnail h-[400px] w-[400px]" />
     </button>
 {/each}
 
 {#key showModal}
-    <ProjectsCarousel
-        bind:showModal
-        imgs={curr_prj_imgs}
-        proj={curr_prj_deets}
-    ></ProjectsCarousel>
+    <ProjectsCarousel bind:showModal imgs={curr_prj_imgs} proj={curr_prj_deets}></ProjectsCarousel>
 {/key}
 
 <style>
