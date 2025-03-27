@@ -37,6 +37,11 @@
                 eager: true,
             });
             break;
+        case 'infra':
+            images = import.meta.glob('$lib/img/prj-imgs/infra/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}', {
+                eager: true,
+            });
+            break;
         case 'residential':
             images = import.meta.glob('$lib/img/prj-imgs/residential/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}', {
                 eager: true,
