@@ -132,11 +132,11 @@
 
     <!-- Info Box -->
     <div class="auto flex justify-center h-[19%]">
-        <div class="w-5/6 rounded-xl bg-ra-white px-4 py-4 opacity-[.90]">
+        <div class="w-5/6 rounded-xl bg-ra-white px-5 py-4 opacity-[.90]">
             <h3 class="mb-1 text-xl font-semibold">{Proj_Title}</h3>
             <div class="mx-4 flex">
                 <div class="w-[60%] flex-initial">
-                    <div class="flex w-full text-sm">
+                    <div class="flex w-full text-sm font-medium">
                         <div class='w-1/6 mr-1'>
                             <b>Location:</b>
                         </div> 
@@ -144,7 +144,7 @@
                             {Proj_Location}
                         </div>
                     </div>
-                    <div class="flex w-full text-sm">
+                    <div class="flex w-full text-sm font-medium">
                         <div class='w-1/6 mr-1'>
                             <b>Owner:</b>
                         </div> 
@@ -155,7 +155,14 @@
                 </div>
 
                 <div class="ml-4 w-[55%] flex-initial">
-                    <div class="mb-2 w-full text-sm font-medium italic">{Proj_Descrip}</div>
+                    <div class="flex w-full text-sm font-medium flex-col flex-1  ">
+                        <div class='w-full'>
+                            <b>Description:</b>
+                        </div> 
+                        <div class='w-full pr-2'>
+                            {Proj_Descrip}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
