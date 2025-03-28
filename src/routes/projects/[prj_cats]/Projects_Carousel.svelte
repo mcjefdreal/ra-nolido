@@ -132,16 +132,30 @@
 
     <!-- Info Box -->
     <div class="auto flex justify-center h-[19%]">
-        <div class="w-5/6 rounded-xl bg-ra-white px-6 py-4 opacity-[.90]">
-            <h3 class="mb-2 text-2xl font-semibold">{Proj_Title}</h3>
-            <div class="mx-8 flex">
-                <div class="w-1/2 flex-initial">
-                    <div class="w-full text-l"><b>Location:</b> {Proj_Location}</div>
-                    <div class="w-full text-l"><b>Owner: </b> {Proj_Owner}</div>
+        <div class="w-5/6 rounded-xl bg-ra-white px-4 py-4 opacity-[.90]">
+            <h3 class="mb-1 text-xl font-semibold">{Proj_Title}</h3>
+            <div class="mx-4 flex">
+                <div class="w-[60%] flex-initial">
+                    <div class="flex w-full text-sm">
+                        <div class='w-1/6 mr-1'>
+                            <b>Location:</b>
+                        </div> 
+                        <div class='w-5/6 pr-2'>
+                            {Proj_Location}
+                        </div>
+                    </div>
+                    <div class="flex w-full text-sm">
+                        <div class='w-1/6 mr-1'>
+                            <b>Owner:</b>
+                        </div> 
+                        <div class='w-5/6'>
+                            {Proj_Owner}
+                        </div>
+                    </div>
                 </div>
 
-                <div class="ml-8 w-1/2 flex-initial">
-                    <div class="mb-2 w-full text-l font-medium italic">{Proj_Descrip}</div>
+                <div class="ml-4 w-[55%] flex-initial">
+                    <div class="mb-2 w-full text-sm font-medium italic">{Proj_Descrip}</div>
                 </div>
             </div>
         </div>
