@@ -73,8 +73,15 @@
 </script>
 
 {#each Object.entries(images) as [_path, module], i}
-    <button onclick={() => showCarousel(i)}>
+    <button class='relative' onclick={() => showCarousel(i)}>
         <img src={module.default} alt="thumbnail" class="thumbnail h-[400px] w-[400px]" />
+        <div class='w-[400px] h-[400px] absolute top-0 parent-hover'>
+            <div class='w-full h-full bg-ra-white opacity-0 z-10 child-hover-bg'></div>
+            <div class='absolute top-[45%] w-full z-5 hidden child-hover-text'>
+                <p class='w-full px-4 text-center text-2xl font-semibold'>
+                    {data.categ.projs[i].prj_deets.title}</p>
+            </div>
+        </div>
     </button>
 {/each}
 
@@ -85,5 +92,15 @@
 <style>
     .thumbnail {
         cursor: pointer;
+    }
+
+    .parent-hover:hover > .child-hover-bg {
+        opacity: 40%;
+        transition-duration: 150ms;
+    }
+
+    .parent-hover:hover > .child-hover-text {
+        display: block;
+        transition-duration: 150ms;
     }
 </style>

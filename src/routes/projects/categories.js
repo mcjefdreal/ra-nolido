@@ -729,7 +729,11 @@ export const cats = [
             {
                 prj_name: 'Open Kitchen',
                 prj_pics: [
-                    
+                    '/src/lib/img/prj-imgs/resto/ok/1.png',
+                    '/src/lib/img/prj-imgs/resto/ok/2.png',
+                    '/src/lib/img/prj-imgs/resto/ok/3.png',
+                    '/src/lib/img/prj-imgs/resto/ok/4.png',
+                    '/src/lib/img/prj-imgs/resto/ok/5.png',
                 ],
                 prj_deets: {
                     title: 'Open Kitchen Food Park',
