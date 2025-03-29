@@ -1,5 +1,5 @@
 <script>
-    import GetInTouch from "./GetInTouch.svelte";
+    import GetInTouch from './GetInTouch.svelte';
 </script>
 
 <div class="my-16">

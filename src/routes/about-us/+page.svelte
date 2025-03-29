@@ -11,14 +11,12 @@
 
 <div class="my-16">
     <MissionVision />
-</div>    
+</div>
 
 <div class="my-16">
     <Objectives />
-</div>    
+</div>
 
 <div class="my-16">
     <Team />
 </div>
-
-

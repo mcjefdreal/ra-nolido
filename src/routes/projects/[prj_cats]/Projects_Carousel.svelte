@@ -73,7 +73,11 @@
     }
 </script>
 
-<svelte:window onkeydown={(event) => {move_key(event)}} />
+<svelte:window
+    onkeydown={event => {
+        move_key(event);
+    }}
+/>
 
 <dialog
     bind:this={dialog}
@@ -81,18 +85,18 @@
     onclick={e => {
         if (e.target === dialog) dialog.close();
     }}
-    class="h-full w-5/6 pt-8 rounded-lg flex-1 flex-col"
+    class="h-full w-5/6 flex-1 flex-col rounded-lg pt-8"
 >
     <!-- Main Carousel -->
     <div class="auto mb-6 flex h-[70%] items-center justify-center">
-        <div class="w-1/4 flex-initial overflow-hidden h-14">
-            <div class="relative text-right arrow_parent">
+        <div class="h-14 w-1/4 flex-initial overflow-hidden">
+            <div class="arrow_parent relative text-right">
                 <button
                     onclick={move_left}
-                    class="mr-24 h-14 w-14 rounded-full bg-ra-black text-lg left_arrow"
+                    class="left_arrow mr-24 h-14 w-14 rounded-full bg-ra-black text-lg"
                     aria-label="left"
                 >
-                <img src='../../../../src/lib/icons/left_arrow.svg' alt='left arrow' class='w-4 ml-[17px]'>
+                    <img src="../../../../src/lib/icons/left_arrow.svg" alt="left arrow" class="ml-[17px] w-4" />
                 </button>
             </div>
         </div>
@@ -103,14 +107,14 @@
             </div>
         </div>
 
-        <div class="w-1/4 flex-initial overflow-hidden h-14">
-            <div class="relative arrow_parent">
+        <div class="h-14 w-1/4 flex-initial overflow-hidden">
+            <div class="arrow_parent relative">
                 <button
                     onclick={move_right}
-                    class="ml-24 h-14 w-14 rounded-full bg-ra-black text-lg flex-initial content-center right_arrow"
+                    class="right_arrow ml-24 h-14 w-14 flex-initial content-center rounded-full bg-ra-black text-lg"
                     aria-label="right"
                 >
-                    <img src='../../../../src/lib/icons/right_arrow.svg' alt='right arrow' class='w-6 ml-[18px]'>
+                    <img src="../../../../src/lib/icons/right_arrow.svg" alt="right arrow" class="ml-[18px] w-6" />
                 </button>
             </div>
         </div>
@@ -131,35 +135,35 @@
     </div>
 
     <!-- Info Box -->
-    <div class="auto flex justify-center h-[19%]">
+    <div class="auto flex h-[19%] justify-center">
         <div class="w-5/6 rounded-xl bg-ra-white px-5 py-4 opacity-[.90]">
             <h3 class="mb-1 text-xl font-semibold">{Proj_Title}</h3>
             <div class="mx-4 flex">
                 <div class="w-[60%] flex-initial">
                     <div class="flex w-full text-sm font-medium">
-                        <div class='w-1/6 mr-1'>
+                        <div class="mr-1 w-1/6">
                             <b>Location:</b>
-                        </div> 
-                        <div class='w-5/6 pr-2'>
+                        </div>
+                        <div class="w-5/6 pr-2">
                             {Proj_Location}
                         </div>
                     </div>
                     <div class="flex w-full text-sm font-medium">
-                        <div class='w-1/6 mr-1'>
+                        <div class="mr-1 w-1/6">
                             <b>Owner:</b>
-                        </div> 
-                        <div class='w-5/6'>
+                        </div>
+                        <div class="w-5/6">
                             {Proj_Owner}
                         </div>
                     </div>
                 </div>
 
                 <div class="ml-4 w-[58%] flex-initial">
-                    <div class="flex w-full text-sm font-medium flex-col flex-1  ">
-                        <div class='w-full'>
+                    <div class="flex w-full flex-1 flex-col text-sm font-medium">
+                        <div class="w-full">
                             <b>Description:</b>
-                        </div> 
-                        <div class='w-full pr-2'>
+                        </div>
+                        <div class="w-full pr-2">
                             {Proj_Descrip}
                         </div>
                     </div>
@@ -181,13 +185,13 @@
 
     .arrow_parent:hover > .left_arrow {
         margin-right: 40%;
-        background-color: rgb(1, 2, 242); 
-        transition-duration: 150ms; 
+        background-color: rgb(1, 2, 242);
+        transition-duration: 150ms;
     }
 
     .arrow_parent:hover > .right_arrow {
         margin-left: 40%;
-        background-color: rgb(1, 2, 242); 
-        transition-duration: 150ms; 
+        background-color: rgb(1, 2, 242);
+        transition-duration: 150ms;
     }
 </style>

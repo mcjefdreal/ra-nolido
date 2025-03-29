@@ -23,8 +23,8 @@ Notes:
     let index = 0;
     let prev_idx = 0;
 
-    let anim = $state("none");
-    let center_anim = $state("none");
+    let anim = $state('none');
+    let center_anim = $state('none');
 
     let left_abs = $state('left-1/2');
     let right_abs = $state('right-1/2');
@@ -53,24 +53,24 @@ Notes:
 
         // Updates previous index
         prev_idx = index;
-        anim = "none";
-        center_anim = "none";
+        anim = 'none';
+        center_anim = 'none';
     }
 
     // Carousel Controls
     function move_left() {
         index--;
-        anim = "animate-slideleft";
-        center_anim = "animate-cen_slideleft";
+        anim = 'animate-slideleft';
+        center_anim = 'animate-cen_slideleft';
         // Resets counter
-        if (index < 0) index = size - 1;    
+        if (index < 0) index = size - 1;
         setTimeout(updateCarousel, 500);
     }
 
     function move_right() {
         index++;
-        anim = "animate-slideright";
-        center_anim = "animate-cen_slideright";
+        anim = 'animate-slideright';
+        center_anim = 'animate-cen_slideright';
         // Resets counter
         if (index == size) index = 0;
         setTimeout(updateCarousel, 500);
@@ -90,22 +90,32 @@ Notes:
 <div class="auto mb-10 flex h-1/2 justify-center">
     <div class="z-40 w-1/2 flex-initial">
         <div class="relative {anim}">
-            <button onclick={move_left}><img src={left} alt="left" id="left" 
-                class="{anim} expanding-btn absolute top-0 {right_abs} max-w-max h-96"/></button>
+            <button onclick={move_left}
+                ><img
+                    src={left}
+                    alt="left"
+                    id="left"
+                    class="{anim} expanding-btn absolute top-0 {right_abs} h-96 max-w-max"
+                /></button
+            >
         </div>
     </div>
 
     <div class="z-10 flex-initial justify-center {center_anim}">
         <div class="flex justify-center">
-            <img src={active} alt="active" class="max-w-max h-96" />
+            <img src={active} alt="active" class="h-96 max-w-max" />
         </div>
     </div>
 
     <div class="w-1/2 flex-initial {anim}">
         <div class="relative overflow-y-visible">
             <button onclick={move_right}
-                ><img src={right} alt="right" id="right" 
-                class="{anim} expanding-btn absolute top-0 max-w-max {left_abs} h-96" /></button
+                ><img
+                    src={right}
+                    alt="right"
+                    id="right"
+                    class="{anim} expanding-btn absolute top-0 max-w-max {left_abs} h-96"
+                /></button
             >
         </div>
     </div>
