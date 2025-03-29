@@ -122,7 +122,7 @@
             <button
                 type="button"
                 class="mx-2 h-[12px] w-[12px] rounded-full bg-{i === 0 ? 'royal-blue' : 'ra-white'}
-                   hover:h-6 hover:w-6 hover:bg-blue-400"
+                   hover:h-5 hover:w-5 hover:duration-[225ms]"
                 id="button {i}"
                 aria-label="indicator {i}"
                 onclick={() => move_to(i)}
@@ -154,7 +154,7 @@
                     </div>
                 </div>
 
-                <div class="ml-4 w-[55%] flex-initial">
+                <div class="ml-4 w-[58%] flex-initial">
                     <div class="flex w-full text-sm font-medium flex-col flex-1  ">
                         <div class='w-full'>
                             <b>Description:</b>

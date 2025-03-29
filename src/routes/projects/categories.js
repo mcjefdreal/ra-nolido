@@ -123,6 +123,20 @@ export const cats = [
                     loc: 'Porac, Pampanga'
                 },
             },
+
+            {
+                prj_name: 'Petra',
+                prj_pics: [
+                    '/src/lib/img/prj-imgs/industrial/petra/1.png',
+                    '/src/lib/img/prj-imgs/industrial/petra/2.png',
+                ],
+                prj_deets: {
+                    title: 'Joint Venture of Seaoil and PETRA CEMENT',
+                    descrip: 'Master site development plan of 8-hectare seaport, fuel depot, & industrial park complex plan and design of all site civil structural, architectural, electrical, drainage works',
+                    owner: 'Good Hope Services, Inc. & Petra Cement, Inc.',
+                    loc: 'President Manuel A. Roxas, Zamboanga del Norte'
+                },
+            },
         ],
     },
     {
@@ -192,7 +206,7 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'University of Iloilo (HRM Building)',
-                    descrip: 'Design and cnstruction management of Human Resource Management (HRM) Building',
+                    descrip: 'Design and construction management of Human Resource Management (HRM) Building',
                     owner: 'University of Iloilo',
                     loc: 'Rizal St., Iloilo City',
                 },
@@ -767,7 +781,7 @@ export const cats = [
                     title: 'Kentucy Fried Chicken (KFC) Chain of Restaurants',
                     descrip: 'Construction of KFC chain of restaurants',
                     owner: "QSR Corporation, Foodfest Land, Inc.",
-                    loc: 'Wilson St., San Juan, Metro Manila; General Ave., Proj. 8, Quezon City; Crossroad Arcade, Greenhills, San Juan, Metro Manila; Plaza Bldg., Greenbelt, Ayala Center, Makati City'
+                    loc: 'Wilson St., San Juan City; General Ave., Proj. 8, Quezon City; Crossroad Arcade, Greenhills, San Juan City; Plaza Bldg., Greenbelt, Ayala Center, Makati City'
                 },
             },
         ],

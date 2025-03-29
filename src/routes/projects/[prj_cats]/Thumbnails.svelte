@@ -88,7 +88,9 @@
             <div class="child-hover-bg z-10 h-full w-full bg-ra-white opacity-0"></div>
 
             <div
-                class="z-5 child-hover-text absolute w-full opacity-0 {offsets[i] > 32 ? 'top-[40%]' : 'top-[45%]'}"
+                class="z-5 child-hover-text absolute w-full opacity-0 
+                       {offsets[i] > 64 ? 'top-[40%]' : ''} {offsets[i] == 64 ? 'top-[42%]' : ''}
+                       {offsets[i] < 64 ? 'top-[46%]' : ''}"
                 id={i.toString()}
             >
                 <p class="actual-text w-full px-4 text-center text-2xl font-semibold">
