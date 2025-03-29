@@ -4,8 +4,6 @@
 
     let lastScrollPosition = 0;
     let showNav = $state(true);
-
-    $inspect(page.route.id);
 </script>
 
 <svelte:window
