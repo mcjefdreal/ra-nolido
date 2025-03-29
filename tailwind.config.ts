@@ -21,10 +21,10 @@ export default {
                 'ra-black': '#0A1128',
             },
             animation: {
-                slideright: 'slide-out-left 1s ease-in-out 0.1s infinite',
-                slideleft: 'slide-out-right 1s ease-in-out 0.1s infinite',
-                cen_slideright: 'cen-slide-out-left 1s ease-in-out 0.1s infinite',
-                cen_slideleft: 'cen-slide-out-right 1s ease-in-out 0.1s infinite',
+                slideright: 'slide-out-left 0.4s ease-in-out 0.1s infinite',
+                slideleft: 'slide-out-right 0.4s ease-in-out 0.1s infinite',
+                cen_slideright: 'cen-slide-out-left 0.4s ease-in-out 0.1s infinite',
+                cen_slideleft: 'cen-slide-out-right 0.4s ease-in-out 0.1s infinite',
             },
             keyframes: {
                 "cen-slide-out-left": {
@@ -48,7 +48,7 @@ export default {
                         transform: "translate3d(0, 0, 0)",
                     },
                     "100%": {
-                        transform: "translate3d(-60%, 0, 0)",
+                        transform: "translate3d(-78%, 0, 0)",
                     },
                 },
                 "slide-out-right": {
@@ -56,7 +56,7 @@ export default {
                         transform: "translate3d(0, 0, 0)",
                     },
                     "100%": {
-                        transform: "translate3d(60%, 0, 0)",
+                        transform: "translate3d(77%, 0, 0)",
                     },
                 },
             }
