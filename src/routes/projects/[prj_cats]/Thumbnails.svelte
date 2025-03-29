@@ -3,7 +3,6 @@
     import { onMount } from 'svelte';
     const { data } = $props();
     const page = data.categ.page_title;
-    const projs = data.categ.projs;
     let images = $state();
     let showModal = $state(false);
 
@@ -68,37 +67,33 @@
         curr_prj_deets = data.categ.projs[idx].prj_deets;
         showModal = true;
     }
-    $inspect(curr_prj_name);
 
-    let test = 'facebook';
-    let text_middle = $state(Array(Object.entries(images).length).fill('45%'));
+    let offsets = $state(Array(Object.entries(images).length));
 
-    onMount( () => {
+    onMount(() => {
         for (let a = 0; a < Object.entries(images).length; a++) {
-            console.log(text_middle[a]);
             let HoverText = document.getElementById(a.toString());
             if (HoverText != undefined && HoverText != null) {
-                // console.log(HoverText.offsetHeight);
-                // console.log(HoverText);
-                if (HoverText.offsetHeight > 32) {
-                    text_middle[a] = '40%'; 
-                }
+                offsets[a] = HoverText.offsetHeight;
             }
         }
     });
 </script>
 
 {#each Object.entries(images) as [_path, module], i}
-    <button class='relative' onclick={() => showCarousel(i)}>
+    <button class="relative" onclick={() => showCarousel(i)}>
         <img src={module.default} alt="thumbnail" class="thumbnail h-[400px] w-[400px]" />
 
-        <div class='w-[400px] h-[400px] absolute top-0 parent-hover'>
+        <div class="parent-hover absolute top-0 h-[400px] w-[400px]">
+            <div class="child-hover-bg z-10 h-full w-full bg-ra-white opacity-0"></div>
 
-            <div class='w-full h-full bg-ra-white opacity-0 z-10 child-hover-bg'></div>
-
-            <div class='absolute top-[{text_middle[i]}] w-full z-5 opacity-0 child-hover-text' id={i.toString()}>
-                <p class='w-full px-4 text-center text-2xl font-semibold actual-text'>
-                    {data.categ.projs[i].prj_deets.title}</p>
+            <div
+                class="z-5 child-hover-text absolute w-full opacity-0 {offsets[i] > 32 ? 'top-[40%]' : 'top-[45%]'}"
+                id={i.toString()}
+            >
+                <p class="actual-text w-full px-4 text-center text-2xl font-semibold">
+                    {data.categ.projs[i].prj_deets.title}
+                </p>
             </div>
         </div>
     </button>
@@ -127,7 +122,7 @@
         text-decoration: underline 0.06em rgba(0, 0, 0, 0);
     }
 
-    .parent-hover:hover > .child-hover-text > .actual-text  {
+    .parent-hover:hover > .child-hover-text > .actual-text {
         text-decoration-color: rgba(0, 0, 0, 1);
         transition: text-decoration-color 500ms;
         text-underline-offset: 5px;
