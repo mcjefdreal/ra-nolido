@@ -7,7 +7,7 @@
     const par3 = "With the advent of information technology, came the computerization of various departments and systems. The company also operates its own workshop and storehouse on a leased property iin Pugadlawin, Quezon City. At present, the company is ready more than ever to face the challenges of a demanding industry."
 </script>
 
-<div class="flex flex-row justify-evenly mr-10">
+<div class="flex flex-row justify-evenly ml-8 mr-16">
     <About 
         heading={"Our History"}
         body_1={par1}
