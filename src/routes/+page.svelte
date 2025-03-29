@@ -5,9 +5,11 @@
     import Hero from './Hero.svelte';
 </script>
 
-<Hero heading={'SA R.A. NOLIDO'} subheading={'SOLIDO'} button_content={'Get in Touch'}></Hero>
+<div class='mb-[5%]'>
+    <Hero heading={'SA R.A. NOLIDO'} subheading={'SOLIDO'} button_content={'Get in Touch'}></Hero>
+</div>
 
-<div class="my-16">
+<div class="ml-24">
     <HighlightText
         heading={'Who We Are'}
         body_1={'The company was established by Engr. Rizal Alberto Nolido on May 1969 in Manila as R.A. NOLIDO & COMPANY, INC. primarily to complement the nationwide demand for housing construction and subdivision development. It then ventured into warehouse and superstructure building and ngineering works, reaching its heights during the construction peak of the seventies into the eighties. '}
