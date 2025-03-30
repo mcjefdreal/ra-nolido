@@ -11,33 +11,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Latest Corepack
-        run: npm install -g corepack@latest
-      - name: Enable Corepack for `pnpm`
-        run: corepack enable
-      - name: Get `pnpm` Store Directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-      - uses: actions/cache@v4
-        name: Setup `pnpm` Cache
+      # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
         with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          version: 8
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install
 
       - name: build
-        run: pnpm build
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+        env:
+          BASE_PATH: '/${{ github.event.repository.name }}'
+          run: |
+            pnpm build
+
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
-        path: 'build/'
+        with:
+ # this should match the `pages` option in your adapter-static options
+          path: build
 
   deploy:
     needs: build_site
