@@ -23,7 +23,7 @@
         ? 'show'
         : 'hide'} z-1000 w-full {page.route.id === base ? 'absolute' : 'relative'}"
 >
-    <a class="flex w-0 sm:w-1/4 md:w-auto" href={base}>
+    <a class="flex w-0 sm:w-1/4 md:w-auto" href="/">
         <div class="flex items-stretch">
             <img src={logo} alt="RA Nolido Logo" class="h-full w-full" />
         </div>
