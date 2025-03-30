@@ -1,21 +1,37 @@
+import bldgs from '$lib/icons/cats/bldgs.png';
+import mvmc1 from '$lib/img/prj-imgs/bldgs/mvmc/1.png';
+import mvmc2 from '$lib/img/prj-imgs/bldgs/mvmc/2.png';
+import mvmc3 from '$lib/img/prj-imgs/bldgs/mvmc/3.png';
+import mvmc4 from '$lib/img/prj-imgs/bldgs/mvmc/4.png';
+import mvmc5 from '$lib/img/prj-imgs/bldgs/mvmc/5.png';
+import mvmc6 from '$lib/img/prj-imgs/bldgs/mvmc/6.png';
+import gueventville1 from '$lib/img/prj-imgs/bldgs/gueventville/1.png';
+import gueventville2 from '$lib/img/prj-imgs/bldgs/gueventville/2.png';
+import gueventville3 from '$lib/img/prj-imgs/bldgs/gueventville/3.png';
+import gueventville4 from '$lib/img/prj-imgs/bldgs/gueventville/4.png';
+import gueventville5 from '$lib/img/prj-imgs/bldgs/gueventville/5.png';
+import gueventville6 from '$lib/img/prj-imgs/bldgs/gueventville/6.png';
+import gueventville7 from '$lib/img/prj-imgs/bldgs/gueventville/7.png';
+import gueventville8 from '$lib/img/prj-imgs/bldgs/gueventville/8.png';
 import balmaseda from '$lib/img/prj-imgs/religious/balmaseda/1.png';
+
 
 export const cats = [
     {
         page_title: 'bldgs',
         cat: 'Buildings and Condominiums',
-        icon: '/src/lib/icons/cats/bldgs.png',
+        icon: bldgs,
         link: '/projects/bldgs',
         projs: [
             {
                 prj_name: 'MVMC',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/bldgs/mvmc/1.png',
-                    '/src/lib/img/prj-imgs/bldgs/mvmc/2.png',
-                    '/src/lib/img/prj-imgs/bldgs/mvmc/3.png',
-                    '/src/lib/img/prj-imgs/bldgs/mvmc/4.png',
-                    '/src/lib/img/prj-imgs/bldgs/mvmc/5.png',
-                    '/src/lib/img/prj-imgs/bldgs/mvmc/6.png',
+                    mvmc1,
+                    mvmc2,
+                    mvmc3,
+                    mvmc4,
+                    mvmc5,
+                    mvmc6,
                 ],
                 prj_deets: {
                     title: 'Marikina Valley Medical Center (MVMC)',
@@ -27,14 +43,14 @@ export const cats = [
             {
                 prj_name: 'Urban Loft Gueventville Building',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/1.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/2.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/3.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/4.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/5.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/6.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/7.png',
-                    '/src/lib/img/prj-imgs/bldgs/gueventville/8.png',
+                    gueventville1,
+                    gueventville2,
+                    gueventville3,
+                    gueventville4,
+                    gueventville5,
+                    gueventville6,
+                    gueventville7,
+                    gueventville8,
                 ],
                 prj_deets: {
                     title: 'Urban Loft Gueventville Building',

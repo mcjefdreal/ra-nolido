@@ -5,7 +5,8 @@
     import Three_Columns from './Three_Columns.svelte';
     import construction from '$lib/img/stock-imgs/construction.svg';
     import management from '$lib/img/stock-imgs/proj_management.svg';
-    import design from '$lib/img/stock-imgs/design.svg';
+    import design from '$lib/img/stock-imgs/design.svg'
+
 </script>
 
 <div class="mb-[5%]">
@@ -43,7 +44,7 @@
 <div class="my-16 overflow-hidden">
     <Carousel
         heading={'Featured Projects'}
-        prefix={'$lib/img/carousel-home/'}
+        prefix={'src/lib/img/carousel-home/'}
         imgs={['1.png', '2.png', '3.png', '5.png', '6.png', '7.png', '8.png', '9.png']}
     ></Carousel>
 </div>
