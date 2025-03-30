@@ -1,4 +1,6 @@
 <script lang="ts">
+    import downArrow from "$lib/icons/down_arrow.svg";
+
     const { heading, subheading, button_content } = $props();
 
     function handleAnchorClick(event) {
@@ -37,7 +39,7 @@
     </div>
     <a href="#who_we_are" onclick={handleAnchorClick}>
         <div class="heroscroll content bottom-[10px] h-[30px] w-full">
-            <img class="content bottom-0 max-h-[100%] w-auto" src="/src/lib/icons/down_arrow.svg" alt="down button" />
+            <img class="content bottom-0 max-h-[100%] w-auto" src={downArrow} alt="down button" />
         </div>
     </a>
 </div>

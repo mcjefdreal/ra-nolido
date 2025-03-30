@@ -3,6 +3,9 @@
     import Hero from './Hero.svelte';
     import HighlightText from './Highlight_Text.svelte';
     import Three_Columns from './Three_Columns.svelte';
+    import construction from '$lib/img/stock-imgs/construction.svg';
+    import management from '$lib/img/stock-imgs/proj_management.svg';
+    import design from '$lib/img/stock-imgs/design.svg';
 </script>
 
 <div class="mb-[5%]">
@@ -28,9 +31,9 @@
         body_1={'We offer high-end, environmentally-friendly, and sustainable commercial construction management, general contracting, and consulting services.'}
         body_2={'We provide professional services that use specialized project management techniques to oversee the planning, design, and construction of a project.'}
         body_3={'We specialize in combining thoughtful design, matchless quality of construction, and a respectful observance of individual family resources.'}
-        img_1={'src/lib/img/stock-imgs/construction.svg'}
-        img_2={'src/lib/img/stock-imgs/proj_management.svg'}
-        img_3={'src/lib/img/stock-imgs/design.svg'}
+        img_1={construction}
+        img_2={management}
+        img_3={design}
         alt_1={'Lorem ipsum'}
         alt_2={'Lorem ipsum'}
         alt_3={'Lorem ipsum'}
@@ -40,7 +43,7 @@
 <div class="my-16 overflow-hidden">
     <Carousel
         heading={'Featured Projects'}
-        prefix={'src/lib/img/carousel-home/'}
+        prefix={'$lib/img/carousel-home/'}
         imgs={['1.png', '2.png', '3.png', '5.png', '6.png', '7.png', '8.png', '9.png']}
     ></Carousel>
 </div>
