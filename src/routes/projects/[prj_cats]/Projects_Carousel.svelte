@@ -1,4 +1,6 @@
 <script lang="ts">
+    import left_arrow from '$lib/icons/left_arrow.svg';
+    import right_arrow from '$lib/icons/right_arrow.svg';
     // For popup
     let { showModal = $bindable(), imgs = $bindable(), proj = $bindable() } = $props();
     let dialog = $state();
@@ -98,7 +100,7 @@
                     class="left_arrow mr-24 h-14 w-14 rounded-full bg-ra-black text-lg"
                     aria-label="left"
                 >
-                    <img src="../../../../src/lib/icons/left_arrow.svg" alt="left arrow" class="ml-[17px] w-4" />
+                    <img src={left_arrow} alt="left arrow" class="ml-[17px] w-4" />
                 </button>
             </div>
         </div>
@@ -116,7 +118,7 @@
                     class="right_arrow ml-24 h-14 w-14 flex-initial content-center rounded-full bg-ra-black text-lg"
                     aria-label="right"
                 >
-                    <img src="../../../../src/lib/icons/right_arrow.svg" alt="right arrow" class="ml-[18px] w-6" />
+                    <img src={right_arrow} alt="right arrow" class="ml-[18px] w-6" />
                 </button>
             </div>
         </div>
