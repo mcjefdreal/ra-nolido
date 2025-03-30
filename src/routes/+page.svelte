@@ -3,9 +3,9 @@
     import Hero from './Hero.svelte';
     import HighlightText from './Highlight_Text.svelte';
     import Three_Columns from './Three_Columns.svelte';
-    import construction from '/src/lib/img/stock-imgs/construction.svg';
-    import management from '/src/lib/img/stock-imgs/proj_management.svg';
-    import design from '/src/lib/img/stock-imgs/design.svg';
+    import construction from '$lib/img/stock-imgs/construction.svg';
+    import management from '$lib/img/stock-imgs/proj_management.svg';
+    import design from '$lib/img/stock-imgs/design.svg';
 </script>
 
 <div class="mb-[5%]">
