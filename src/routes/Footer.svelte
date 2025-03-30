@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     import fb from '$lib/icons/facebook.svg';
     import location from '$lib/icons/location.svg';
     import logo from '$lib/icons/logo-white-text.svg';
@@ -8,7 +9,7 @@
 
 <footer class="mt-auto h-auto w-auto items-center justify-items-center bg-ra-black text-center">
     <div class="flex w-9/12 flex-row items-center justify-between p-4">
-        <a class="flex w-auto" href="/">
+        <a class="flex w-auto" href={base}>
             <div class="h-24">
                 <img src={logo} alt="RA Nolido Logo" class="h-full w-full" />
             </div>
@@ -46,7 +47,7 @@
             <a class="w-15 h-15" href="mailto:ranolidoconstruction@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={mail} alt="Location" class="h-full w-full" />
             </a>
-            <a class="w-15 h-15" href="/contact-us/">
+            <a class="w-15 h-15" href="{base}/contact-us/">
                 <img src={phone} alt="Location" class="h-full w-full" />
             </a>
         </div>
