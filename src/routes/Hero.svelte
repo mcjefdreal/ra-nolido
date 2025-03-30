@@ -1,6 +1,7 @@
 <script lang="ts">
     import { base } from '$app/paths';
     import downArrow from '$lib/icons/down_arrow.svg';
+    import herobg from '$lib/img/hero-home/hero-bg.png';
 
     const { heading, subheading, button_content } = $props();
 
@@ -16,24 +17,29 @@
     }
 </script>
 
-<div>
-    <div class="bg-hero flex h-[100vh] w-full flex-col items-center justify-between bg-no-repeat lg:flex-row">
-        <div
-            class="mx-5 flex flex-col items-center gap-8 text-center lg:ml-20 lg:mr-0 lg:items-start lg:text-left xl:ml-40"
-        >
-            <div class="flex flex-col text-ra-white">
-                <h2 class="text-4xl font-bold leading-tight">
-                    {heading}
-                </h2>
-                <h1 class="text-5xl font-bold text-royal-blue">
-                    {subheading}
-                </h1>
+<div class="h-[100%] w-auto">
+    <div class="flex h-full w-full">
+        <img src={herobg} alt="background" />
+    </div>
+    <div class="absolute top-0 h-full w-full">
+        <div class="flex h-full w-full flex-col items-center justify-between bg-transparent lg:flex-row">
+            <div
+                class="mx-5 flex flex-col items-center gap-8 text-center lg:ml-20 lg:mr-0 lg:items-start lg:text-left xl:ml-40"
+            >
+                <div class="flex flex-col text-ra-white">
+                    <h2 class="text-4xl font-bold leading-tight">
+                        {heading}
+                    </h2>
+                    <h1 class="text-5xl font-bold text-royal-blue">
+                        {subheading}
+                    </h1>
+                </div>
+                <a href="{base}/contact-us">
+                    <button class="optional-btn rounded bg-dark-blue px-4 py-2 font-bold text-white">
+                        {button_content}
+                    </button>
+                </a>
             </div>
-            <a href="{base}/contact-us">
-                <button class="optional-btn rounded bg-dark-blue px-4 py-2 font-bold text-white">
-                    {button_content}
-                </button>
-            </a>
         </div>
     </div>
     <a href="#who_we_are" onclick={handleAnchorClick}>
