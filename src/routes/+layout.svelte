@@ -1,4 +1,5 @@
 <script>
+    import favicon from '$lib/icons/favicon.ico';
     import './app.css';
     import Footer from './Footer.svelte';
     import NavBar from './NavBar.svelte';
@@ -16,3 +17,7 @@
 
     <Footer />
 </div>
+
+<svelte:head>
+    <link rel="icon" type="ico" href={favicon} />
+</svelte:head>
