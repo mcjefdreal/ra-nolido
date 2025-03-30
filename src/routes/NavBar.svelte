@@ -31,7 +31,7 @@
 
     <nav class="flex text-[15px] sm:text-[12px] md:text-[15px] xl:text-[19px]">
         <div class="flex gap-3">
-            <a href={base} class="flex">
+            <a href="/" class="flex">
                 <div class="navtabs flex items-center px-6">
                     <span class={page.url.pathname === base + '/' ? 'active' : ''}>Home</span>
                 </div>
