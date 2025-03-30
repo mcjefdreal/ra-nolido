@@ -1,5 +1,7 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     import downArrow from '$lib/icons/down_arrow.svg';
+    import herobg from '$lib/img/hero-home/hero-bg.png';
 
     const { heading, subheading, button_content } = $props();
 
@@ -16,9 +18,7 @@
 </script>
 
 <div>
-    <div
-        class="flex h-[100vh] w-full flex-col items-center justify-between bg-[url(./src/lib/img/hero-home/hero-bg.png)] bg-no-repeat lg:flex-row"
-    >
+    <div class="flex h-[100vh] w-full flex-col items-center justify-between bg-[{herobg}] bg-no-repeat lg:flex-row">
         <div
             class="mx-5 flex flex-col items-center gap-8 text-center lg:ml-20 lg:mr-0 lg:items-start lg:text-left xl:ml-40"
         >
@@ -30,7 +30,7 @@
                     {subheading}
                 </h1>
             </div>
-            <a href="/contact-us">
+            <a href="{base}/contact-us">
                 <button class="optional-btn rounded bg-dark-blue px-4 py-2 font-bold text-white">
                     {button_content}
                 </button>

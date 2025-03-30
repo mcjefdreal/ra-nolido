@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     import logo from '$lib/icons/logo-white-text.svg';
     import { page } from '$app/state';
 
@@ -20,9 +21,9 @@
 <div
     class="navbar flex h-24 items-stretch justify-center bg-ra-black lg:space-x-60 {showNav
         ? 'show'
-        : 'hide'} z-1000 w-full {page.route.id === '/' ? 'absolute' : 'relative'}"
+        : 'hide'} z-1000 w-full {page.route.id === base ? 'absolute' : 'relative'}"
 >
-    <a class="flex w-0 sm:w-1/4 md:w-auto" href="/">
+    <a class="flex w-0 sm:w-1/4 md:w-auto" href={base}>
         <div class="flex items-stretch">
             <img src={logo} alt="RA Nolido Logo" class="h-full w-full" />
         </div>
@@ -30,37 +31,37 @@
 
     <nav class="flex text-[15px] sm:text-[12px] md:text-[15px] xl:text-[19px]">
         <div class="flex gap-3">
-            <a href="/" class="flex">
+            <a href={base} class="flex">
                 <div class="navtabs flex items-center px-6">
-                    <span class={page.url.pathname === '/' ? 'active' : ''}>Home</span>
+                    <span class={page.url.pathname === base ? 'active' : ''}>Home</span>
                 </div>
             </a>
-            <a href="/projects/" class="flex">
+            <a href="{base}/projects/" class="flex">
                 <div class="navtabs flex items-center px-6">
                     <span
-                        class={page.url.pathname === '/projects/' ||
-                        page.url.pathname === '/projects/bldgs/' ||
-                        page.url.pathname === '/projects/inst/' ||
-                        page.url.pathname === '/projects/hotels/' ||
-                        page.url.pathname === '/projects/offices/' ||
-                        page.url.pathname === '/projects/property/' ||
-                        page.url.pathname === '/projects/residential/' ||
-                        page.url.pathname === '/projects/resto/' ||
-                        page.url.pathname === '/projects/infra/' ||
-                        page.url.pathname === '/projects/religious/'
+                        class={page.url.pathname === base + '/projects/' ||
+                        page.url.pathname === base + '/projects/bldgs/' ||
+                        page.url.pathname === base + '/projects/inst/' ||
+                        page.url.pathname === base + '/projects/hotels/' ||
+                        page.url.pathname === base + '/projects/offices/' ||
+                        page.url.pathname === base + '/projects/property/' ||
+                        page.url.pathname === base + '/projects/residential/' ||
+                        page.url.pathname === base + '/projects/resto/' ||
+                        page.url.pathname === base + '/projects/infra/' ||
+                        page.url.pathname === base + '/projects/religious/'
                             ? 'active'
                             : ''}>Projects</span
                     >
                 </div>
             </a>
-            <a href="/about-us/" class="flex">
+            <a href="{base}/about-us/" class="flex">
                 <div class="navtabs flex items-center px-6">
-                    <span class={page.url.pathname === '/about-us/' ? 'active' : ''}>About Us</span>
+                    <span class={page.url.pathname === base + '/about-us/' ? 'active' : ''}>About Us</span>
                 </div>
             </a>
-            <a href="/contact-us/" class="flex">
+            <a href="{base}/contact-us/" class="flex">
                 <div class="navtabs flex items-center px-6">
-                    <span class={page.url.pathname === '/contact-us/' ? 'active' : ''}>Contact Us</span>
+                    <span class={page.url.pathname === base + '/contact-us/' ? 'active' : ''}>Contact Us</span>
                 </div>
             </a>
         </div>
