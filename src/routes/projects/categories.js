@@ -1,3 +1,5 @@
+import balmaseda from '$lib/img/prj-imgs/religious/balmaseda/1.png';
+
 export const cats = [
     {
         page_title: 'bldgs',
@@ -859,7 +861,7 @@ export const cats = [
             },
             {
                 prj_name: 'Balmaseda Family Mausoleum',
-                prj_pics: ['/src/lib/img/prj-imgs/religious/balmaseda/1.png'],
+                prj_pics: [balmaseda],
                 prj_deets: {
                     title: 'Balmaseda Family Mausoleum',
                     descrip: 'Construction of Balmaseda Family Mausoleum',
