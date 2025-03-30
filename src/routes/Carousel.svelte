@@ -13,12 +13,14 @@ Notes:
 -->
 
 <script lang="ts">
-    const { heading, prefix, imgs } = $props();
+    const { heading, imgs } = $props();
     const size = imgs.length;
 
-    let left = $state(prefix + imgs[size - 1]);
-    let active = $state(prefix + imgs[0]);
-    let right = $state(prefix + imgs[1]);
+    const images: any = import.meta.glob(['$lib/img/carousel-home/**.png'], { eager: true, query: '?url', import: 'default'});
+
+    let left = $state(imgs[size - 1]);
+    let active = $state(imgs[0]);
+    let right = $state(imgs[1]);
 
     let index = 0;
     let prev_idx = 0;
@@ -32,14 +34,14 @@ Notes:
     // For switching carousel images
     function updateCarousel() {
         // Set main img
-        active = prefix + imgs[index];
+        active = imgs[index];
 
         // Sets left & right img (accounts for loop around)
-        if (index - 1 < 0) left = prefix + imgs[size - 1];
-        else left = prefix + imgs[index - 1];
+        if (index - 1 < 0) left = imgs[size - 1];
+        else left = imgs[index - 1];
 
-        if (index + 1 === size) right = prefix + imgs[0];
-        else right = prefix + imgs[index + 1];
+        if (index + 1 === size) right = imgs[0];
+        else right = imgs[index + 1];
 
         // Updates indicator
         const cur_id = `button ${index.toString()}`;
@@ -92,7 +94,7 @@ Notes:
         <div class="relative {anim}">
             <button onclick={move_left}
                 ><img
-                    src={left}
+                    src={images['/src/lib/img/carousel-home/' + left]}
                     alt="left"
                     id="left"
                     class="{anim} expanding-btn absolute top-0 {right_abs} h-96 max-w-max"
@@ -103,7 +105,7 @@ Notes:
 
     <div class="z-10 flex-initial justify-center {center_anim}">
         <div class="flex justify-center">
-            <img src={active} alt="active" class="h-96 max-w-max" />
+            <img src={images['/src/lib/img/carousel-home/' + active]} alt="active" class="h-96 max-w-max" />
         </div>
     </div>
 
@@ -111,7 +113,7 @@ Notes:
         <div class="relative overflow-y-visible">
             <button onclick={move_right}
                 ><img
-                    src={right}
+                    src={images['/src/lib/img/carousel-home/' + right]}
                     alt="right"
                     id="right"
                     class="{anim} expanding-btn absolute top-0 max-w-max {left_abs} h-96"

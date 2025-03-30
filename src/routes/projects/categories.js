@@ -15,6 +15,107 @@ import gueventville5 from '$lib/img/prj-imgs/bldgs/gueventville/5.png';
 import gueventville6 from '$lib/img/prj-imgs/bldgs/gueventville/6.png';
 import gueventville7 from '$lib/img/prj-imgs/bldgs/gueventville/7.png';
 import gueventville8 from '$lib/img/prj-imgs/bldgs/gueventville/8.png';
+import vdm1 from '$lib/img/prj-imgs/bldgs/vdm/1.png';
+import vdm2 from '$lib/img/prj-imgs/bldgs/vdm/2.png';
+import va3_1 from '$lib/img/prj-imgs/bldgs/va_3/1.png';
+import va3_2 from '$lib/img/prj-imgs/bldgs/va_3/2.png';
+import va3_3 from '$lib/img/prj-imgs/bldgs/va_3/3.png';
+import va3_4 from '$lib/img/prj-imgs/bldgs/va_3/4.png';
+import va2_1 from '$lib/img/prj-imgs/bldgs/va_2/1.png';
+import va2_2 from '$lib/img/prj-imgs/bldgs/va_2/2.png';
+import va2_3 from '$lib/img/prj-imgs/bldgs/va_2/3.png';
+import va2_4 from '$lib/img/prj-imgs/bldgs/va_2/4.png';
+import va2_5 from '$lib/img/prj-imgs/bldgs/va_2/5.png';
+import vc1 from '$lib/img/prj-imgs/bldgs/vc/1.png';
+import vc2 from '$lib/img/prj-imgs/bldgs/vc/2.png';
+import vc3 from '$lib/img/prj-imgs/bldgs/vc/3.png';
+import vc4 from '$lib/img/prj-imgs/bldgs/vc/4.png';
+import vc5 from '$lib/img/prj-imgs/bldgs/vc/5.png';
+
+import industrial from '$lib/icons/cats/industrial.png';
+import bigboss1 from '$lib/img/prj-imgs/industrial/big-boss/1.png';
+import bigboss2 from '$lib/img/prj-imgs/industrial/big-boss/2.png';
+import bigboss3 from '$lib/img/prj-imgs/industrial/big-boss/3.png';
+
+import institutional from '$lib/icons/cats/inst.png'
+import petra1 from '$lib/img/prj-imgs/industrial/petra/1.png';
+import petra2 from '$lib/img/prj-imgs/industrial/petra/2.png';
+import cdocollege1 from '$lib/img/prj-imgs/inst/cdo-college/1.png';
+import cdocollege2 from '$lib/img/prj-imgs/inst/cdo-college/2.png';
+import cdocollege3 from '$lib/img/prj-imgs/inst/cdo-college/3.png';
+import cdocollege4 from '$lib/img/prj-imgs/inst/cdo-college/4.png';
+import cdocollege5 from '%lib/img/prj-imgs/inst/cdo-college/5.png';
+import swu1 from '$lib/img/prj-imgs/inst/swu/1.png';
+import swu2 from '$lib/img/prj-imgs/inst/swu/2.png';
+import swu3 from '$lib/img/prj-imgs/inst/swu/3.png';
+import swu4 from '$lib/img/prj-imgs/inst/swu/4.png';
+import swu5 from '$lib/img/prj-imgs/inst/swu/5.png';
+import swu6 from '$lib/img/prj-imgs/inst/swu/6.png';
+import swu7 from '$lib/img/prj-imgs/inst/swu/7.png';
+import swu8 from '$lib/img/prj-imgs/inst/swu/8.png';
+import swu9 from '$lib/img/prj-imgs/inst/swu/9.png';
+import swu10 from '$lib/img/prj-imgs/inst/swu/10.png';
+import swu11 from '$lib/img/prj-imgs/inst/swu/11.png';
+import swu12 from '$lib/img/prj-imgs/inst/swu/12.png';
+import swu13 from '$lib/img/prj-imgs/inst/swu/13.png';
+import uihrm1 from '$lib/img/prj-imgs/inst/ui-hrm/1.png';
+import uihrm2 from '$lib/img/prj-imgs/inst/ui-hrm/2.png';
+import uihrm3 from '$lib/img/prj-imgs/inst/ui-hrm/3.png';
+import uihrm4 from '$lib/img/prj-imgs/inst/ui-hrm/5.png';
+import uihrm5 from '$lib/img/prj-imgs/inst/ui-hrm/6.png';
+import uihrm6 from '$lib/img/prj-imgs/inst/ui-hrm/7.png';
+import uihrm7 from '$lib/img/prj-imgs/inst/ui-hrm/8.png';
+import uihrm8 from '$lib/img/prj-imgs/inst/ui-hrm/9.png';
+import uihrm9 from '$lib/img/prj-imgs/inst/ui-hrm/10.png';
+import uihrm10 from '$lib/img/prj-imgs/inst/ui-hrm/11.png';
+import uihrm11 from '$lib/img/prj-imgs/inst/ui-hrm/12.png';
+import uihrm12 from '$lib/img/prj-imgs/inst/ui-hrm/13.png';
+import uihrm13 from '$lib/img/prj-imgs/inst/ui-hrm/14.png';
+import uihrm14 from '$lib/img/prj-imgs/inst/ui-hrm/15.png';
+import uihrm15 from '$lib/img/prj-imgs/inst/ui-hrm/16.png';
+import uihrm16 from '$lib/img/prj-imgs/inst/ui-hrm/16.png';
+import uiuy1 from '$lib/img/prj-imgs/inst/ui-uy/1.png';
+import uiuy2 from '$lib/img/prj-imgs/inst/ui-uy/2.png';
+import uiuy3 from '$lib/img/prj-imgs/inst/ui-uy/3.png';
+import uiuy4 from '$lib/img/prj-imgs/inst/ui-uy/4.png';
+import up1 from '$lib/img/prj-imgs/inst/up/1.png';
+import up2 from '$lib/img/prj-imgs/inst/up/2.png';
+import up3 from '$lib/img/prj-imgs/inst/up/3.png';
+import up4 from '$lib/img/prj-imgs/inst/up/4.png';
+import au1 from '$lib/img/prj-imgs/inst/au/1.png';
+import au2 from '$lib/img/prj-imgs/inst/au/2.png';
+import au3 from '$lib/img/prj-imgs/inst/au/3.png';
+import au4 from '$lib/img/prj-imgs/inst/au/4.png';
+import au5 from '$lib/img/prj-imgs/inst/au/5.png';
+import au6 from '$lib/img/prj-imgs/inst/au/6.png';
+import au7 from '$lib/img/prj-imgs/inst/au/7.png';
+import au8 from '$lib/img/prj-imgs/inst/au/8.png';
+import au9 from '$lib/img/prj-imgs/inst/au/9.png';
+import au10 from '$lib/img/prj-imgs/inst/au/10.png';
+import dap1 from '$lib/img/prj-imgs/inst/dap/1.png';
+import dap2 from '$lib/img/prj-imgs/inst/dap/2.png';
+import dap3 from '$lib/img/prj-imgs/inst/dap/3.png';
+import dap4 from '$lib/img/prj-imgs/inst/dap/4.png';
+import dap5 from '$lib/img/prj-imgs/inst/dap/5.png';
+import dap6 from '$lib/img/prj-imgs/inst/dap/6.png';
+
+import hotels from '$lib/icons/cats/hotels.png';
+import amelie1 from '$lib/img/prj-imgs/hotels/amelie/1.png';
+import amelie2 from '$lib/img/prj-imgs/hotels/amelie/2.png';
+import amelie3 from '$lib/img/prj-imgs/hotels/amelie/3.png';
+import amelie4 from '$lib/img/prj-imgs/hotels/amelie/4.png';
+import negrense1 from '$lib/img/prj-imgs/hotels/negrense/1.png';
+import negrense3 from '$lib/img/prj-imgs/hotels/negrense/3.png';
+import negrense4 from '$lib/img/prj-imgs/hotels/negrense/4.png';
+import negrense5 from '$lib/img/prj-imgs/hotels/negrense/5.png';
+import crowne1 from '$lib/img/prj-imgs/hotels/crowne/1.png';
+import crowne2 from '$lib/img/prj-imgs/hotels/crowne/2.png';
+import crowne3 from '$lib/img/prj-imgs/hotels/crowne/3.png';
+import crowne4 from '$lib/img/prj-imgs/hotels/crowne/4.png';
+import crowne5 from '$lib/img/prj-imgs/hotels/crowne/5.png';
+import rdt_boracay1 from '$lib/img/prj-imgs/hotels/rdt_boracay/1.png';
+import rdt_boracay2 from '$lib/img/prj-imgs/hotels/rdt_boracay/2.png';
+import rdt_boracay3 from '$lib/img/prj-imgs/hotels/rdt_boracay/3.png';
 
 import offices from '$lib/icons/cats/offices.png';
 import smithbell1 from '$lib/img/prj-imgs/offices/smithbell/1.png';
@@ -157,7 +258,10 @@ export const cats = [
             },
             {
                 prj_name: 'Villa Del Monte Condominium',
-                prj_pics: ['/src/lib/img/prj-imgs/bldgs/vdm/1.png', '/src/lib/img/prj-imgs/bldgs/vdm/2.png'],
+                prj_pics: [
+                    vdm1,
+                    vdm2,
+                ],
                 prj_deets: {
                     title: 'Villa Del Monte Condominium',
                     descrip: 'Construction of 3 condominium buildings with 32 residential units per bldg.',
@@ -168,10 +272,10 @@ export const cats = [
             {
                 prj_name: 'Villa Alicia III Condominium',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/bldgs/va_3/1.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_3/2.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_3/3.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_3/4.png',
+                    va3_1,
+                    va3_2,
+                    va3_3,
+                    va3_4,
                 ],
                 prj_deets: {
                     title: 'Villa Alicia III Condominium',
@@ -183,11 +287,11 @@ export const cats = [
             {
                 prj_name: 'Villa Alicia II Condominium',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/bldgs/va_2/1.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_2/2.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_2/3.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_2/4.png',
-                    '/src/lib/img/prj-imgs/bldgs/va_2/5.png',
+                    va2_1,
+                    va2_2,
+                    va2_3,
+                    va2_4,
+                    va2_5,
                 ],
                 prj_deets: {
                     title: 'Villa Alicia II Condominium',
@@ -199,11 +303,11 @@ export const cats = [
             {
                 prj_name: 'Villa Celedonia Condominium',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/bldgs/vc/1.png',
-                    '/src/lib/img/prj-imgs/bldgs/vc/2.png',
-                    '/src/lib/img/prj-imgs/bldgs/vc/3.png',
-                    '/src/lib/img/prj-imgs/bldgs/vc/4.png',
-                    '/src/lib/img/prj-imgs/bldgs/vc/5.png',
+                    vc1,
+                    vc2,
+                    vc3,
+                    vc4,
+                    vc5,
                 ],
                 prj_deets: {
                     title: 'Villa Celedonia Condominium',
@@ -217,15 +321,15 @@ export const cats = [
     {
         page_title: 'industrial',
         cat: 'Industrial',
-        icon: '/src/lib/icons/cats/industrial.png',
+        icon: industrial,
         link: '/projects/industrial',
         projs: [
             {
                 prj_name: 'Big Boss',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/industrial/big-boss/1.png',
-                    '/src/lib/img/prj-imgs/industrial/big-boss/2.png',
-                    '/src/lib/img/prj-imgs/industrial/big-boss/3.png',
+                    bigboss1,
+                    bigboss2,
+                    bigboss3,
                 ],
                 prj_deets: {
                     title: 'Big Boss Cement Plant',
@@ -239,8 +343,8 @@ export const cats = [
             {
                 prj_name: 'Petra',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/industrial/petra/1.png',
-                    '/src/lib/img/prj-imgs/industrial/petra/2.png',
+                    petra1,
+                    petra2,
                 ],
                 prj_deets: {
                     title: 'Joint Venture of Seaoil and PETRA CEMENT',
@@ -255,17 +359,17 @@ export const cats = [
     {
         page_title: 'inst',
         cat: 'Institutional',
-        icon: '/src/lib/icons/cats/inst.png',
+        icon: institutional,
         link: '/projects/inst',
         projs: [
             {
                 prj_name: 'Cagayan de Oro College',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/cdo-college/1.png',
-                    '/src/lib/img/prj-imgs/inst/cdo-college/2.png',
-                    '/src/lib/img/prj-imgs/inst/cdo-college/3.png',
-                    '/src/lib/img/prj-imgs/inst/cdo-college/4.png',
-                    '/src/lib/img/prj-imgs/inst/cdo-college/5.png',
+                    cdocollege1,
+                    cdocollege2,
+                    cdocollege3,
+                    cdocollege4,
+                    cdocollege5,
                 ],
                 prj_deets: {
                     title: 'Cagayan de Oro College',
@@ -277,19 +381,20 @@ export const cats = [
             {
                 prj_name: 'Southwestern University',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/swu/1.png',
-                    '/src/lib/img/prj-imgs/inst/swu/2.png',
-                    '/src/lib/img/prj-imgs/inst/swu/3.png',
-                    '/src/lib/img/prj-imgs/inst/swu/4.png',
-                    '/src/lib/img/prj-imgs/inst/swu/5.png',
-                    '/src/lib/img/prj-imgs/inst/swu/6.png',
-                    '/src/lib/img/prj-imgs/inst/swu/7.png',
-                    '/src/lib/img/prj-imgs/inst/swu/8.png',
-                    '/src/lib/img/prj-imgs/inst/swu/9.png',
-                    '/src/lib/img/prj-imgs/inst/swu/10.png',
-                    '/src/lib/img/prj-imgs/inst/swu/11.png',
-                    '/src/lib/img/prj-imgs/inst/swu/12.png',
-                    '/src/lib/img/prj-imgs/inst/swu/13.png',
+                    swu1,
+                    swu2,
+                    swu3,
+                    swu4,
+                    swu5,
+                    swu6,
+                    swu7,
+                    swu8,
+                    swu9,
+                    swu9,
+                    swu10,
+                    swu11,
+                    swu12,
+                    swu13,
                 ],
                 prj_deets: {
                     title: 'Southwestern University',
@@ -301,21 +406,22 @@ export const cats = [
             {
                 prj_name: 'University of Iloilo HRM Building',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/1.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/2.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/3.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/5.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/6.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/7.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/8.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/9.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/10.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/11.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/12.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/13.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/14.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/15.png',
-                    '/src/lib/img/prj-imgs/inst/ui-hrm/16.png',
+                    uihrm1,
+                    uihrm2,
+                    uihrm3,
+                    uihrm4,
+                    uihrm5,
+                    uihrm6,
+                    uihrm7,
+                    uihrm8,
+                    uihrm9,
+                    uihrm10,
+                    uihrm11,
+                    uihrm12,
+                    uihrm13,
+                    uihrm14,
+                    uihrm15,
+                    uihrm16,
                 ],
                 prj_deets: {
                     title: 'University of Iloilo (HRM Building)',
@@ -327,10 +433,10 @@ export const cats = [
             {
                 prj_name: 'University of Iloilo Uygonco Building',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/ui-uy/1.png',
-                    '/src/lib/img/prj-imgs/inst/ui-uy/2.png',
-                    '/src/lib/img/prj-imgs/inst/ui-uy/3.png',
-                    '/src/lib/img/prj-imgs/inst/ui-uy/4.png',
+                    uiuy1,
+                    uiuy2,
+                    uiuy3,
+                    uiuy4,
                 ],
                 prj_deets: {
                     title: 'University of Iloilo (Uygonco Building)',
@@ -342,10 +448,10 @@ export const cats = [
             {
                 prj_name: 'University of Pangasinan',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/up/1.png',
-                    '/src/lib/img/prj-imgs/inst/up/2.png',
-                    '/src/lib/img/prj-imgs/inst/up/3.png',
-                    '/src/lib/img/prj-imgs/inst/up/4.png',
+                    up1,
+                    up2,
+                    up3,
+                    up4,
                 ],
                 prj_deets: {
                     title: 'University of Pangasinan',
@@ -357,16 +463,16 @@ export const cats = [
             {
                 prj_name: 'Araullo University',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/au/1.png',
-                    '/src/lib/img/prj-imgs/inst/au/2.png',
-                    '/src/lib/img/prj-imgs/inst/au/3.png',
-                    '/src/lib/img/prj-imgs/inst/au/4.png',
-                    '/src/lib/img/prj-imgs/inst/au/5.png',
-                    '/src/lib/img/prj-imgs/inst/au/6.png',
-                    '/src/lib/img/prj-imgs/inst/au/7.png',
-                    '/src/lib/img/prj-imgs/inst/au/8.png',
-                    '/src/lib/img/prj-imgs/inst/au/9.png',
-                    '/src/lib/img/prj-imgs/inst/au/10.png',
+                    au1,
+                    au2,
+                    au3,
+                    au4,
+                    au5,
+                    au6,
+                    au7,
+                    au8,
+                    au9,
+                    au10,
                 ],
                 prj_deets: {
                     title: 'Renovation and Site Development of Araullo University',
@@ -378,12 +484,12 @@ export const cats = [
             {
                 prj_name: 'Development Academy of the Philippines',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/inst/dap/1.png',
-                    '/src/lib/img/prj-imgs/inst/dap/2.png',
-                    '/src/lib/img/prj-imgs/inst/dap/3.png',
-                    '/src/lib/img/prj-imgs/inst/dap/4.png',
-                    '/src/lib/img/prj-imgs/inst/dap/5.png',
-                    '/src/lib/img/prj-imgs/inst/dap/6.png',
+                    dap1,
+                    dap2,
+                    dap3,
+                    dap4,
+                    dap5,
+                    dap6,
                 ],
                 prj_deets: {
                     title: 'Development Academy of the Philippines',
@@ -395,7 +501,9 @@ export const cats = [
             },
             {
                 prj_name: 'Comembo High School (now Ninoy Aquino High School)',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [
+                    placeholder,
+                ],
                 prj_deets: {
                     title: 'Comembo High School (now Ninoy Aquino High School)',
                     descrip: 'Construction of 4-storey Comembo High School (now Ninoy Aquino High School)',
@@ -405,7 +513,9 @@ export const cats = [
             },
             {
                 prj_name: 'Novaliches High School',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [
+                    placeholder,
+                ],
                 prj_deets: {
                     title: 'Novaliches High School',
                     descrip:
@@ -416,7 +526,9 @@ export const cats = [
             },
             {
                 prj_name: 'Ismael Mathay Sr. High School',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [
+                    placeholder,
+                ],
                 prj_deets: {
                     title: 'Ismael Mathay Senior High School',
                     descrip: 'Improvement and repair of Ismael Mathay Sr. High School',
@@ -429,16 +541,16 @@ export const cats = [
     {
         page_title: 'hotels',
         cat: 'Hotels and Resorts',
-        icon: '/src/lib/icons/cats/hotels.png',
+        icon: hotels,
         link: '/projects/hotels',
         projs: [
             {
                 prj_name: 'Amelie',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/hotels/amelie/1.png',
-                    '/src/lib/img/prj-imgs/hotels/amelie/2.png',
-                    '/src/lib/img/prj-imgs/hotels/amelie/3.png',
-                    '/src/lib/img/prj-imgs/hotels/amelie/4.png',
+                    amelie1,
+                    amelie2,
+                    amelie3,
+                    amelie4,
                 ],
                 prj_deets: {
                     title: 'Amelie Hotel',
@@ -450,10 +562,10 @@ export const cats = [
             {
                 prj_name: 'Negrense',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/hotels/negrense/1.png',
-                    '/src/lib/img/prj-imgs/hotels/negrense/3.png',
-                    '/src/lib/img/prj-imgs/hotels/negrense/4.png',
-                    '/src/lib/img/prj-imgs/hotels/negrense/5.png',
+                    negrense1,
+                    negrense3,
+                    negrense4,
+                    negrense5,
                 ],
                 prj_deets: {
                     title: 'Negrense Suites',
@@ -465,11 +577,11 @@ export const cats = [
             {
                 prj_name: 'Crowne Plaza',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/hotels/crowne/1.png',
-                    '/src/lib/img/prj-imgs/hotels/crowne/2.png',
-                    '/src/lib/img/prj-imgs/hotels/crowne/3.png',
-                    '/src/lib/img/prj-imgs/hotels/crowne/4.png',
-                    '/src/lib/img/prj-imgs/hotels/crowne/5.png',
+                    crowne1,
+                    crowne2,
+                    crowne3,
+                    crowne4,
+                    crowne5,
                 ],
                 prj_deets: {
                     title: 'Crowne Plaza Galleria',
@@ -482,9 +594,9 @@ export const cats = [
             {
                 prj_name: 'Residencia de Tirol Boracay Beach Resort',
                 prj_pics: [
-                    '/src/lib/img/prj-imgs/hotels/rdt_boracay/1.png',
-                    '/src/lib/img/prj-imgs/hotels/rdt_boracay/2.png',
-                    '/src/lib/img/prj-imgs/hotels/rdt_boracay/3.png',
+                    rdt_boracay1,
+                    rdt_boracay2,
+                    rdt_boracay3,
                 ],
                 prj_deets: {
                     title: 'Residencia de Tirol Boracay Beach Resort',
@@ -495,7 +607,9 @@ export const cats = [
             },
             {
                 prj_name: 'Shangri-la EDSA',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [
+                    placeholder,
+                ],
                 prj_deets: {
                     title: 'Shangri-la EDSA',
                     descrip: 'Construction of ballroom, offices, gym, spa, and Cowrie Cove at Shangri-la EDSA',

@@ -44,7 +44,6 @@
 <div class="my-16 overflow-hidden">
     <Carousel
         heading={'Featured Projects'}
-        prefix={'src/lib/img/carousel-home/'}
         imgs={['1.png', '2.png', '3.png', '5.png', '6.png', '7.png', '8.png', '9.png']}
     ></Carousel>
 </div>
