@@ -16,7 +16,11 @@ Notes:
     const { heading, imgs } = $props();
     const size = imgs.length;
 
-    const images: any = import.meta.glob(['$lib/img/carousel-home/**.png'], { eager: true, query: '?url', import: 'default'});
+    const images: any = import.meta.glob(['$lib/img/carousel-home/**.png'], {
+        eager: true,
+        query: '?url',
+        import: 'default',
+    });
 
     let left = $state(imgs[size - 1]);
     let active = $state(imgs[0]);

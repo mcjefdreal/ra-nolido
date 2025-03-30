@@ -1,5 +1,5 @@
 <script lang="ts">
-    import downArrow from "$lib/icons/down_arrow.svg";
+    import downArrow from '$lib/icons/down_arrow.svg';
 
     const { heading, subheading, button_content } = $props();
 
