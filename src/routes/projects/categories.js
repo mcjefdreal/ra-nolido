@@ -1,5 +1,4 @@
 import bldgs from '$lib/icons/cats/bldgs.png';
-
 import mvmc1 from '$lib/img/prj-imgs/bldgs/mvmc/1.png';
 import mvmc2 from '$lib/img/prj-imgs/bldgs/mvmc/2.png';
 import mvmc3 from '$lib/img/prj-imgs/bldgs/mvmc/3.png';
@@ -14,6 +13,8 @@ import gueventville5 from '$lib/img/prj-imgs/bldgs/gueventville/5.png';
 import gueventville6 from '$lib/img/prj-imgs/bldgs/gueventville/6.png';
 import gueventville7 from '$lib/img/prj-imgs/bldgs/gueventville/7.png';
 import gueventville8 from '$lib/img/prj-imgs/bldgs/gueventville/8.png';
+import balmaseda from '$lib/img/prj-imgs/religious/balmaseda/1.png';
+
 
 export const cats = [
     {
@@ -876,7 +877,7 @@ export const cats = [
             },
             {
                 prj_name: 'Balmaseda Family Mausoleum',
-                prj_pics: ['/src/lib/img/prj-imgs/religious/balmaseda/1.png'],
+                prj_pics: [balmaseda],
                 prj_deets: {
                     title: 'Balmaseda Family Mausoleum',
                     descrip: 'Construction of Balmaseda Family Mausoleum',
