@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     const { heading, body_1, body_2, body_3, button_content = '' } = $props();
 </script>
 
