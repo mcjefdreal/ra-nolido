@@ -13,7 +13,6 @@ Notes:
 -->
 
 <script lang="ts">
-    import { base } from '$app/paths';
     const { heading, imgs } = $props();
     const size = imgs.length;
 
