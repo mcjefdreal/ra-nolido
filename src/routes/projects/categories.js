@@ -37,14 +37,14 @@ import bigboss1 from '$lib/img/prj-imgs/industrial/big-boss/1.png';
 import bigboss2 from '$lib/img/prj-imgs/industrial/big-boss/2.png';
 import bigboss3 from '$lib/img/prj-imgs/industrial/big-boss/3.png';
 
-import institutional from '$lib/icons/cats/inst.png'
+import institutional from '$lib/icons/cats/inst.png';
 import petra1 from '$lib/img/prj-imgs/industrial/petra/1.png';
 import petra2 from '$lib/img/prj-imgs/industrial/petra/2.png';
 import cdocollege1 from '$lib/img/prj-imgs/inst/cdo-college/1.png';
 import cdocollege2 from '$lib/img/prj-imgs/inst/cdo-college/2.png';
 import cdocollege3 from '$lib/img/prj-imgs/inst/cdo-college/3.png';
 import cdocollege4 from '$lib/img/prj-imgs/inst/cdo-college/4.png';
-import cdocollege5 from '%lib/img/prj-imgs/inst/cdo-college/5.png';
+import cdocollege5 from '$lib/img/prj-imgs/inst/cdo-college/5.png';
 import swu1 from '$lib/img/prj-imgs/inst/swu/1.png';
 import swu2 from '$lib/img/prj-imgs/inst/swu/2.png';
 import swu3 from '$lib/img/prj-imgs/inst/swu/3.png';
@@ -258,10 +258,7 @@ export const cats = [
             },
             {
                 prj_name: 'Villa Del Monte Condominium',
-                prj_pics: [
-                    vdm1,
-                    vdm2,
-                ],
+                prj_pics: [vdm1, vdm2],
                 prj_deets: {
                     title: 'Villa Del Monte Condominium',
                     descrip: 'Construction of 3 condominium buildings with 32 residential units per bldg.',
@@ -271,12 +268,7 @@ export const cats = [
             },
             {
                 prj_name: 'Villa Alicia III Condominium',
-                prj_pics: [
-                    va3_1,
-                    va3_2,
-                    va3_3,
-                    va3_4,
-                ],
+                prj_pics: [va3_1, va3_2, va3_3, va3_4],
                 prj_deets: {
                     title: 'Villa Alicia III Condominium',
                     descrip: 'Construction of 8-storey residential condominium',
@@ -286,13 +278,7 @@ export const cats = [
             },
             {
                 prj_name: 'Villa Alicia II Condominium',
-                prj_pics: [
-                    va2_1,
-                    va2_2,
-                    va2_3,
-                    va2_4,
-                    va2_5,
-                ],
+                prj_pics: [va2_1, va2_2, va2_3, va2_4, va2_5],
                 prj_deets: {
                     title: 'Villa Alicia II Condominium',
                     descrip: 'Construction of 4-storey residential condominium',
@@ -302,13 +288,7 @@ export const cats = [
             },
             {
                 prj_name: 'Villa Celedonia Condominium',
-                prj_pics: [
-                    vc1,
-                    vc2,
-                    vc3,
-                    vc4,
-                    vc5,
-                ],
+                prj_pics: [vc1, vc2, vc3, vc4, vc5],
                 prj_deets: {
                     title: 'Villa Celedonia Condominium',
                     descrip: 'Construction of 4-storey residential condominium',
@@ -326,11 +306,7 @@ export const cats = [
         projs: [
             {
                 prj_name: 'Big Boss',
-                prj_pics: [
-                    bigboss1,
-                    bigboss2,
-                    bigboss3,
-                ],
+                prj_pics: [bigboss1, bigboss2, bigboss3],
                 prj_deets: {
                     title: 'Big Boss Cement Plant',
                     descrip:
@@ -342,10 +318,7 @@ export const cats = [
 
             {
                 prj_name: 'Petra',
-                prj_pics: [
-                    petra1,
-                    petra2,
-                ],
+                prj_pics: [petra1, petra2],
                 prj_deets: {
                     title: 'Joint Venture of Seaoil and PETRA CEMENT',
                     descrip:
@@ -364,13 +337,7 @@ export const cats = [
         projs: [
             {
                 prj_name: 'Cagayan de Oro College',
-                prj_pics: [
-                    cdocollege1,
-                    cdocollege2,
-                    cdocollege3,
-                    cdocollege4,
-                    cdocollege5,
-                ],
+                prj_pics: [cdocollege1, cdocollege2, cdocollege3, cdocollege4, cdocollege5],
                 prj_deets: {
                     title: 'Cagayan de Oro College',
                     descrip: 'Construction of South, Basic Education, and Puerto Building',
@@ -380,22 +347,7 @@ export const cats = [
             },
             {
                 prj_name: 'Southwestern University',
-                prj_pics: [
-                    swu1,
-                    swu2,
-                    swu3,
-                    swu4,
-                    swu5,
-                    swu6,
-                    swu7,
-                    swu8,
-                    swu9,
-                    swu9,
-                    swu10,
-                    swu11,
-                    swu12,
-                    swu13,
-                ],
+                prj_pics: [swu1, swu2, swu3, swu4, swu5, swu6, swu7, swu8, swu9, swu9, swu10, swu11, swu12, swu13],
                 prj_deets: {
                     title: 'Southwestern University',
                     descrip: 'Design of Aznar Coliseum & Utility Buildings',
@@ -432,12 +384,7 @@ export const cats = [
             },
             {
                 prj_name: 'University of Iloilo Uygonco Building',
-                prj_pics: [
-                    uiuy1,
-                    uiuy2,
-                    uiuy3,
-                    uiuy4,
-                ],
+                prj_pics: [uiuy1, uiuy2, uiuy3, uiuy4],
                 prj_deets: {
                     title: 'University of Iloilo (Uygonco Building)',
                     descrip: 'Design of Uygonco Building',
@@ -447,12 +394,7 @@ export const cats = [
             },
             {
                 prj_name: 'University of Pangasinan',
-                prj_pics: [
-                    up1,
-                    up2,
-                    up3,
-                    up4,
-                ],
+                prj_pics: [up1, up2, up3, up4],
                 prj_deets: {
                     title: 'University of Pangasinan',
                     descrip: 'Construction of facade and College of Nursing',
@@ -462,18 +404,7 @@ export const cats = [
             },
             {
                 prj_name: 'Araullo University',
-                prj_pics: [
-                    au1,
-                    au2,
-                    au3,
-                    au4,
-                    au5,
-                    au6,
-                    au7,
-                    au8,
-                    au9,
-                    au10,
-                ],
+                prj_pics: [au1, au2, au3, au4, au5, au6, au7, au8, au9, au10],
                 prj_deets: {
                     title: 'Renovation and Site Development of Araullo University',
                     descrip: 'Design and construction management of 6 buildings and site development of 2.6 hectares',
@@ -483,14 +414,7 @@ export const cats = [
             },
             {
                 prj_name: 'Development Academy of the Philippines',
-                prj_pics: [
-                    dap1,
-                    dap2,
-                    dap3,
-                    dap4,
-                    dap5,
-                    dap6,
-                ],
+                prj_pics: [dap1, dap2, dap3, dap4, dap5, dap6],
                 prj_deets: {
                     title: 'Development Academy of the Philippines',
                     descrip:
@@ -501,9 +425,7 @@ export const cats = [
             },
             {
                 prj_name: 'Comembo High School (now Ninoy Aquino High School)',
-                prj_pics: [
-                    placeholder,
-                ],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Comembo High School (now Ninoy Aquino High School)',
                     descrip: 'Construction of 4-storey Comembo High School (now Ninoy Aquino High School)',
@@ -513,9 +435,7 @@ export const cats = [
             },
             {
                 prj_name: 'Novaliches High School',
-                prj_pics: [
-                    placeholder,
-                ],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Novaliches High School',
                     descrip:
@@ -526,9 +446,7 @@ export const cats = [
             },
             {
                 prj_name: 'Ismael Mathay Sr. High School',
-                prj_pics: [
-                    placeholder,
-                ],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Ismael Mathay Senior High School',
                     descrip: 'Improvement and repair of Ismael Mathay Sr. High School',
@@ -546,12 +464,7 @@ export const cats = [
         projs: [
             {
                 prj_name: 'Amelie',
-                prj_pics: [
-                    amelie1,
-                    amelie2,
-                    amelie3,
-                    amelie4,
-                ],
+                prj_pics: [amelie1, amelie2, amelie3, amelie4],
                 prj_deets: {
                     title: 'Amelie Hotel',
                     descrip: 'Construction of 10-storey Amelie Hotel',
@@ -561,12 +474,7 @@ export const cats = [
             },
             {
                 prj_name: 'Negrense',
-                prj_pics: [
-                    negrense1,
-                    negrense3,
-                    negrense4,
-                    negrense5,
-                ],
+                prj_pics: [negrense1, negrense3, negrense4, negrense5],
                 prj_deets: {
                     title: 'Negrense Suites',
                     descrip: 'Construction of Negrense Suites (formerly Negrense Inn)',
@@ -576,13 +484,7 @@ export const cats = [
             },
             {
                 prj_name: 'Crowne Plaza',
-                prj_pics: [
-                    crowne1,
-                    crowne2,
-                    crowne3,
-                    crowne4,
-                    crowne5,
-                ],
+                prj_pics: [crowne1, crowne2, crowne3, crowne4, crowne5],
                 prj_deets: {
                     title: 'Crowne Plaza Galleria',
                     descrip:
@@ -593,11 +495,7 @@ export const cats = [
             },
             {
                 prj_name: 'Residencia de Tirol Boracay Beach Resort',
-                prj_pics: [
-                    rdt_boracay1,
-                    rdt_boracay2,
-                    rdt_boracay3,
-                ],
+                prj_pics: [rdt_boracay1, rdt_boracay2, rdt_boracay3],
                 prj_deets: {
                     title: 'Residencia de Tirol Boracay Beach Resort',
                     descrip: 'Construction of 3-storey building resort',
@@ -607,9 +505,7 @@ export const cats = [
             },
             {
                 prj_name: 'Shangri-la EDSA',
-                prj_pics: [
-                    placeholder,
-                ],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Shangri-la EDSA',
                     descrip: 'Construction of ballroom, offices, gym, spa, and Cowrie Cove at Shangri-la EDSA',
