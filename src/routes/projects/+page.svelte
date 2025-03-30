@@ -1,6 +1,6 @@
 <script lang="ts">
     import Categories from './Categories.svelte';
-    let { data } = $props();
+    const { data } = $props();
 </script>
 
 <div class="place-items-center">

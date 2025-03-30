@@ -59,21 +59,22 @@
     }
 
     let curr_prj_imgs = $state(data.categ.projs[0].prj_pics);
-    let curr_prj_name = $state(data.categ.projs[0].prj_name);
+    // let curr_prj_name = $state(data.categ.projs[0].prj_name);
     let curr_prj_deets = $state(data.categ.projs[0].prj_deets);
     function showCarousel(idx) {
         curr_prj_imgs = data.categ.projs[idx].prj_pics;
-        curr_prj_name = data.categ.projs[idx].prj_name;
+        // curr_prj_name = data.categ.projs[idx].prj_name;
         curr_prj_deets = data.categ.projs[idx].prj_deets;
         showModal = true;
     }
 
-    let offsets = $state(Array(Object.entries(images).length));
+    // svelte-ignore state_referenced_locally
+    const offsets = $state(Array(Object.entries(images).length));
 
     onMount(() => {
         for (let a = 0; a < Object.entries(images).length; a++) {
-            let HoverText = document.getElementById(a.toString());
-            if (HoverText != undefined && HoverText != null) {
+            const HoverText = document.getElementById(a.toString());
+            if (!(HoverText === null)) {
                 offsets[a] = HoverText.offsetHeight;
             }
         }
@@ -89,7 +90,7 @@
 
             <div
                 class="z-5 child-hover-text absolute w-full opacity-0
-                       {offsets[i] > 64 ? 'top-[40%]' : ''} {offsets[i] == 64 ? 'top-[42%]' : ''}
+                       {offsets[i] > 64 ? 'top-[40%]' : ''} {offsets[i] === 64 ? 'top-[42%]' : ''}
                        {offsets[i] < 64 ? 'top-[46%]' : ''}"
                 id={i.toString()}
             >
