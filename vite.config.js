@@ -8,5 +8,4 @@ import tailwindcss from 'tailwindcss';
 export default defineConfig({
     plugins: [sveltekit(), purgeCss()],
     css: { postcss: { plugins: [tailwindcss, autoprefixer] } },
-    base: '/construction-site'
 });
