@@ -48,7 +48,8 @@
                         page.url.pathname === base + '/projects/residential/' ||
                         page.url.pathname === base + '/projects/resto/' ||
                         page.url.pathname === base + '/projects/infra/' ||
-                        page.url.pathname === base + '/projects/religious/'
+                        page.url.pathname === base + '/projects/religious/' ||
+                        page.url.pathname === base + '/projects/industrial/'
                             ? 'active'
                             : ''}>Projects</span
                     >

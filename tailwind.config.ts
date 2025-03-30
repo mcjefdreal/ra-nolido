@@ -20,6 +20,9 @@ export default {
                 'ra-neutral': '#606060',
                 'ra-black': '#0A1128',
             },
+            backgroundImage: {
+                hero: "url('./src/lib/img/hero-home/hero-bg.png')",
+            },
             animation: {
                 slideright: 'slide-out-left 0.4s ease-in-out 0.1s infinite',
                 slideleft: 'slide-out-right 0.4s ease-in-out 0.1s infinite',
