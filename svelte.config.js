@@ -6,10 +6,12 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 /** @type {Config} */
 export default {
     preprocess: vitePreprocess(),
-    kit: {
-        adapter: adapter(),
-        paths: {
-            base: process.env.NODE_ENV === 'production' ? '/construction-site' : '',
-        }
-    },
+	kit: {
+		adapter: adapter({
+			fallback: '404.html'
+		}),
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
+	}
 };
