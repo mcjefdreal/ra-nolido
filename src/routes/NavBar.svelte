@@ -33,7 +33,7 @@
         <div class="flex gap-3">
             <a href={base} class="flex">
                 <div class="navtabs flex items-center px-6">
-                    <span class={page.url.pathname === base ? 'active' : ''}>Home</span>
+                    <span class={page.url.pathname === base + '/' ? 'active' : ''}>Home</span>
                 </div>
             </a>
             <a href="{base}/projects/" class="flex">
