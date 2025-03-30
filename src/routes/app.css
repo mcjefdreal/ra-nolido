@@ -4,21 +4,20 @@
 
 @layer utilities {
     ::-webkit-scrollbar {
-      width: 10px;
-      height: 20px;
+        width: 10px;
+        height: 20px;
     }
-  
+
     ::-webkit-scrollbar-track {
-      background: transparent;
+        background: transparent;
     }
-  
+
     ::-webkit-scrollbar-thumb {
-      background: #cbcee0;
-      border-radius: 100vh;
+        background: #cbcee0;
+        border-radius: 100vh;
     }
-  
+
     ::-webkit-scrollbar-thumb:hover {
-      background: #a5a5d6;
+        background: #a5a5d6;
     }
-    
-  }
+}

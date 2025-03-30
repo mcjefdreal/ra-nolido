@@ -19,8 +19,8 @@ export const cats = [
                     title: 'Marikina Valley Medical Center (MVMC)',
                     descrip: "Construction of MVMC Medical Arts Tower 7-storey parking building with doctor's offices",
                     owner: 'Marikina Valley Medical Center',
-                    loc: 'Sumulong Highway, Marikina City'
-                }
+                    loc: 'Sumulong Highway, Marikina City',
+                },
             },
             {
                 prj_name: 'Urban Loft Gueventville Building',
@@ -38,20 +38,17 @@ export const cats = [
                     title: 'Urban Loft Gueventville Building',
                     descrip: 'Construction of 7-storey building with roof deck',
                     owner: 'Honeycomb Builders, Inc.',
-                    loc: 'Mauway, Mandaluyong City'
+                    loc: 'Mauway, Mandaluyong City',
                 },
             },
             {
                 prj_name: 'Villa Del Monte Condominium',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/bldgs/vdm/1.png',
-                    '/src/lib/img/prj-imgs/bldgs/vdm/2.png',
-                ],
+                prj_pics: ['/src/lib/img/prj-imgs/bldgs/vdm/1.png', '/src/lib/img/prj-imgs/bldgs/vdm/2.png'],
                 prj_deets: {
                     title: 'Villa Del Monte Condominium',
                     descrip: 'Construction of 3 condominium buildings with 32 residential units per bldg.',
                     owner: "JC Resources Dev't., Inc.",
-                    loc: 'Seminary Rd., Quezon City'
+                    loc: 'Seminary Rd., Quezon City',
                 },
             },
             {
@@ -65,8 +62,8 @@ export const cats = [
                 prj_deets: {
                     title: 'Villa Alicia III Condominium',
                     descrip: 'Construction of 8-storey residential condominium',
-                    owner: "Forte Realty Corporation",
-                    loc: '73 P. Tuazon Blvd., Brgy. Kaunlaran, Cubao, Quezon City'
+                    owner: 'Forte Realty Corporation',
+                    loc: '73 P. Tuazon Blvd., Brgy. Kaunlaran, Cubao, Quezon City',
                 },
             },
             {
@@ -81,8 +78,8 @@ export const cats = [
                 prj_deets: {
                     title: 'Villa Alicia II Condominium',
                     descrip: 'Construction of 4-storey residential condominium',
-                    owner: "Forte Realty Corporation",
-                    loc: '2659 Zamora St., Pasay City'
+                    owner: 'Forte Realty Corporation',
+                    loc: '2659 Zamora St., Pasay City',
                 },
             },
             {
@@ -97,8 +94,8 @@ export const cats = [
                 prj_deets: {
                     title: 'Villa Celedonia Condominium',
                     descrip: 'Construction of 4-storey residential condominium',
-                    owner: "Forte Realty Corporation",
-                    loc: '#7700 Coronado St., Guadalupe Viejo, Makati City'
+                    owner: 'Forte Realty Corporation',
+                    loc: '#7700 Coronado St., Guadalupe Viejo, Makati City',
                 },
             },
         ],
@@ -118,9 +115,10 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'Big Boss Cement Plant',
-                    descrip: 'Master site development plan of 15 hectare cement plant and design of all component structures of cement plant',
+                    descrip:
+                        'Master site development plan of 15 hectare cement plant and design of all component structures of cement plant',
                     owner: 'Big Boss Cement, Inc.',
-                    loc: 'Porac, Pampanga'
+                    loc: 'Porac, Pampanga',
                 },
             },
 
@@ -132,9 +130,10 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'Joint Venture of Seaoil and PETRA CEMENT',
-                    descrip: 'Master site development plan of 8-hectare seaport, fuel depot, & industrial park complex plan and design of all site civil structural, architectural, electrical, drainage works',
+                    descrip:
+                        'Master site development plan of 8-hectare seaport, fuel depot, & industrial park complex plan and design of all site civil structural, architectural, electrical, drainage works',
                     owner: 'Good Hope Services, Inc. & Petra Cement, Inc.',
-                    loc: 'President Manuel A. Roxas, Zamboanga del Norte'
+                    loc: 'President Manuel A. Roxas, Zamboanga del Norte',
                 },
             },
         ],
@@ -158,7 +157,7 @@ export const cats = [
                     title: 'Cagayan de Oro College',
                     descrip: 'Construction of South, Basic Education, and Puerto Building',
                     owner: 'Cagayan de Oro College',
-                    loc: 'Max Suniel St., Cagayan de Oro City, Misamis Oriental'
+                    loc: 'Max Suniel St., Cagayan de Oro City, Misamis Oriental',
                 },
             },
             {
@@ -238,7 +237,7 @@ export const cats = [
                     title: 'University of Pangasinan',
                     descrip: 'Construction of facade and College of Nursing',
                     owner: 'University of Pangasinan',
-                    loc: 'Arellano St., Dagupan City'
+                    loc: 'Arellano St., Dagupan City',
                 },
             },
             {
@@ -259,7 +258,7 @@ export const cats = [
                     title: 'Renovation and Site Development of Araullo University',
                     descrip: 'Design and construction management of 6 buildings and site development of 2.6 hectares',
                     owner: 'Araullo University',
-                    loc: 'Maharlika Highway, Brgy. Bitas, Cabanatuan City, Nueva Ecija'
+                    loc: 'Maharlika Highway, Brgy. Bitas, Cabanatuan City, Nueva Ecija',
                 },
             },
             {
@@ -274,45 +273,41 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'Development Academy of the Philippines',
-                    descrip: 'Physical repair, rehabilitation, and restoration of the DAP Facilities at Pasig and Tagaytay City: First Priority Tranche',
+                    descrip:
+                        'Physical repair, rehabilitation, and restoration of the DAP Facilities at Pasig and Tagaytay City: First Priority Tranche',
                     owner: 'Development Academy of the Philippines',
-                    loc: 'Tagaytay and Pasig'
+                    loc: 'Tagaytay and Pasig',
                 },
             },
             {
                 prj_name: 'Comembo High School (now Ninoy Aquino High School)',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Comembo High School (now Ninoy Aquino High School)',
                     descrip: 'Construction of 4-storey Comembo High School (now Ninoy Aquino High School)',
                     owner: 'Makati City Government',
-                    loc: 'Brgy. Comembo, Makati City'
+                    loc: 'Brgy. Comembo, Makati City',
                 },
             },
             {
                 prj_name: 'Novaliches High School',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Novaliches High School',
-                    descrip: 'Land development, construction of stage and entrance gate with fence at Novaliches High School',
+                    descrip:
+                        'Land development, construction of stage and entrance gate with fence at Novaliches High School',
                     owner: 'Quezon City Government',
-                    loc: 'Brgy. San Agustin, Quezon City'
+                    loc: 'Brgy. San Agustin, Quezon City',
                 },
             },
             {
                 prj_name: 'Ismael Mathay Sr. High School',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Ismael Mathay Senior High School',
                     descrip: 'Improvement and repair of Ismael Mathay Sr. High School',
                     owner: 'Quezon City Government',
-                    loc: 'Brgy. Sangandaan, Quezon City'
+                    loc: 'Brgy. Sangandaan, Quezon City',
                 },
             },
         ],
@@ -335,7 +330,7 @@ export const cats = [
                     title: 'Amelie Hotel',
                     descrip: 'Construction of 10-storey Amelie Hotel',
                     owner: 'Ruygroup Hotel Corporation',
-                    loc: '1667 J. Bocobo St., Malate, Manila'
+                    loc: '1667 J. Bocobo St., Malate, Manila',
                 },
             },
             {
@@ -350,7 +345,7 @@ export const cats = [
                     title: 'Negrense Suites',
                     descrip: 'Construction of Negrense Suites (formerly Negrense Inn)',
                     owner: 'Delia Chua',
-                    loc: 'Rosario St., Bacolod City'
+                    loc: 'Rosario St., Bacolod City',
                 },
             },
             {
@@ -364,9 +359,10 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'Crowne Plaza Galleria',
-                    descrip: '(In collaboration with Interior Construction Corporation) Construction of Crowne Plaza Galleria, one of the top hotels in the Philippines.',
+                    descrip:
+                        '(In collaboration with Interior Construction Corporation) Construction of Crowne Plaza Galleria, one of the top hotels in the Philippines.',
                     owner: 'Crowne Plaza',
-                    loc: 'Ortigas Ave., Quezon City'
+                    loc: 'Ortigas Ave., Quezon City',
                 },
             },
             {
@@ -380,19 +376,17 @@ export const cats = [
                     title: 'Residencia de Tirol Boracay Beach Resort',
                     descrip: 'Construction of 3-storey building resort',
                     owner: 'J.B. Tirol Boracay Properties Corp.',
-                    loc: 'Sitio Pinaongon, Bo. Balabag, Malay, Boracay Island, Aklan'
+                    loc: 'Sitio Pinaongon, Bo. Balabag, Malay, Boracay Island, Aklan',
                 },
             },
             {
                 prj_name: 'Shangri-la EDSA',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Shangri-la EDSA',
                     descrip: 'Construction of ballroom, offices, gym, spa, and Cowrie Cove at Shangri-la EDSA',
                     owner: 'Shangri-la',
-                    loc: 'Ortigas Center, Mandaluyong'
+                    loc: 'Ortigas Center, Mandaluyong',
                 },
             },
         ],
@@ -415,7 +409,7 @@ export const cats = [
                     title: 'Smithbell Building',
                     descrip: 'Construction management of 19-storey with 3 basement office buildings',
                     owner: 'Fanal Holdings, Inc.',
-                    loc: 'Lot 7, 20th Drive, Bonifacio Global City, Taguig'
+                    loc: 'Lot 7, 20th Drive, Bonifacio Global City, Taguig',
                 },
             },
             {
@@ -430,7 +424,7 @@ export const cats = [
                     title: 'Commission on Human Rights (CHR) Regional Offices',
                     descrip: 'Project Management of CHR Regional Offices',
                     owner: 'Commission on Human Rights',
-                    loc: 'Region 2, Region 3, Region 5, & Region 12'
+                    loc: 'Region 2, Region 3, Region 5, & Region 12',
                 },
             },
             {
@@ -445,67 +439,59 @@ export const cats = [
                     title: 'Office of the Vice President',
                     descrip: 'Design and construction of 1,800 sqm office space',
                     owner: 'Office of the Vice President',
-                    loc: 'PNB Financial Center, Diosdado Macapagal Avenue, Pasay City'
+                    loc: 'PNB Financial Center, Diosdado Macapagal Avenue, Pasay City',
                 },
             },
             {
                 prj_name: 'William Lines',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Five William Lines Offices',
                     descrip: 'Construction of 5 William Lines offices',
                     owner: 'William Lines, Inc.',
-                    loc: 'SM City Carpark, SM Megamall, SM City Cebu, Malate Manila, and Iloilo City'
+                    loc: 'SM City Carpark, SM Megamall, SM City Cebu, Malate Manila, and Iloilo City',
                 },
             },
             {
                 prj_name: 'AMC',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Associated Merchandising Corporation (AMC) Office',
                     descrip: 'Renovation of AMC office',
                     owner: 'Associated Merchandising Corporation',
-                    loc: 'Jaycem Bldg., Rada St., Legaspi Village, Makati City'
+                    loc: 'Jaycem Bldg., Rada St., Legaspi Village, Makati City',
                 },
             },
             {
                 prj_name: 'SHFC-HUDCC',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Social Housing Finance Corporation Office',
-                    descrip: 'Design and construction of Mezzanine, 2nd, 4th, 6th, 5th, 9th, and 15th floors of SHFC and HUDCC offices',
+                    descrip:
+                        'Design and construction of Mezzanine, 2nd, 4th, 6th, 5th, 9th, and 15th floors of SHFC and HUDCC offices',
                     owner: 'Social Housing Finance Corporation',
-                    loc: 'BDO Plaza Bldg., Paseo de Roxas, Salcedo Village, Makati City'
+                    loc: 'BDO Plaza Bldg., Paseo de Roxas, Salcedo Village, Makati City',
                 },
             },
             {
                 prj_name: 'PTTAF',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Policies, Training, and Tech Facilities Association (PTTAF) Office',
                     descrip: 'Renovation of PTTAF office',
                     owner: 'Policies, Training, and Tech Facilities Association',
-                    loc: 'Unit 1006-1007, Orient Square Bldg., Emerald Ave., Ortigas'
+                    loc: 'Unit 1006-1007, Orient Square Bldg., Emerald Ave., Ortigas',
                 },
             },
             {
                 prj_name: 'NDC',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'National Development Company (NDC) Office',
-                    descrip: 'Construction and design of NDC office interiors (2nd, 3rd, 7th, 8th, and penthouse levels)',
+                    descrip:
+                        'Construction and design of NDC office interiors (2nd, 3rd, 7th, 8th, and penthouse levels)',
                     owner: "National Dev't Co.",
-                    loc: 'Tordesillas St., Salcedo Village, Makati City'
+                    loc: 'Tordesillas St., Salcedo Village, Makati City',
                 },
             },
         ],
@@ -526,7 +512,7 @@ export const cats = [
                     title: 'Moldex Dawn House',
                     descrip: 'Construction of Dawn Model House',
                     owner: 'Moldex Realty, Inc.',
-                    loc: 'San Jose del Monte, Bulacan'
+                    loc: 'San Jose del Monte, Bulacan',
                 },
             },
 
@@ -542,7 +528,7 @@ export const cats = [
                     title: 'Moldex Elise House',
                     descrip: 'Construction of Elise House Model',
                     owner: 'Moldex Realty, Inc.',
-                    loc: 'San Jose del Monte, Bulacan'
+                    loc: 'San Jose del Monte, Bulacan',
                 },
             },
 
@@ -556,19 +542,18 @@ export const cats = [
                     title: 'Moldex Marga House',
                     descrip: 'Construction of Marga House Unit',
                     owner: 'Moldex Realty, Inc.',
-                    loc: 'San Jose del Monte, Bulacan'
+                    loc: 'San Jose del Monte, Bulacan',
                 },
             },
             {
                 prj_name: 'Banilad',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'The Banilad Place, Phase I and II',
-                    descrip: 'Construction and of 6 luxury Mediterranean units, single detached townhomes with site development and water tank',
-                    owner: "Mrs. Fe Qua",
-                    loc: 'A.S. Fortuna Ave., Banilad, Mandaue, Cebu City'
+                    descrip:
+                        'Construction and of 6 luxury Mediterranean units, single detached townhomes with site development and water tank',
+                    owner: 'Mrs. Fe Qua',
+                    loc: 'A.S. Fortuna Ave., Banilad, Mandaue, Cebu City',
                 },
             },
         ],
@@ -588,9 +573,10 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'Boncan Residence',
-                    descrip: 'General Construction Works on the Three (3) Storey Duplex Type Boncan Redevelopment Residence',
+                    descrip:
+                        'General Construction Works on the Three (3) Storey Duplex Type Boncan Redevelopment Residence',
                     owner: 'Boncan Redevelopment Residence',
-                    loc: 'Makati City'
+                    loc: 'Makati City',
                 },
             },
 
@@ -609,7 +595,7 @@ export const cats = [
                     title: 'Margaret Grand Residences',
                     descrip: 'Construction of Six (6) Storey Residential/Commercial Building',
                     owner: 'Margaret Grand Residences, Inc.',
-                    loc: 'San Antonio Village, Pasig City'
+                    loc: 'San Antonio Village, Pasig City',
                 },
             },
             {
@@ -622,7 +608,7 @@ export const cats = [
                     title: 'NBP Resettlement Housing Project',
                     descrip: 'Construction of One Hundred Fifty-Four (154) One-Storey (Rowhouse Type) Housing Units',
                     owner: 'National Housing Authority',
-                    loc: 'Muntinlupa City'
+                    loc: 'Muntinlupa City',
                 },
             },
             {
@@ -634,9 +620,10 @@ export const cats = [
                 ],
                 prj_deets: {
                     title: 'Northpoint Townhomes',
-                    descrip: 'Land development and construction of over 300 townhouses over a combined land area of 2.5 hectares',
+                    descrip:
+                        'Land development and construction of over 300 townhouses over a combined land area of 2.5 hectares',
                     owner: "JC Resources Dev't., Inc.",
-                    loc: 'Quezon City'
+                    loc: 'Quezon City',
                 },
             },
             {
@@ -651,8 +638,8 @@ export const cats = [
                 prj_deets: {
                     title: '2 Storey Residence in Ayala Alabang Village',
                     descrip: 'Renovation of 2 Storey Residence in Ayala Alabang Village',
-                    owner: "",
-                    loc: 'Ayala Alabang Village, Muntinlupa City'
+                    owner: '',
+                    loc: 'Ayala Alabang Village, Muntinlupa City',
                 },
             },
             {
@@ -668,8 +655,8 @@ export const cats = [
                 prj_deets: {
                     title: 'Nepomuceno Residence',
                     descrip: 'Construction of Nepomuceno Residence',
-                    owner: "Mr. Ariel Nepomuceno",
-                    loc: 'Dolores, Quezon Province'
+                    owner: 'Mr. Ariel Nepomuceno',
+                    loc: 'Dolores, Quezon Province',
                 },
             },
             {
@@ -685,8 +672,8 @@ export const cats = [
                 prj_deets: {
                     title: 'Dr. Nolido Residence',
                     descrip: 'Construction of Dr. Nolido Residence',
-                    owner: "Dr. Rizal Alberto Jr. & Dra. Ana Marie Sage Nolido",
-                    loc: 'Global City, Taguig'
+                    owner: 'Dr. Rizal Alberto Jr. & Dra. Ana Marie Sage Nolido',
+                    loc: 'Global City, Taguig',
                 },
             },
             {
@@ -701,20 +688,18 @@ export const cats = [
                 prj_deets: {
                     title: 'Mr. Rhoel Alberto Nolido Condominium Unit',
                     descrip: 'Construction of Mr. Rhoel Alberto Nolido Condominium Unit',
-                    owner: "Mr. Rhoel Alberto Nolido",
-                    loc: 'Makati City'
+                    owner: 'Mr. Rhoel Alberto Nolido',
+                    loc: 'Makati City',
                 },
             },
             {
                 prj_name: 'Lim',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Lim Residence',
                     descrip: 'Design and construction of Lim Residence',
-                    owner: "Jennifer Lim",
-                    loc: 'Tagaytay Estate, Alfonso, Cavite'
+                    owner: 'Jennifer Lim',
+                    loc: 'Tagaytay Estate, Alfonso, Cavite',
                 },
             },
         ],
@@ -736,8 +721,8 @@ export const cats = [
                 prj_deets: {
                     title: 'SAWSAW Restaurants',
                     descrip: 'Renovation/Fit-Out Works of SAWSAW Restaurants',
-                    owner: "Café Fleur Corp.",
-                    loc: '8491 Kalayaan Ave., cor. Matilde St. & Algier St., Brgy. Poblacion, Makati City'
+                    owner: 'Café Fleur Corp.',
+                    loc: '8491 Kalayaan Ave., cor. Matilde St. & Algier St., Brgy. Poblacion, Makati City',
                 },
             },
             {
@@ -752,8 +737,8 @@ export const cats = [
                 prj_deets: {
                     title: 'Open Kitchen Food Park',
                     descrip: 'Proposed Open Kitchen Food Park',
-                    owner: "Food and Bev Concepts, Inc.",
-                    loc: 'No.34-36 P. Tuazon St., Cubao, Quezon City'
+                    owner: 'Food and Bev Concepts, Inc.',
+                    loc: 'No.34-36 P. Tuazon St., Cubao, Quezon City',
                 },
             },
             {
@@ -766,22 +751,20 @@ export const cats = [
                     '/src/lib/img/prj-imgs/resto/oodys/5.png',
                 ],
                 prj_deets: {
-                    title: "Oody’s Bar & Restaurants",
-                    descrip: "Construction of Oody’s Bar & Restaurants",
-                    owner: "Marido, Inc.",
-                    loc: '83 Sct. Fuentebella St., cor. Tomas Morato, Quezon City'
+                    title: 'Oody’s Bar & Restaurants',
+                    descrip: 'Construction of Oody’s Bar & Restaurants',
+                    owner: 'Marido, Inc.',
+                    loc: '83 Sct. Fuentebella St., cor. Tomas Morato, Quezon City',
                 },
             },
             {
                 prj_name: 'KFC',
-                prj_pics: [
-                    '/src/lib/img/placeholder.png',
-                ],
+                prj_pics: ['/src/lib/img/placeholder.png'],
                 prj_deets: {
                     title: 'Kentucy Fried Chicken (KFC) Chain of Restaurants',
                     descrip: 'Construction of KFC chain of restaurants',
-                    owner: "QSR Corporation, Foodfest Land, Inc.",
-                    loc: 'Wilson St., San Juan City; General Ave., Proj. 8, Quezon City; Crossroad Arcade, Greenhills, San Juan City; Plaza Bldg., Greenbelt, Ayala Center, Makati City'
+                    owner: 'QSR Corporation, Foodfest Land, Inc.',
+                    loc: 'Wilson St., San Juan City; General Ave., Proj. 8, Quezon City; Crossroad Arcade, Greenhills, San Juan City; Plaza Bldg., Greenbelt, Ayala Center, Makati City',
                 },
             },
         ],
@@ -793,7 +776,7 @@ export const cats = [
         link: '/projects/infra',
         projs: [
             {
-                prj_name: "Retaining Wall at Dumalay Creek",
+                prj_name: 'Retaining Wall at Dumalay Creek',
                 prj_pics: [
                     '/src/lib/img/prj-imgs/infra/dumalay/1.png',
                     '/src/lib/img/prj-imgs/infra/dumalay/2.png',
@@ -801,14 +784,14 @@ export const cats = [
                     '/src/lib/img/prj-imgs/infra/dumalay/4.png',
                 ],
                 prj_deets: {
-                    title: "Retaining Wall at Dumalay Creek",
-                    descrip: "Construction of retaining wall/rip-rapping at Dumalay Creek",
-                    owner: "Quezon City Government",
-                    loc: 'Novaliches Proper, Quezon City'
+                    title: 'Retaining Wall at Dumalay Creek',
+                    descrip: 'Construction of retaining wall/rip-rapping at Dumalay Creek',
+                    owner: 'Quezon City Government',
+                    loc: 'Novaliches Proper, Quezon City',
                 },
             },
             {
-                prj_name: "Improvement of Bakawan Street",
+                prj_name: 'Improvement of Bakawan Street',
                 prj_pics: [
                     '/src/lib/img/prj-imgs/infra/bakawan/1.png',
                     '/src/lib/img/prj-imgs/infra/bakawan/2.png',
@@ -818,14 +801,14 @@ export const cats = [
                     '/src/lib/img/prj-imgs/infra/bakawan/6.png',
                 ],
                 prj_deets: {
-                    title: "Improvement of Bakawan Street",
-                    descrip: "Improvement of road and drainage at Bakawan Street",
-                    owner: "Quezon City Government",
-                    loc: 'Brgy. Veterans Village, Quezon City'
+                    title: 'Improvement of Bakawan Street',
+                    descrip: 'Improvement of road and drainage at Bakawan Street',
+                    owner: 'Quezon City Government',
+                    loc: 'Brgy. Veterans Village, Quezon City',
                 },
             },
             {
-                prj_name: "Improvement of Juan Street",
+                prj_name: 'Improvement of Juan Street',
                 prj_pics: [
                     '/src/lib/img/prj-imgs/infra/juan/1.png',
                     '/src/lib/img/prj-imgs/infra/juan/2.png',
@@ -834,10 +817,10 @@ export const cats = [
                     '/src/lib/img/prj-imgs/infra/juan/5.png',
                 ],
                 prj_deets: {
-                    title: "Improvement of Juan Street",
-                    descrip: "Improvement of road and drainage at Juan Street",
-                    owner: "Quezon City Government",
-                    loc: 'Brgy. Nagkaisang Nayon, Quezon City'
+                    title: 'Improvement of Juan Street',
+                    descrip: 'Improvement of road and drainage at Juan Street',
+                    owner: 'Quezon City Government',
+                    loc: 'Brgy. Nagkaisang Nayon, Quezon City',
                 },
             },
         ],
@@ -849,41 +832,39 @@ export const cats = [
         link: '/projects/religious',
         projs: [
             {
-                prj_name: "Oratory Complex",
+                prj_name: 'Oratory Complex',
                 prj_pics: [
                     '/src/lib/img/prj-imgs/religious/tm_oratory/1.png',
                     '/src/lib/img/prj-imgs/religious/tm_oratory/2.png',
                 ],
                 prj_deets: {
-                    title: "Tahilan Maligaya Oratory Complex",
-                    descrip: "Foundation for Prof’l Training",
-                    owner: "Tahilan Maligaya",
-                    loc: 'Leon Guinto St., Malate, Manila'
+                    title: 'Tahilan Maligaya Oratory Complex',
+                    descrip: 'Foundation for Prof’l Training',
+                    owner: 'Tahilan Maligaya',
+                    loc: 'Leon Guinto St., Malate, Manila',
                 },
             },
             {
-                prj_name: "tm_oratory Mausoleum",
+                prj_name: 'tm_oratory Mausoleum',
                 prj_pics: [
                     '/src/lib/img/prj-imgs/religious/cancio/1.png',
                     '/src/lib/img/prj-imgs/religious/cancio/2.png',
                 ],
                 prj_deets: {
-                    title: "Cancio Mausoleum",
-                    descrip: "Construction of Cancio Mausoleum",
-                    owner: "Mrs. Socorro Ramos",
-                    loc: 'Kaong Lane, Willow Court, Manila Memorial Homes, Parañaque City'
+                    title: 'Cancio Mausoleum',
+                    descrip: 'Construction of Cancio Mausoleum',
+                    owner: 'Mrs. Socorro Ramos',
+                    loc: 'Kaong Lane, Willow Court, Manila Memorial Homes, Parañaque City',
                 },
             },
             {
-                prj_name: "Balmaseda Family Mausoleum",
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/religious/balmaseda/1.png',
-                ],
+                prj_name: 'Balmaseda Family Mausoleum',
+                prj_pics: ['/src/lib/img/prj-imgs/religious/balmaseda/1.png'],
                 prj_deets: {
-                    title: "Balmaseda Family Mausoleum",
-                    descrip: "Construction of Balmaseda Family Mausoleum",
-                    owner: "Dra. Maxima Balmaseda",
-                    loc: 'Eternal Gardens, Quezon City'
+                    title: 'Balmaseda Family Mausoleum',
+                    descrip: 'Construction of Balmaseda Family Mausoleum',
+                    owner: 'Dra. Maxima Balmaseda',
+                    loc: 'Eternal Gardens, Quezon City',
                 },
             },
         ],

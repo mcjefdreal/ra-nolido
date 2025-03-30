@@ -27,39 +27,39 @@ export default {
                 cen_slideleft: 'cen-slide-out-right 0.4s ease-in-out 0.1s infinite',
             },
             keyframes: {
-                "cen-slide-out-left": {
-                    "0%": {
-                        transform: "translate3d(0, 0, 0)",
+                'cen-slide-out-left': {
+                    '0%': {
+                        transform: 'translate3d(0, 0, 0)',
                     },
-                    "100%": {
-                        transform: "translate3d(-139%, 0, 0)",
-                    },
-                },
-                "cen-slide-out-right": {
-                    "0%": {
-                        transform: "translate3d(0, 0, 0)",
-                    },
-                    "100%": {
-                        transform: "translate3d(139%, 0, 0)",
+                    '100%': {
+                        transform: 'translate3d(-139%, 0, 0)',
                     },
                 },
-                "slide-out-left": {
-                    "0%": {
-                        transform: "translate3d(0, 0, 0)",
+                'cen-slide-out-right': {
+                    '0%': {
+                        transform: 'translate3d(0, 0, 0)',
                     },
-                    "100%": {
-                        transform: "translate3d(-78%, 0, 0)",
-                    },
-                },
-                "slide-out-right": {
-                    "0%": {
-                        transform: "translate3d(0, 0, 0)",
-                    },
-                    "100%": {
-                        transform: "translate3d(77%, 0, 0)",
+                    '100%': {
+                        transform: 'translate3d(139%, 0, 0)',
                     },
                 },
-            }
+                'slide-out-left': {
+                    '0%': {
+                        transform: 'translate3d(0, 0, 0)',
+                    },
+                    '100%': {
+                        transform: 'translate3d(-78%, 0, 0)',
+                    },
+                },
+                'slide-out-right': {
+                    '0%': {
+                        transform: 'translate3d(0, 0, 0)',
+                    },
+                    '100%': {
+                        transform: 'translate3d(77%, 0, 0)',
+                    },
+                },
+            },
         },
     },
 } satisfies Config;
