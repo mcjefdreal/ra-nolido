@@ -1,3 +1,5 @@
+import placeholder from '/src/lib/img/placeholder.png';
+
 import bldgs from '$lib/icons/cats/bldgs.png';
 import mvmc1 from '$lib/img/prj-imgs/bldgs/mvmc/1.png';
 import mvmc2 from '$lib/img/prj-imgs/bldgs/mvmc/2.png';
@@ -13,8 +15,109 @@ import gueventville5 from '$lib/img/prj-imgs/bldgs/gueventville/5.png';
 import gueventville6 from '$lib/img/prj-imgs/bldgs/gueventville/6.png';
 import gueventville7 from '$lib/img/prj-imgs/bldgs/gueventville/7.png';
 import gueventville8 from '$lib/img/prj-imgs/bldgs/gueventville/8.png';
-import balmaseda from '$lib/img/prj-imgs/religious/balmaseda/1.png';
 
+import offices from '$lib/icons/cats/offices.png';
+import smithbell1 from '$lib/img/prj-imgs/offices/smithbell/1.png';
+import smithbell2 from '$lib/img/prj-imgs/offices/smithbell/2.png';
+import smithbell3 from '$lib/img/prj-imgs/offices/smithbell/3.png';
+import smithbell4 from '$lib/img/prj-imgs/offices/smithbell/4.png';
+import chr1 from '$lib/img/prj-imgs/offices/chr/1.png';
+import chr2 from '$lib/img/prj-imgs/offices/chr/2.png';
+import chr3 from '$lib/img/prj-imgs/offices/chr/3.png';
+import chr4 from '$lib/img/prj-imgs/offices/chr/4.png';
+import ovp1 from '$lib/img/prj-imgs/offices/ovp/1.png';
+import ovp2 from '$lib/img/prj-imgs/offices/ovp/2.png';
+import ovp3 from '$lib/img/prj-imgs/offices/ovp/3.png';
+import ovp4 from '$lib/img/prj-imgs/offices/ovp/4.png';
+
+import property from '$lib/icons/cats/property.png';
+import moldex_dawn1 from '$lib/img/prj-imgs/property/moldex/1.png';
+import moldex_dawn2 from '$lib/img/prj-imgs/property/moldex/2.png';
+import moldex_elise1 from '$lib/img/prj-imgs/property/moldex/3.png';
+import moldex_elise2 from '$lib/img/prj-imgs/property/moldex/4.png';
+import moldex_elise3 from '$lib/img/prj-imgs/property/moldex/7.png';
+import moldex_elise4 from '$lib/img/prj-imgs/property/moldex/8.png';
+import moldex_marga1 from '$lib/img/prj-imgs/property/moldex/5.png';
+import moldex_marga2 from '$lib/img/prj-imgs/property/moldex/6.png';
+
+import residential from '$lib/icons/cats/residential.png';
+import boncan1 from '$lib/img/prj-imgs/residential/boncan/1.png';
+import boncan2 from '$lib/img/prj-imgs/residential/boncan/2.png';
+import boncan3 from '$lib/img/prj-imgs/residential/boncan/3.png';
+import romulo1 from '$lib/img/prj-imgs/residential/romulo/1.png';
+import romulo2 from '$lib/img/prj-imgs/residential/romulo/2.png';
+import romulo3 from '$lib/img/prj-imgs/residential/romulo/3.png';
+import romulo4 from '$lib/img/prj-imgs/residential/romulo/4.png';
+import romulo5 from '$lib/img/prj-imgs/residential/romulo/5.png';
+import romulo6 from '$lib/img/prj-imgs/residential/romulo/6.png';
+import romulo7 from '$lib/img/prj-imgs/residential/romulo/7.png';
+import nbp1 from '$lib/img/prj-imgs/residential/nbp/1.png';
+import nbp2 from '$lib/img/prj-imgs/residential/nbp/2.png';
+import northpoint1 from '$lib/img/prj-imgs/residential/northpoint/1.png';
+import northpoint2 from '$lib/img/prj-imgs/residential/northpoint/2.png';
+import northpoint3 from '$lib/img/prj-imgs/residential/northpoint/3.png';
+import acacia1 from '$lib/img/prj-imgs/residential/acacia/1.png';
+import acacia2 from '$lib/img/prj-imgs/residential/acacia/2.png';
+import acacia3 from '$lib/img/prj-imgs/residential/acacia/3.png';
+import acacia4 from '$lib/img/prj-imgs/residential/acacia/4.png';
+import acacia5 from '$lib/img/prj-imgs/residential/acacia/5.png';
+import nepomuceno1 from '$lib/img/prj-imgs/residential/nepomuceno/1.png';
+import nepomuceno2 from '$lib/img/prj-imgs/residential/nepomuceno/2.png';
+import nepomuceno3 from '$lib/img/prj-imgs/residential/nepomuceno/3.png';
+import nepomuceno4 from '$lib/img/prj-imgs/residential/nepomuceno/4.png';
+import nepomuceno5 from '$lib/img/prj-imgs/residential/nepomuceno/5.png';
+import nepomuceno6 from '$lib/img/prj-imgs/residential/nepomuceno/6.png';
+import drnolido1 from '$lib/img/prj-imgs/residential/dr_nolido/1.png';
+import drnolido2 from '$lib/img/prj-imgs/residential/dr_nolido/2.png';
+import drnolido3 from '$lib/img/prj-imgs/residential/dr_nolido/3.png';
+import drnolido4 from '$lib/img/prj-imgs/residential/dr_nolido/4.png';
+import drnolido5 from '$lib/img/prj-imgs/residential/dr_nolido/5.png';
+import drnolido6 from '$lib/img/prj-imgs/residential/dr_nolido/6.png';
+import rhnolido1 from '$lib/img/prj-imgs/residential/rh_nolido/1.png';
+import rhnolido2 from '$lib/img/prj-imgs/residential/rh_nolido/2.png';
+import rhnolido3 from '$lib/img/prj-imgs/residential/rh_nolido/3.png';
+import rhnolido4 from '$lib/img/prj-imgs/residential/rh_nolido/4.png';
+import rhnolido5 from '$lib/img/prj-imgs/residential/rh_nolido/5.png';
+
+import resto from '$lib/icons/cats/resto.png';
+import sawsaw1 from '$lib/img/prj-imgs/resto/sawsaw/1.png';
+import sawsaw2 from '$lib/img/prj-imgs/resto/sawsaw/2.png';
+import sawsaw3 from '$lib/img/prj-imgs/resto/sawsaw/3.png';
+import sawsaw4 from '$lib/img/prj-imgs/resto/sawsaw/4.png';
+import ok1 from '$lib/img/prj-imgs/resto/ok/1.png';
+import ok2 from '$lib/img/prj-imgs/resto/ok/2.png';
+import ok3 from '$lib/img/prj-imgs/resto/ok/3.png';
+import ok4 from '$lib/img/prj-imgs/resto/ok/4.png';
+import ok5 from '$lib/img/prj-imgs/resto/ok/5.png';
+import oody1 from '$lib/img/prj-imgs/resto/oodys/1.png';
+import oody2 from '$lib/img/prj-imgs/resto/oodys/2.png';
+import oody3 from '$lib/img/prj-imgs/resto/oodys/3.png';
+import oody4 from '$lib/img/prj-imgs/resto/oodys/4.png';
+import oody5 from '$lib/img/prj-imgs/resto/oodys/5.png';
+
+import infra from '$lib/icons/cats/infra.png';
+import dumalay1 from '$lib/img/prj-imgs/infra/dumalay/1.png';
+import dumalay2 from '$lib/img/prj-imgs/infra/dumalay/2.png';
+import dumalay3 from '$lib/img/prj-imgs/infra/dumalay/3.png';
+import dumalay4 from '$lib/img/prj-imgs/infra/dumalay/4.png';
+import bakawan1 from '$lib/img/prj-imgs/infra/bakawan/2.png';
+import bakawan2 from '$lib/img/prj-imgs/infra/bakawan/3.png';
+import bakawan3 from '$lib/img/prj-imgs/infra/bakawan/4.png';
+import bakawan4 from '$lib/img/prj-imgs/infra/bakawan/1.png';
+import bakawan5 from '$lib/img/prj-imgs/infra/bakawan/5.png';
+import bakawan6 from '$lib/img/prj-imgs/infra/bakawan/6.png';
+import juan3 from '$lib/img/prj-imgs/infra/juan/3.png';
+import juan2 from '$lib/img/prj-imgs/infra/juan/2.png';
+import juan1 from '$lib/img/prj-imgs/infra/juan/1.png';
+import juan4 from '$lib/img/prj-imgs/infra/juan/4.png';
+import juan5 from '$lib/img/prj-imgs/infra/juan/5.png';
+
+import religious from '$lib/icons/cats/religious.png';
+import oratory1 from '$lib/img/prj-imgs/religious/tm_oratory/1.png';
+import oratory2 from '$lib/img/prj-imgs/religious/tm_oratory/2.png';
+import cancio1 from '$lib/img/prj-imgs/religious/cancio/1.png';
+import cancio2 from '$lib/img/prj-imgs/religious/cancio/2.png';
+import balmaseda from '$lib/img/prj-imgs/religious/balmaseda/1.png';
 
 export const cats = [
     {
@@ -25,14 +128,7 @@ export const cats = [
         projs: [
             {
                 prj_name: 'MVMC',
-                prj_pics: [
-                    mvmc1,
-                    mvmc2,
-                    mvmc3,
-                    mvmc4,
-                    mvmc5,
-                    mvmc6,
-                ],
+                prj_pics: [mvmc1, mvmc2, mvmc3, mvmc4, mvmc5, mvmc6],
                 prj_deets: {
                     title: 'Marikina Valley Medical Center (MVMC)',
                     descrip: "Construction of MVMC Medical Arts Tower 7-storey parking building with doctor's offices",
@@ -412,17 +508,12 @@ export const cats = [
     {
         page_title: 'offices',
         cat: 'Offices',
-        icon: '/src/lib/icons/cats/offices.png',
+        icon: offices,
         link: '/projects/offices',
         projs: [
             {
                 prj_name: 'Smithbell Building',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/offices/smithbell/1.png',
-                    '/src/lib/img/prj-imgs/offices/smithbell/2.png',
-                    '/src/lib/img/prj-imgs/offices/smithbell/3.png',
-                    '/src/lib/img/prj-imgs/offices/smithbell/4.png',
-                ],
+                prj_pics: [smithbell1, smithbell2, smithbell3, smithbell4],
                 prj_deets: {
                     title: 'Smithbell Building',
                     descrip: 'Construction management of 19-storey with 3 basement office buildings',
@@ -432,12 +523,7 @@ export const cats = [
             },
             {
                 prj_name: 'Commission on Human Rights (CHR) Offices',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/offices/chr/1.png',
-                    '/src/lib/img/prj-imgs/offices/chr/2.png',
-                    '/src/lib/img/prj-imgs/offices/chr/3.png',
-                    '/src/lib/img/prj-imgs/offices/chr/4.png',
-                ],
+                prj_pics: [chr1, chr2, chr3, chr4],
                 prj_deets: {
                     title: 'Commission on Human Rights (CHR) Regional Offices',
                     descrip: 'Project Management of CHR Regional Offices',
@@ -447,12 +533,7 @@ export const cats = [
             },
             {
                 prj_name: 'OVP',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/offices/ovp/1.png',
-                    '/src/lib/img/prj-imgs/offices/ovp/2.png',
-                    '/src/lib/img/prj-imgs/offices/ovp/3.png',
-                    '/src/lib/img/prj-imgs/offices/ovp/4.png',
-                ],
+                prj_pics: [ovp1, ovp2, ovp3, ovp4],
                 prj_deets: {
                     title: 'Office of the Vice President',
                     descrip: 'Design and construction of 1,800 sqm office space',
@@ -462,7 +543,7 @@ export const cats = [
             },
             {
                 prj_name: 'William Lines',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Five William Lines Offices',
                     descrip: 'Construction of 5 William Lines offices',
@@ -472,7 +553,7 @@ export const cats = [
             },
             {
                 prj_name: 'AMC',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Associated Merchandising Corporation (AMC) Office',
                     descrip: 'Renovation of AMC office',
@@ -482,7 +563,7 @@ export const cats = [
             },
             {
                 prj_name: 'SHFC-HUDCC',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Social Housing Finance Corporation Office',
                     descrip:
@@ -493,7 +574,7 @@ export const cats = [
             },
             {
                 prj_name: 'PTTAF',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Policies, Training, and Tech Facilities Association (PTTAF) Office',
                     descrip: 'Renovation of PTTAF office',
@@ -503,7 +584,7 @@ export const cats = [
             },
             {
                 prj_name: 'NDC',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'National Development Company (NDC) Office',
                     descrip:
@@ -517,15 +598,12 @@ export const cats = [
     {
         page_title: 'property',
         cat: 'Property and Development',
-        icon: '/src/lib/icons/cats/property.png',
+        icon: property,
         link: '/projects/property',
         projs: [
             {
                 prj_name: 'Moldex Dawn',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/property/moldex/1.png',
-                    '/src/lib/img/prj-imgs/property/moldex/2.png',
-                ],
+                prj_pics: [moldex_dawn1, moldex_dawn2],
                 prj_deets: {
                     title: 'Moldex Dawn House',
                     descrip: 'Construction of Dawn Model House',
@@ -536,12 +614,7 @@ export const cats = [
 
             {
                 prj_name: 'Moldex Elise',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/property/moldex/3.png',
-                    '/src/lib/img/prj-imgs/property/moldex/4.png',
-                    '/src/lib/img/prj-imgs/property/moldex/7.png',
-                    '/src/lib/img/prj-imgs/property/moldex/8.png',
-                ],
+                prj_pics: [moldex_elise1, moldex_elise2, moldex_elise3, moldex_elise4],
                 prj_deets: {
                     title: 'Moldex Elise House',
                     descrip: 'Construction of Elise House Model',
@@ -552,10 +625,7 @@ export const cats = [
 
             {
                 prj_name: 'Moldex Marga',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/property/moldex/5.png',
-                    '/src/lib/img/prj-imgs/property/moldex/6.png',
-                ],
+                prj_pics: [moldex_marga1, moldex_marga2],
                 prj_deets: {
                     title: 'Moldex Marga House',
                     descrip: 'Construction of Marga House Unit',
@@ -565,7 +635,7 @@ export const cats = [
             },
             {
                 prj_name: 'Banilad',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'The Banilad Place, Phase I and II',
                     descrip:
@@ -579,16 +649,12 @@ export const cats = [
     {
         page_title: 'residential',
         cat: 'Residential',
-        icon: '/src/lib/icons/cats/residential.png',
+        icon: residential,
         link: '/projects/residential',
         projs: [
             {
                 prj_name: 'Boncan Residence',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/boncan/1.png',
-                    '/src/lib/img/prj-imgs/residential/boncan/2.png',
-                    '/src/lib/img/prj-imgs/residential/boncan/3.png',
-                ],
+                prj_pics: [boncan1, boncan2, boncan3],
                 prj_deets: {
                     title: 'Boncan Residence',
                     descrip:
@@ -600,15 +666,7 @@ export const cats = [
 
             {
                 prj_name: 'Romulo Residence',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/romulo/1.png',
-                    '/src/lib/img/prj-imgs/residential/romulo/2.png',
-                    '/src/lib/img/prj-imgs/residential/romulo/3.png',
-                    '/src/lib/img/prj-imgs/residential/romulo/4.png',
-                    '/src/lib/img/prj-imgs/residential/romulo/5.png',
-                    '/src/lib/img/prj-imgs/residential/romulo/6.png',
-                    '/src/lib/img/prj-imgs/residential/romulo/7.png',
-                ],
+                prj_pics: [romulo1, romulo2, romulo3, romulo4, romulo5, romulo6, romulo7],
                 prj_deets: {
                     title: 'Margaret Grand Residences',
                     descrip: 'Construction of Six (6) Storey Residential/Commercial Building',
@@ -618,10 +676,7 @@ export const cats = [
             },
             {
                 prj_name: 'NBP Resettlement Housing Project',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/nbp/1.png',
-                    '/src/lib/img/prj-imgs/residential/nbp/2.png',
-                ],
+                prj_pics: [nbp1, nbp2],
                 prj_deets: {
                     title: 'NBP Resettlement Housing Project',
                     descrip: 'Construction of One Hundred Fifty-Four (154) One-Storey (Rowhouse Type) Housing Units',
@@ -631,11 +686,7 @@ export const cats = [
             },
             {
                 prj_name: 'Northpoint Townhomes',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/northpoint/1.png',
-                    '/src/lib/img/prj-imgs/residential/northpoint/2.png',
-                    '/src/lib/img/prj-imgs/residential/northpoint/3.png',
-                ],
+                prj_pics: [northpoint1, northpoint2, northpoint3],
                 prj_deets: {
                     title: 'Northpoint Townhomes',
                     descrip:
@@ -646,13 +697,7 @@ export const cats = [
             },
             {
                 prj_name: '2 Storey Residence Renovation',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/acacia/1.png',
-                    '/src/lib/img/prj-imgs/residential/acacia/2.png',
-                    '/src/lib/img/prj-imgs/residential/acacia/3.png',
-                    '/src/lib/img/prj-imgs/residential/acacia/4.png',
-                    '/src/lib/img/prj-imgs/residential/acacia/5.png',
-                ],
+                prj_pics: [acacia1, acacia2, acacia3, acacia4, acacia5],
                 prj_deets: {
                     title: '2 Storey Residence in Ayala Alabang Village',
                     descrip: 'Renovation of 2 Storey Residence in Ayala Alabang Village',
@@ -662,14 +707,7 @@ export const cats = [
             },
             {
                 prj_name: 'Nepomuceno Residence',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/nepomuceno/1.png',
-                    '/src/lib/img/prj-imgs/residential/nepomuceno/2.png',
-                    '/src/lib/img/prj-imgs/residential/nepomuceno/3.png',
-                    '/src/lib/img/prj-imgs/residential/nepomuceno/4.png',
-                    '/src/lib/img/prj-imgs/residential/nepomuceno/5.png',
-                    '/src/lib/img/prj-imgs/residential/nepomuceno/6.png',
-                ],
+                prj_pics: [nepomuceno1, nepomuceno2, nepomuceno3, nepomuceno4, nepomuceno5, nepomuceno6],
                 prj_deets: {
                     title: 'Nepomuceno Residence',
                     descrip: 'Construction of Nepomuceno Residence',
@@ -679,14 +717,7 @@ export const cats = [
             },
             {
                 prj_name: 'Dr. Nolido Residence',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/dr_nolido/1.png',
-                    '/src/lib/img/prj-imgs/residential/dr_nolido/2.png',
-                    '/src/lib/img/prj-imgs/residential/dr_nolido/3.png',
-                    '/src/lib/img/prj-imgs/residential/dr_nolido/4.png',
-                    '/src/lib/img/prj-imgs/residential/dr_nolido/5.png',
-                    '/src/lib/img/prj-imgs/residential/dr_nolido/6.png',
-                ],
+                prj_pics: [drnolido1, drnolido2, drnolido3, drnolido4, drnolido5, drnolido6],
                 prj_deets: {
                     title: 'Dr. Nolido Residence',
                     descrip: 'Construction of Dr. Nolido Residence',
@@ -696,13 +727,7 @@ export const cats = [
             },
             {
                 prj_name: 'Mr. Rhoel Alberto Nolido Condominium Unit',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/residential/rh_nolido/1.png',
-                    '/src/lib/img/prj-imgs/residential/rh_nolido/2.png',
-                    '/src/lib/img/prj-imgs/residential/rh_nolido/3.png',
-                    '/src/lib/img/prj-imgs/residential/rh_nolido/4.png',
-                    '/src/lib/img/prj-imgs/residential/rh_nolido/5.png',
-                ],
+                prj_pics: [rhnolido1, rhnolido2, rhnolido3, rhnolido4, rhnolido5],
                 prj_deets: {
                     title: 'Mr. Rhoel Alberto Nolido Condominium Unit',
                     descrip: 'Construction of Mr. Rhoel Alberto Nolido Condominium Unit',
@@ -712,7 +737,7 @@ export const cats = [
             },
             {
                 prj_name: 'Lim',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Lim Residence',
                     descrip: 'Design and construction of Lim Residence',
@@ -725,17 +750,12 @@ export const cats = [
     {
         page_title: 'resto',
         cat: 'Restaurants',
-        icon: '/src/lib/icons/cats/resto.png',
+        icon: resto,
         link: '/projects/resto',
         projs: [
             {
                 prj_name: 'Sawsaw',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/resto/sawsaw/1.png',
-                    '/src/lib/img/prj-imgs/resto/sawsaw/2.png',
-                    '/src/lib/img/prj-imgs/resto/sawsaw/3.png',
-                    '/src/lib/img/prj-imgs/resto/sawsaw/4.png',
-                ],
+                prj_pics: [sawsaw1, sawsaw2, sawsaw3, sawsaw4],
                 prj_deets: {
                     title: 'SAWSAW Restaurants',
                     descrip: 'Renovation/Fit-Out Works of SAWSAW Restaurants',
@@ -745,13 +765,7 @@ export const cats = [
             },
             {
                 prj_name: 'Open Kitchen',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/resto/ok/1.png',
-                    '/src/lib/img/prj-imgs/resto/ok/2.png',
-                    '/src/lib/img/prj-imgs/resto/ok/3.png',
-                    '/src/lib/img/prj-imgs/resto/ok/4.png',
-                    '/src/lib/img/prj-imgs/resto/ok/5.png',
-                ],
+                prj_pics: [ok1, ok2, ok3, ok4, ok5],
                 prj_deets: {
                     title: 'Open Kitchen Food Park',
                     descrip: 'Proposed Open Kitchen Food Park',
@@ -761,13 +775,7 @@ export const cats = [
             },
             {
                 prj_name: "Oody's",
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/resto/oodys/1.png',
-                    '/src/lib/img/prj-imgs/resto/oodys/2.png',
-                    '/src/lib/img/prj-imgs/resto/oodys/3.png',
-                    '/src/lib/img/prj-imgs/resto/oodys/4.png',
-                    '/src/lib/img/prj-imgs/resto/oodys/5.png',
-                ],
+                prj_pics: [oody1, oody2, oody3, oody4, oody5],
                 prj_deets: {
                     title: 'Oody’s Bar & Restaurants',
                     descrip: 'Construction of Oody’s Bar & Restaurants',
@@ -777,7 +785,7 @@ export const cats = [
             },
             {
                 prj_name: 'KFC',
-                prj_pics: ['/src/lib/img/placeholder.png'],
+                prj_pics: [placeholder],
                 prj_deets: {
                     title: 'Kentucy Fried Chicken (KFC) Chain of Restaurants',
                     descrip: 'Construction of KFC chain of restaurants',
@@ -790,17 +798,12 @@ export const cats = [
     {
         page_title: 'infra',
         cat: 'Infrastructure',
-        icon: '/src/lib/icons/cats/infra.png',
+        icon: infra,
         link: '/projects/infra',
         projs: [
             {
                 prj_name: 'Retaining Wall at Dumalay Creek',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/infra/dumalay/1.png',
-                    '/src/lib/img/prj-imgs/infra/dumalay/2.png',
-                    '/src/lib/img/prj-imgs/infra/dumalay/3.png',
-                    '/src/lib/img/prj-imgs/infra/dumalay/4.png',
-                ],
+                prj_pics: [dumalay1, dumalay2, dumalay3, dumalay4],
                 prj_deets: {
                     title: 'Retaining Wall at Dumalay Creek',
                     descrip: 'Construction of retaining wall/rip-rapping at Dumalay Creek',
@@ -810,14 +813,7 @@ export const cats = [
             },
             {
                 prj_name: 'Improvement of Bakawan Street',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/infra/bakawan/1.png',
-                    '/src/lib/img/prj-imgs/infra/bakawan/2.png',
-                    '/src/lib/img/prj-imgs/infra/bakawan/3.png',
-                    '/src/lib/img/prj-imgs/infra/bakawan/4.png',
-                    '/src/lib/img/prj-imgs/infra/bakawan/5.png',
-                    '/src/lib/img/prj-imgs/infra/bakawan/6.png',
-                ],
+                prj_pics: [bakawan1, bakawan2, bakawan3, bakawan4, bakawan5, bakawan6],
                 prj_deets: {
                     title: 'Improvement of Bakawan Street',
                     descrip: 'Improvement of road and drainage at Bakawan Street',
@@ -827,13 +823,7 @@ export const cats = [
             },
             {
                 prj_name: 'Improvement of Juan Street',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/infra/juan/1.png',
-                    '/src/lib/img/prj-imgs/infra/juan/2.png',
-                    '/src/lib/img/prj-imgs/infra/juan/3.png',
-                    '/src/lib/img/prj-imgs/infra/juan/4.png',
-                    '/src/lib/img/prj-imgs/infra/juan/5.png',
-                ],
+                prj_pics: [juan3, juan2, juan1, juan4, juan5],
                 prj_deets: {
                     title: 'Improvement of Juan Street',
                     descrip: 'Improvement of road and drainage at Juan Street',
@@ -846,15 +836,12 @@ export const cats = [
     {
         page_title: 'religious',
         cat: 'Religious',
-        icon: '/src/lib/icons/cats/religious.png',
+        icon: religious,
         link: '/projects/religious',
         projs: [
             {
                 prj_name: 'Oratory Complex',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/religious/tm_oratory/1.png',
-                    '/src/lib/img/prj-imgs/religious/tm_oratory/2.png',
-                ],
+                prj_pics: [oratory1, oratory2],
                 prj_deets: {
                     title: 'Tahilan Maligaya Oratory Complex',
                     descrip: 'Foundation for Prof’l Training',
@@ -864,10 +851,7 @@ export const cats = [
             },
             {
                 prj_name: 'tm_oratory Mausoleum',
-                prj_pics: [
-                    '/src/lib/img/prj-imgs/religious/cancio/1.png',
-                    '/src/lib/img/prj-imgs/religious/cancio/2.png',
-                ],
+                prj_pics: [cancio1, cancio2],
                 prj_deets: {
                     title: 'Cancio Mausoleum',
                     descrip: 'Construction of Cancio Mausoleum',
