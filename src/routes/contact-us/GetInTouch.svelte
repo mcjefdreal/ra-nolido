@@ -1,7 +1,7 @@
 <script>
     import facebook from '$lib/icons/facebook.svg';
-    import phone from '$lib/icons/phone.svg';
     import mail from '$lib/icons/mail.svg';
+    import phone from '$lib/icons/phone.svg';
     import src from '$lib/icons/temp_logo.svg';
 </script>
 

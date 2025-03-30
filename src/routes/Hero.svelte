@@ -1,5 +1,5 @@
 <script lang="ts">
-    let { heading, subheading, button_content } = $props();
+    const { heading, subheading, button_content } = $props();
 
     function handleAnchorClick(event) {
         event.preventDefault();

@@ -1,8 +1,8 @@
 <script>
     import Carousel from './Carousel.svelte';
+    import Hero from './Hero.svelte';
     import HighlightText from './Highlight_Text.svelte';
     import Three_Columns from './Three_Columns.svelte';
-    import Hero from './Hero.svelte';
 </script>
 
 <div class="mb-[5%]">

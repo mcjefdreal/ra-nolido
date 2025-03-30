@@ -16,11 +16,11 @@
             {body_2}
         </p>
 
-        <p class={button_content != '' ? 'mb-8' : ''}>
+        <p class={button_content !== '' ? 'mb-8' : ''}>
             {body_3}
         </p>
 
-        {#if button_content != ''}
+        {#if button_content !== ''}
             <a href="/about-us">
                 <button class="optional-btn border-2 border-ra-black px-4 py-2">
                     {button_content}

@@ -1,7 +1,7 @@
 <script>
     import Thumbnails from './Thumbnails.svelte';
     const { data } = $props();
-    const page = data.categ.page_title;
+    // const page = data.categ.page_title;
 </script>
 
 <div class="h-10 w-full p-12">

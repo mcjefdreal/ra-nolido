@@ -30,7 +30,6 @@ jobs:
           path: build
 
   deploy:
-    
     needs: build_site
     permissions:
       pages: write

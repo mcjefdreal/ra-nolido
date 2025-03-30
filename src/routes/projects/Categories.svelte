@@ -1,5 +1,5 @@
 <script>
-    let { cat, icon, link } = $props();
+    const { cat, icon, link } = $props();
 </script>
 
 <a href={link}>
