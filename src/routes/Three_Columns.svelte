@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     const {
         heading,
         subheading_1,
@@ -22,7 +23,7 @@
     <div class="inline-block w-1/4 flex-initial">
         <div class="relative">
             <img src={img_1} alt={alt_1} class="mb-4" />
-            <a href="/projects">
+            <a href="{base}/projects">
                 <button
                     class="absolute bottom-3 right-3 border-[2px] border-ra-black bg-white px-2 py-1
                            duration-[200ms] hover:border-royal-blue hover:bg-royal-blue hover:font-semibold hover:text-white"
@@ -41,7 +42,7 @@
     <div class="inline-block w-1/4 flex-initial">
         <div class="relative">
             <img src={img_2} alt={alt_2} class="mb-4" />
-            <a href="/projects">
+            <a href="{base}/projects">
                 <button
                     class="absolute bottom-3 right-3 border-[2px] border-ra-black bg-white px-2 py-1
                            duration-[200ms] hover:border-royal-blue hover:bg-royal-blue hover:font-semibold hover:text-white"
@@ -60,7 +61,7 @@
     <div class="inline-block w-1/4 flex-initial">
         <div class="relative">
             <img src={img_3} alt={alt_3} class="mb-4" />
-            <a href="/projects">
+            <a href="{base}/projects">
                 <button
                     class="absolute bottom-3 right-3 border-[2px] border-ra-black bg-white px-2 py-1
                            duration-[200ms] hover:border-royal-blue hover:bg-royal-blue hover:font-semibold hover:text-white"

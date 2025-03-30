@@ -21,7 +21,7 @@
         </p>
 
         {#if button_content !== ''}
-            <a href="/about-us">
+            <a href="{base}/about-us">
                 <button class="optional-btn border-2 border-ra-black px-4 py-2">
                     {button_content}
                 </button>
