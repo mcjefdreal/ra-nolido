@@ -7,7 +7,7 @@
     const par2 =
         'In 1991, it was re-incorporated and renamed R.A. NOLIDO CONSTRUCTION CORPORATION (RANCC), with Engr. Ramon Alberto Nolido as President. In 1993, RANCC opened its branch in Cebu City to contribute to the construction requirements of Southern Philippines. Through time, the company has increased its Management and Engineering Staff and has been conducting technical support and skills training seminars on a regular basis.';
     const par3 =
-        'With the advent of information technology, came the computerization of various departments and systems. The company also operates its own workshop and storehouse on a leased property iin Pugadlawin, Quezon City. At present, the company is ready more than ever to face the challenges of a demanding industry.';
+        'With the advent of information technology, came the computerization of various departments and systems. At present, the company is ready more than ever to face the challenges of a demanding industry.';
 </script>
 
 <div class="ml-8 mr-16 flex flex-row justify-evenly">

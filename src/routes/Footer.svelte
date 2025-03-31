@@ -7,7 +7,7 @@
     import phone from '$lib/icons/phone.svg';
 </script>
 
-<footer class="mt-auto h-auto w-auto items-center justify-items-center bg-ra-black text-center">
+<footer class="mt-auto h-auto w-auto items-center justify-items-center bg-royal-blue text-center">
     <div class="flex w-9/12 flex-row items-center justify-between p-4">
         <a class="flex w-auto" href={base}>
             <div class="h-24">
