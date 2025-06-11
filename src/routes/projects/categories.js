@@ -329,8 +329,8 @@ export const cats = [
         ],
     },
     {
-        page_title: 'inst',
-        cat: 'Institutional',
+        page_title: 'schools',
+        cat: 'Schools',
         icon: institutional,
         link: '/projects/inst',
         projs: [
@@ -605,7 +605,7 @@ export const cats = [
     },
     {
         page_title: 'property',
-        cat: 'Property and Development',
+        cat: 'Real Estate Property Development',
         icon: property,
         link: '/projects/property',
         projs: [
