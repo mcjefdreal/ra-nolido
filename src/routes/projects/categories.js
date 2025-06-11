@@ -61,18 +61,17 @@ import swu13 from '$lib/img/prj-imgs/inst/swu/13.png';
 import uihrm1 from '$lib/img/prj-imgs/inst/ui-hrm/1.png';
 import uihrm2 from '$lib/img/prj-imgs/inst/ui-hrm/2.png';
 import uihrm3 from '$lib/img/prj-imgs/inst/ui-hrm/3.png';
-import uihrm4 from '$lib/img/prj-imgs/inst/ui-hrm/5.png';
-import uihrm5 from '$lib/img/prj-imgs/inst/ui-hrm/6.png';
-import uihrm6 from '$lib/img/prj-imgs/inst/ui-hrm/7.png';
-import uihrm7 from '$lib/img/prj-imgs/inst/ui-hrm/8.png';
-import uihrm8 from '$lib/img/prj-imgs/inst/ui-hrm/9.png';
-import uihrm9 from '$lib/img/prj-imgs/inst/ui-hrm/10.png';
-import uihrm10 from '$lib/img/prj-imgs/inst/ui-hrm/11.png';
-import uihrm11 from '$lib/img/prj-imgs/inst/ui-hrm/12.png';
-import uihrm12 from '$lib/img/prj-imgs/inst/ui-hrm/13.png';
-import uihrm13 from '$lib/img/prj-imgs/inst/ui-hrm/14.png';
-import uihrm14 from '$lib/img/prj-imgs/inst/ui-hrm/15.png';
-import uihrm15 from '$lib/img/prj-imgs/inst/ui-hrm/16.png';
+import uihrm5 from '$lib/img/prj-imgs/inst/ui-hrm/5.png';
+import uihrm6 from '$lib/img/prj-imgs/inst/ui-hrm/6.png';
+import uihrm7 from '$lib/img/prj-imgs/inst/ui-hrm/7.png';
+import uihrm8 from '$lib/img/prj-imgs/inst/ui-hrm/8.png';
+import uihrm9 from '$lib/img/prj-imgs/inst/ui-hrm/9.png';
+import uihrm10 from '$lib/img/prj-imgs/inst/ui-hrm/10.png';
+import uihrm11 from '$lib/img/prj-imgs/inst/ui-hrm/11.png';
+import uihrm12 from '$lib/img/prj-imgs/inst/ui-hrm/12.png';
+import uihrm13 from '$lib/img/prj-imgs/inst/ui-hrm/13.png';
+import uihrm14 from '$lib/img/prj-imgs/inst/ui-hrm/14.png';
+import uihrm15 from '$lib/img/prj-imgs/inst/ui-hrm/15.png';
 import uihrm16 from '$lib/img/prj-imgs/inst/ui-hrm/16.png';
 import uiuy1 from '$lib/img/prj-imgs/inst/ui-uy/1.png';
 import uiuy2 from '$lib/img/prj-imgs/inst/ui-uy/2.png';
@@ -361,7 +360,6 @@ export const cats = [
                     uihrm1,
                     uihrm2,
                     uihrm3,
-                    uihrm4,
                     uihrm5,
                     uihrm6,
                     uihrm7,
