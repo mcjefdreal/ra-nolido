@@ -12,7 +12,7 @@
     <Hero heading={'SA R.A. NOLIDO'} subheading={'SOLIDO'} button_content={'Get in Touch'}></Hero>
 </div>
 
-<div class="my-16" id='three_columns'>
+<div class="my-16" id="three_columns">
     <Three_Columns
         subheading_1={'Construction'}
         subheading_2={'Project Management'}
