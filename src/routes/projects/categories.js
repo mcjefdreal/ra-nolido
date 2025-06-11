@@ -332,7 +332,7 @@ export const cats = [
         page_title: 'schools',
         cat: 'Schools',
         icon: institutional,
-        link: '/projects/inst',
+        link: '/projects/schools',
         projs: [
             {
                 prj_name: 'Cagayan de Oro College',

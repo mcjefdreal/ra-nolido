@@ -22,7 +22,7 @@
                 eager: true,
             });
             break;
-        case 'inst':
+        case 'schools':
             images = import.meta.glob('$lib/img/prj-imgs/inst/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}', {
                 eager: true,
             });
