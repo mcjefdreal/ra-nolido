@@ -7,7 +7,7 @@
     import phone from '$lib/icons/phone.svg';
 </script>
 
-<footer class="mt-auto h-auto w-auto items-center justify-items-center bg-royal-blue text-center">
+<footer class="mt-auto h-auto w-auto items-center justify-items-center bg-royal-blue text-left">
     <div class="flex w-9/12 flex-row items-center justify-between p-4">
         <a class="flex w-auto" href={base}>
             <div class="h-24">
@@ -30,7 +30,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <p>Unit B, Rama Building, 165 Roosevelt Avenue,</p>
+                <p>Unit B, RAMA Building, 165 Roosevelt Avenue,</p>
                 <p>Quezon City, Philippines</p>
             </a>
         </div>
