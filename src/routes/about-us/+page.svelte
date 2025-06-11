@@ -9,9 +9,7 @@
     <History />
 </div>
 
-<div class="my-16">
-    <MissionVision />
-</div>
+<MissionVision />
 
 <div class="my-16">
     <Objectives />
