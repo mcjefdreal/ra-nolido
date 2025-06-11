@@ -21,7 +21,7 @@
 <style>
     
     .parent-hover:hover > .child-hover-bg {
-        opacity: 64%;
+        opacity: 72.5%;
         transition-duration: 200ms;
     }
 
