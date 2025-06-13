@@ -13,9 +13,7 @@
                     <img src={mail} alt="Email" />
                 </a>
                 <h2 class="text-2xl">
-                    <a href="mailto:ranolidoconstruction@gmail.com" class="hover:underline"
-                        >Send us an email</a
-                    >
+                    <a href="mailto:ranolidoconstruction@gmail.com" class="hover:underline">Send us an email</a>
                 </h2>
             </div>
             <div class="flex flex-row items-center text-left">
