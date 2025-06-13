@@ -30,7 +30,7 @@
     <div class="w-3/5">
         <About heading={'Our History'} body_1={par1} body_2={par2} body_3={par3} />
     </div>
-    <div class="w-2/5 flex flex-row items-center gap-8 text-center">
+    <div class="flex w-2/5 flex-row items-center gap-8 text-center">
         <TeamCard {...card1Props} />
         <TeamCard {...card2Props} />
         <!-- <img {src} alt={'History picture'} class="mb-3 w-full items-center overflow-hidden shadow-md" /> -->
