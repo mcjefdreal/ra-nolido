@@ -6,7 +6,7 @@
     const { children } = $props();
 </script>
 
-<div class="justify-start flex min-h-screen flex-col">
+<div class="flex min-h-screen flex-col justify-start">
     <header class="sticky inset-x-0 top-0 z-50">
         <NavBar />
     </header>

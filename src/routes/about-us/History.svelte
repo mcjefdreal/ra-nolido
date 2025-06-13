@@ -15,7 +15,7 @@
         src: src1,
         alt: 'Image',
         name: 'Ramon Alberto B. Nolido',
-        position: '',
+        position: 'President',
     };
 
     const card2Props = {
