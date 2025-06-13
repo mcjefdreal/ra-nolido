@@ -3,7 +3,7 @@
     const { data } = $props();
 </script>
 
-<div class="place-items-center">
+<div class="place-items-center m-auto">
     <div class="grid grid-cols-5 place-items-center">
         {#each data.summaries as cat}
             <Categories cat={cat.cat} icon={cat.icon} link={cat.link}></Categories>
