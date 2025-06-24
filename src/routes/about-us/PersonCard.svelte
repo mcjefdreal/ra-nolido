@@ -19,10 +19,10 @@
         </div>
 
         <div class="flex w-full flex-row text-center text-sm">
-            <div class="flex w-full flex-col text-center">
+            <!-- <div class="flex w-full flex-col text-center">
                 <h1 class="font-jakarta font-semibold">Rizal Alberto C. Nolido</h1>
                 <h1 class="font-jakarta">Founder</h1>
-            </div>
+            </div> -->
 
             <div class="flex w-full flex-col text-center">
                 <h1 class="font-jakarta font-semibold">Ramon Alberto B. Nolido</h1>
