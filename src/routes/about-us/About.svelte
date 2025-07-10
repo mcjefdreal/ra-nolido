@@ -2,7 +2,7 @@
     const { heading, body_1, body_2, body_3 } = $props();
 </script>
 
-<div class="ml-10 flex h-full overflow-hidden">
+<div class="ml-10 flex w-full overflow-hidden">
     <div class="mr-8 inline-block w-2 flex-none bg-royal-blue"></div>
 
     <div class="my-2 inline-block w-5/6 flex-initial">

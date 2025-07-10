@@ -63,6 +63,10 @@ export default {
                     },
                 },
             },
+            spacing: {
+                '4/5': '80%',
+                '5/6': '83.333333333%',
+            },
         },
     },
 } satisfies Config;
