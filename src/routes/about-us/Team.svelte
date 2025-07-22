@@ -12,7 +12,7 @@
 <div class="flex flex-col text-center">
     <h1 class="mb-8 text-5xl font-semibold text-ra-black">Our Team</h1>
 
-    <div class="flex flex-row gap-5 overflow-auto h-[500px] py-10 px-5">
+    <div class="flex h-[500px] flex-row gap-5 overflow-auto px-5 py-10">
         <img src={s5} class="transition hover:scale-110" alt="RANCC Team 5" />
         <img src={s6} class="transition hover:scale-110" alt="RANCC Team 6" />
         <img src={s8} class="transition hover:scale-110" alt="RANCC Team 8" />
