@@ -1,7 +1,7 @@
 <script>
-    import Three_Columns from "$lib/components/Three_Columns.svelte";
+    import Three_Columns from '$lib/components/Three_Columns.svelte';
     import construction from '$lib/people/team/s5.jpg';
-    import management from '$lib/people/team/s3.jpg'
+    import management from '$lib/people/team/s3.jpg';
     import design from '$lib/img/stock-imgs/design.png';
 </script>
 
