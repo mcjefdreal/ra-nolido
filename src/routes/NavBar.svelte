@@ -60,6 +60,11 @@
                     <span class={page.url.pathname === base + '/about-us/' ? 'active' : ''}>About Us</span>
                 </div>
             </a>
+            <a href="{base}/services/" class="flex">
+                <div class="navtabs flex items-center px-6">
+                    <span class={page.url.pathname === base + '/services/' ? 'active' : ''}>Services</span>
+                </div>
+            </a>
             <a href="{base}/contact-us/" class="flex">
                 <div class="navtabs flex items-center px-6">
                     <span class={page.url.pathname === base + '/contact-us/' ? 'active' : ''}>Contact Us</span>

@@ -2,10 +2,10 @@
     import Carousel from './Carousel.svelte';
     import Hero from './Hero.svelte';
     import HighlightText from './Highlight_Text.svelte';
-    import Three_Columns from './Three_Columns.svelte';
-    import construction from '$lib/img/stock-imgs/construction.svg';
-    import management from '$lib/img/stock-imgs/proj_management.svg';
-    import design from '$lib/img/stock-imgs/design.svg';
+    import Three_Columns from '$lib/components/Three_Columns.svelte';
+    import construction from '$lib/people/team/s5.jpg';
+    import management from '$lib/people/team/s3.jpg';
+    import design from '$lib/img/stock-imgs/design.png';
 </script>
 
 <div class="mb-[5%]">
