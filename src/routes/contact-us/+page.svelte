@@ -7,6 +7,6 @@
     <GetInTouch />
 </div>
 
-<div class="ml-8 my-16 place-items-center">
+<div class="my-16 ml-8 place-items-center">
     <LetsTalk />
 </div>

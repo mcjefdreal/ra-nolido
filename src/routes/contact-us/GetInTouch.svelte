@@ -46,7 +46,7 @@
                         >
                     </h2>
                     <h2 class="text-left text-xl">
-                        <a href="mailto:nolidocoprgroup@gmail.com" class="hover:underline">nolidocoprgroup@gmail.com</a>
+                        <a href="mailto:nolidocoprgroup@gmail.com" class="hover:underline">nolidocorpgroup@gmail.com</a>
                     </h2>
                 </div>
             </div>
