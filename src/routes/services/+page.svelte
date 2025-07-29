@@ -1,11 +1,12 @@
 <script>
     import Three_Columns from '$lib/components/Three_Columns.svelte';
-    import construction from '$lib/people/team/s5.jpg';
-    import management from '$lib/people/team/s3.jpg';
-    import design from '$lib/img/stock-imgs/design.png';
+    import construction from '$lib/people/team/s3_square.jpg';
+    import management from '$lib/people/team/s6_square.jpg';
+    import design from '$lib/img/stock-imgs/design_square.png';
 </script>
 
 <div class="my-16" id="three_columns">
+    <h1 class="mb-8 text-center text-5xl font-semibold text-ra-black">Services</h1>
     <Three_Columns
         subheading_1={'Construction'}
         subheading_2={'Project Management'}
