@@ -14,10 +14,10 @@
 
     <div class="flex h-[500px] flex-row gap-5 overflow-auto px-5 py-10">
         <img src={s5} class="transition hover:scale-110" alt="RANCC Team 5" />
-        <img src={s6} class="transition hover:scale-110" alt="RANCC Team 6" />
-        <img src={s8} class="transition hover:scale-110" alt="RANCC Team 8" />
-        <img src={s3} class="transition hover:scale-110" alt="RANCC Team 3" />
-        <img src={s4} class="transition hover:scale-110" alt="RANCC Team 4" />
+        <!-- <img src={s6} class="transition hover:scale-110" alt="RANCC Team 6" /> -->
+        <!-- <img src={s8} class="transition hover:scale-110" alt="RANCC Team 8" /> -->
+        <!-- <img src={s3} class="transition hover:scale-110" alt="RANCC Team 3" />
+        <img src={s4} class="transition hover:scale-110" alt="RANCC Team 4" /> -->
         <img src={s7} class="transition hover:scale-110" alt="RANCC Team 7" />
         <img src={s1} class="transition hover:scale-110" alt="RANCC Team 1" />
         <img src={team} class="transition hover:scale-110" alt="RANCC Team" />
