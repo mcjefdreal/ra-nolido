@@ -4,8 +4,8 @@
     import HighlightText from './Highlight_Text.svelte';
     import Three_Columns from '$lib/components/Three_Columns.svelte';
     import construction from '$lib/people/team/s3_square.jpg';
-    import management from '$lib/people/team/s6_square.jpg';
-    import design from '$lib/img/stock-imgs/design_square.png';
+    import design from '$lib/people/team/s6_square.jpg';
+    import management from '$lib/img/stock-imgs/design_square.png';
 </script>
 
 <div class="mb-[5%]">
