@@ -8,7 +8,7 @@
 </script>
 
 <footer class="mt-auto h-auto w-auto items-center justify-items-center bg-royal-blue text-left">
-    <div class="flex w-9/12 items-center justify-between p-4">
+    <div class="flex w-3/5 items-center justify-between p-4">
         <div class="flex flex-row items-center gap-4">
             <a
                 class="h-10 w-10"
@@ -19,82 +19,45 @@
                 <img src={location} alt="Location" class="h-full w-full" />
             </a>
             <div class="flex flex-col items-center">
-                <a
-                    class="flex flex-col items-start"
-                    href="https://maps.app.goo.gl/yJZHuNyxvLRwqU6h6"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <p class="font-bold">R.A. NOLIDO CONSTRUCTION CORPORATION</p>
-                    <p>Unit B, RAMA Building, 165 Roosevelt Avenue,</p>
-                    <p>Quezon City, Philippines</p>
-                </a>
-                <div class="mt-1 flex w-full flex-row">
+                <div class="flex flex-row gap-10">
                     <a
-                        class="w-15 h-15"
-                        href="https://www.facebook.com/share/12DfKeGAPrw/?mibextid=wwXIfr"
+                        class="flex flex-col items-start"
+                        href="https://maps.app.goo.gl/yJZHuNyxvLRwqU6h6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src={fb} alt="Location" class="h-full w-3/4" />
+                        <p class="font-bold">R.A. NOLIDO CONSTRUCTION CORPORATION</p>
+                        <p>Unit B, RAMA Building, 165 Roosevelt Avenue,</p>
+                        <p>Quezon City, Philippines</p>
                     </a>
                     <a
-                        class="w-15 h-15"
-                        href="mailto:ranolidoconstruction@gmail.com"
+                        class="flex flex-col items-start"
+                        href="https://maps.app.goo.gl/yNFN5QeXyS3f8N5PA"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src={mail} alt="Location" class="h-full w-3/4" />
-                    </a>
-                    <a class="w-15 h-15" href="{base}/contact-us/">
-                        <img src={phone} alt="Location" class="h-full w-3/4" />
+                        <p class="font-bold">RANCC CAMERON</p>
+                        <p>Unit 3608, 36th Floor Cameron Residences</p>
+                        <p>Mapalad St., Quezon City, Philippines</p>
                     </a>
                 </div>
             </div>
         </div>
-
-        <div class="flex flex-row items-center gap-4">
+        <div class="mt-1 flex flex-row items-center justify-center gap-4">
             <a
-                class="h-10 w-10"
-                href="https://maps.app.goo.gl/yNFN5QeXyS3f8N5PA"
+                class="h-15 w-15"
+                href="https://www.facebook.com/share/12DfKeGAPrw/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src={location} alt="Location" class="h-full w-full" />
+                <img src={fb} alt="Location" class="h-full w-full" />
             </a>
-            <div class="flex flex-col items-center">
-                <a
-                    class="flex flex-col items-start"
-                    href="https://maps.app.goo.gl/yNFN5QeXyS3f8N5PA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <p class="font-bold">RANCC CAMERON</p>
-                    <p>Unit 3608, 36th Floor Cameron Residences</p>
-                    <p>Mapalad St., Quezon City, Philippines</p>
-                </a>
-                <div class="mt-1 flex w-full flex-row">
-                    <a
-                        class="w-15 h-15"
-                        href="https://www.facebook.com/share/12DfKeGAPrw/?mibextid=wwXIfr"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src={fb} alt="Location" class="h-full w-3/4" />
-                    </a>
-                    <a
-                        class="w-15 h-15"
-                        href="mailto:ranolidoconstruction@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src={mail} alt="Location" class="h-full w-3/4" />
-                    </a>
-                    <a class="w-15 h-15" href="{base}/contact-us/">
-                        <img src={phone} alt="Location" class="h-full w-3/4" />
-                    </a>
-                </div>
-            </div>
+            <a class="h-15 w-15" href="mailto:ranolidoconstruction@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src={mail} alt="Location" class="h-full w-full" />
+            </a>
+            <a class="h-15 w-15" href="{base}/contact-us/">
+                <img src={phone} alt="Location" class="h-full w-full" />
+            </a>
         </div>
     </div>
 </footer>
